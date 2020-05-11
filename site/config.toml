@@ -1,4 +1,4 @@
-title = "My cool new Blog"
+title = "Una parada en el camino"
 baseURL = "https://davidlms.com/"
 theme = "bilberry-hugo-theme"
 
@@ -6,7 +6,7 @@ theme = "bilberry-hugo-theme"
 enableRobotsTXT = true
 
 # Change to one of your content languages definded at the end.
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "es"
 
 # Enable / Disable Google Analytics statistics for your site
 googleAnalytics = ""
@@ -27,12 +27,12 @@ disqusShortname = "bilberry-hugo-theme"
   js_modules = []
 
   # Description and meta data for the search engines
-  author = "Lednerb"
-  description = "Bilberry Premium Theme for Hugo."
-  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
+  author = "David Romero"
+  description = "Un blog personal"
+  keywords = "blog,personal,responsive,posts,david,romero,informatica,educacion,computer,education"
 
   # How many articles should be displayed at once?
-  paginate = 7
+  paginate = 1
 
   # Enable / Disable MathJax
   enable_mathjax    = false
@@ -53,10 +53,10 @@ disqusShortname = "bilberry-hugo-theme"
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "Hello World! This is the most epic subtitle ever."
+    subtitle = "Por David Romero"
 
     # if you want to use gravatar for the header image
-    gravatarEMail = "code@lednerb.de"
+    gravatarEMail = "lms.davidromero@gmail.com"
 
     # set an path to the image file you want to use | overwrites gravatar
     customImage = ""
@@ -89,21 +89,21 @@ disqusShortname = "bilberry-hugo-theme"
     dateFormat = "2006-01-02"
 
     # display the estimated reading time for an article
-    showReadingTime = false
+    showReadingTime = true
 
   # Footer configuration
     showFooter = true
 
     # How many articles should be displayed at latest posts in the footer?
     # Set to -1 to hide the 'Latest Posts' column
-    amountLatestPostsInFooter = 7
+    amountLatestPostsInFooter = 3
 
     # How many categories should be displayed in the footer section?
     # Set to -1 to hide the 'Categories' column
     amountCategoriesInFooter = 7
 
     # show a language chooser in the footer
-    showFooterLanguageChooser = true
+    showFooterLanguageChooser = false
 
     # social media profile urls for the footer links
     showSocialMedia = true
@@ -112,28 +112,28 @@ disqusShortname = "bilberry-hugo-theme"
     # all icons https://fontawesome.com/icons?d=gallery&m=free
     # brand icons https://fontawesome.com/icons?d=gallery&s=brands&m=free
     socialMediaLinks = [
-      { link = "https://twitter.com/TheRealLednerb", icon = "fab fa-twitter" },
-      { link = "https://github.com/Lednerb", icon = "fab fa-github" },
+      { link = "https://twitter.com/LMS_David_RS", icon = "fab fa-twitter" },
+      { link = "https://github.com/DavidLMS", icon = "fab fa-github" },
     ]
 
     # credits line configuration
-    copyrightBy = "by Lednerb"
-    copyrightUseCurrentYear = false  # set to true to always display the current year in the copyright
-    copyrightYearOverride = "2017"
-    copyrightUrl = "https://github.com/Lednerb"
-    creditsText = "Bilberry Hugo Theme"
+    copyrightBy = "David Romero"
+    copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
+    #copyrightYearOverride = "2017"
+    copyrightUrl = "https://github.com/DavidLMS"
+    creditsText = "Tema Bilberry Hugo"
     creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
 
 
 # customize your available languages for your multi-langual site
 # or delete the [Languages] blog to use the theme with only one supported language
 [Languages]
-  [Languages.en]
+  [Languages.es]
     weight = 1
-  [Languages.de]
-    weight = 2
-    title = "Mein cooler neuer Blog"
-    subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
+#[Languages.de]
+#    weight = 2
+#    title = "Mein cooler neuer Blog"
+#    subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
 
 # don't change anything below
 [taxonomies]

@@ -18,5 +18,5 @@ Este blog tiene dos metas personales. La primera, mejorar mi escritura. La segun
 
 Si has llegado hasta aquí, **bienvenido seas**.
 
-[![Trabajando](https://github.com/DavidLMS/davidlms.com/blob/master/site/content/article/Hello%20World/Working-rafiki.png)](https://davidlms.com)
+<!--[![Trabajando](https://github.com/DavidLMS/davidlms.com/blob/master/site/content/article/Hello%20World/Working-rafiki.png)](https://davidlms.com)-->
 

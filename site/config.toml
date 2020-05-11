@@ -6,7 +6,7 @@ theme = "bilberry-hugo-theme"
 enableRobotsTXT = true
 
 # Change to one of your content languages definded at the end.
-DefaultContentLanguage = "es"
+#DefaultContentLanguage = "es"
 
 # Enable / Disable Google Analytics statistics for your site
 googleAnalytics = ""
@@ -127,9 +127,9 @@ disqusShortname = "bilberry-hugo-theme"
 
 # customize your available languages for your multi-langual site
 # or delete the [Languages] blog to use the theme with only one supported language
-[Languages]
-  [Languages.es]
-    weight = 1
+#[Languages]
+#  [Languages.es]
+#    weight = 1
 #[Languages.de]
 #    weight = 2
 #    title = "Mein cooler neuer Blog"

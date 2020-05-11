@@ -1,3 +1,7 @@
 node_modules/
 dist/
 site/data/webpack.json
+site/.DS_Store
+site/layouts/.DS_Store
+src/.DS_Store
+.DS_Store

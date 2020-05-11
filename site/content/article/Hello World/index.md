@@ -2,7 +2,7 @@
 title: "Hello World"
 date: 2020-05-11T20:10:14+01:00
 
-tags: ['Hello', 'World', 'Bienvenidos']
+tags: ['Hello', 'World', 'Bienvenidos', 'Netlify', 'Hugo', 'Github']
 author: "David Romero"
 noSummary: true
 
@@ -16,7 +16,7 @@ Hoy he leído un [artículo](https://www.genbeta.com/desarrollo/como-publicar-we
 
 Este blog tiene dos metas personales. La primera, mejorar mi escritura. La segunda, forzarme a plasmar ideas y reflexionar. Hacer, de vez en cuando, una parada en el camino. Que a veces vamos como pollos sin cabeza.
 
-Si has llegado hasta aquí, **bienvenido seas**.
+Si has llegado hasta aquí, **bienvenido/a seas**.
 
 <!--[![Trabajando](https://github.com/DavidLMS/davidlms.com/blob/master/site/content/article/Hello%20World/Working-rafiki.png)](https://davidlms.com)-->
 

@@ -12,7 +12,7 @@ enableRobotsTXT = true
 googleAnalytics = ""
 
 # Enable / Disable comments on the articles via Disqus.
-disqusShortname = "bilberry-hugo-theme"
+disqusShortname = "lmsdavidromero"
 
 # Enable / Disable open link with a new tab.
 [blackfriday]
@@ -62,7 +62,7 @@ disqusShortname = "bilberry-hugo-theme"
     customImage = ""
 
     # define the icon you want to use for the overlay for the customImage or gravatar.
-    overlayIcon = "/favicon-overlay.png"
+    overlayIcon = "fa-pencil-square-o"
 
     # always display the top navigation (with pages and search) on non-mobile screens
     permanentTopNav = false

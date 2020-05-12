@@ -62,7 +62,7 @@ disqusShortname = "lmsdavidromero"
     customImage = ""
 
     # define the icon you want to use for the overlay for the customImage or gravatar.
-    overlayIcon = "fa-pencil-square-o"
+    overlayIcon = "pencil-square-o"
 
     # always display the top navigation (with pages and search) on non-mobile screens
     permanentTopNav = false

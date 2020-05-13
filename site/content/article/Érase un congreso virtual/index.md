@@ -7,7 +7,7 @@ twitter:
   site: "@handle"
   title: "Érase un congreso virtual"
   description: "Compartir es el camino"
-  image: "featuredimage.png"
+  image: "https://davidlms.com/article/%C3%A9rase-un-congreso-virtual/featuredimage.png"
 
 tags: ['Congreso', 'Virtual', 'ApuntesFPInformática', 'compartir', 'profesores', 'informática']
 author: "David Romero"

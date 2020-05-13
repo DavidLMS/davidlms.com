@@ -1,7 +1,7 @@
 ---
 title: "Érase un congreso virtual"
 date: 2020-05-12T07:30:00+01:00
-description:"Compartir es el camino"
+description: "Compartir es el camino"
 images:
 - https://davidlms.com/article/%C3%A9rase-un-congreso-virtual/featuredimage.png
 

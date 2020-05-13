@@ -2,8 +2,10 @@
 title: "Érase un congreso virtual"
 date: 2020-05-12T07:30:00+01:00
 
-description = "Compartir es el camino"
-images = ["featuredimage.png"]
+<!--Twitter card-->
+description: "Compartir es el camino"
+images:
+- featuredimage.png
 
 tags: ['Congreso', 'Virtual', 'ApuntesFPInformática', 'compartir', 'profesores', 'informática']
 author: "David Romero"

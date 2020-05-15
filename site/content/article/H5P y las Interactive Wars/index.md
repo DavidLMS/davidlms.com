@@ -37,9 +37,9 @@ Gracias a que el contenido puede **incrustrarse** como HTML5, hay un caso de uso
 
 **Dos preguntas** para ir acabando:
 
-- ¿Por qué no proponer al alumnado que invente sus propias actividades? Alguna vez he pedido a cada grupo de trabajo que realicen una actividad (por ejemplo [flashcards](https://h5p.org/flashcards)) con varias preguntas. Luego pueden intentar resolverlas y buscar errores en las de los demás grupos.
-- Si os gusta, ¿Por qué no colaborar con la iniciativa? Si tenéis conocimientos de programación podéis modificar los tipos de contenido existentes o crear alguno nuevo. Si no los tenéis, también podéis traducir a otros idiomas tipos de contenido o simplemente difundirlo al mundo.
+- ¿Por qué no proponer al alumnado que **invente sus propias actividades**? Alguna vez he pedido a cada grupo de trabajo que realicen una actividad (por ejemplo [flashcards](https://h5p.org/flashcards)) con varias preguntas. Luego pueden intentar resolverlas y buscar errores en las de los demás grupos.
+- Si os gusta, ¿Por qué no **colaborar** con la iniciativa? Si tenéis conocimientos de programación podéis modificar los tipos de contenido existentes o crear alguno nuevo. Si no los tenéis, también podéis traducir a otros idiomas tipos de contenido o simplemente difundirlo al mundo.
 
-La verdad es que, pese a sus ventajas, no es tan popular como otras herramientas que se **repiten** una y otra vez en la blogosfera y en redes sociales. Quizás, porque se puede usar **libremente**. Quizás, porque no existen ningún programa para convertirse en **certified teacher**. O quizás sea otra cosa.
+La verdad es que, pese a sus ventajas, no es tan popular como otras herramientas que se **repiten** una y otra vez en la blogosfera y en redes sociales. Quizás, porque se puede usar **libremente**. Quizás, porque no existen ningún programa para convertirse en **Certified Teacher**. O quizás sea otra cosa.
 
 Coged por la sombrita.

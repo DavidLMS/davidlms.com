@@ -10,7 +10,7 @@ twitter:
   site: "@handle"
   title: "H5P y las Interactive Wars"
   description: "Un repaso atípico a un gran conjunto de herramientas para la creación de contenido interactivo"
-  image: "https://davidlms.com/article/%C3%A9rase-un-congreso-virtual/featuredimage.png"
+  image: "https://davidlms.com/article/h5p-y-las-interactive-wars/featuredimage.png"
 
 tags: ['H5P', 'Contenido interactivo', 'Herramienta', 'Creación', 'profesores', 'informática', 'quiz']
 categories: ['Recursos']

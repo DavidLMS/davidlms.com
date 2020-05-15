@@ -1,0 +1,45 @@
+---
+title: "H5P y las Interactive Wars"
+date: 2020-05-12T07:30:00+01:00
+description: "Un repaso atípico a un gran conjunto de herramientas para la creación de contenido interactivo"
+images:
+- featuredimage.png
+
+twitter:
+  card: "summary"
+  site: "@handle"
+  title: "H5P y las Interactive Wars"
+  description: "Un repaso atípico a un gran conjunto de herramientas para la creación de contenido interactivo"
+  image: "https://davidlms.com/article/%C3%A9rase-un-congreso-virtual/featuredimage.png"
+
+tags: ['H5P', 'Contenido interactivo', 'Herramienta', 'Creación', 'profesores', 'informática', 'quiz']
+categories: ['Recursos']
+author: "David Romero"
+noSummary: true
+
+resizeImages: false
+---
+
+No sé si será tu caso, pero cuando me pongo a crear material educativo para mis clases soy bastante exigente con el **formato**. Ambos sabemos el trabajo que nos lleva preparar material nuevo, por lo que lo último que busco es crearlo en una plataforma que pueda quedar **obsoleta** en algún momento. También quiero que sea **versátil** y me permita **personalizarlo** todo lo posible. Un gran punto a favor sería que proporcione la **mayor información** posible de la interacción del alumno con el material, pero en la **misma plataforma** que utilizo habitualmente para la gestión del aula, sino el traspaso de la información y el registro de alumnos supondría dedicar demasiado de mi preciado tiempo. Ah, y que sea **gratis** claro... ¿Estoy pidiendo demasiado?
+
+Llega al rescate el **conjunto de herramientas H5P**. Las características no voy a contártelas porque las puedes deducir por los requisitos mencionados y porque ya están en su [página oficial](https://h5p.org/). En su lugar, voy a nombrar algunos tipos de contenido que puedes crear con sugerencias de uso:
+
+- **Presentación de curso**: Lleva tus diapositivas y apuntes un poco más allá haciéndolos interactivos con preguntas que ayuden a tus alumnos a obtener una retroalimentación de lo que están aprendiendo (y que te ayude a ti de paso a saber si lo están leyendo y comprendiendo).
+
+- **Vídeo interactivo**: Si conoces la plataforma [Edpuzzle](https://edpuzzle.com/), esto te permite hacer algo similar, pero sin sacar los datos del alumnado a una plataforma externa. Puedes ponerle preguntas de distinto tipo a vídeos explicativos, incluso hacer volver atrás en la reproducción al estudiante si no sabe la respuesta. Sé que hoy día es difícil mantener la atención con un vídeo, pero puede ser muy útil para explicar conceptos complejos que tengan que repasar varias veces.
+
+- **Herramienta de documentación**: Ahora que está de moda el aprendizaje basado en problemas, proyectos, retos, [completa con el que quieras], puedes utilizar esta herramienta para estructurarles la documentación que deberán realizar, ayuda a marcar los pasos a seguir al alumnado no habituado a este tipo de cosas.
+
+- **Elige tu camino** (traducción libre): Una de las nuevas. ¿Recuerdas las novelas de "Elige tu propia aventura"? Pues igual, pero con contenidos interactivos. Puedes crear itinerarios de aprendizaje distintos, en función del conocimiento previo de cada persona. Una idea que me gusta mucho es usarlo como juego de simulación, para que aprendan a tomar decisiones correctas en situaciones que puedan encontrarse en la vida real.
+
+Gracias a que el contenido puede **incrustrarse** como HTML5, hay un caso de uso que me suele ser bastante útil. ¿Recordáis aquellos **minijuegos** en flash como anuncios en las páginas web que te llamaban a hacer click? En los cursos Moodle, de vez en cuando incrusto una actividad que **refuerza** contenidos básicos, como [la comparación de las capas entre el modelo OSI y el TCP/IP](https://h5p.org/h5p/embed/166274). Esto de alguna forma **hackea** el cerebro del alumnado menos **productivo**, al que pasea por el curso sin ponerse a trabajar, y que sin darse cuenta se pone a realizar la actividad. ¿Se puede utilizar la **psicología** para "forzar" el aprendizaje?
+
+
+**Dos preguntas** para ir acabando:
+
+- ¿Por qué no proponer al alumnado que invente sus propias actividades? Alguna vez he pedido a cada grupo de trabajo que realicen una actividad (por ejemplo [flashcards](https://h5p.org/flashcards)) con varias preguntas. Luego pueden intentar resolverlas y buscar errores en las de los demás grupos.
+- Si os gusta, ¿Por qué no colaborar con la iniciativa? Si tenéis conocimientos de programación podéis modificar los tipos de contenido existentes o crear alguno nuevo. Si no los tenéis, también podéis traducir a otros idiomas tipos de contenido o simplemente difundirlo al mundo.
+
+La verdad es que, pese a sus ventajas, no es tan popular como otras herramientas que se **repiten** una y otra vez en la blogosfera y en redes sociales. Quizás, porque se puede usar **libremente**. Quizás, porque no existen ningún programa para convertirse en **certified teacher**. O quizás sea otra cosa.
+
+Coged por la sombrita.

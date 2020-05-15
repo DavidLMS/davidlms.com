@@ -13,6 +13,7 @@ twitter:
   image: "https://davidlms.com/article/%C3%A9rase-un-congreso-virtual/featuredimage.png"
 
 tags: ['Congreso', 'Virtual', 'ApuntesFPInformática', 'compartir', 'profesores', 'informática']
+categories: ['Eventos']
 author: "David Romero"
 noSummary: true
 

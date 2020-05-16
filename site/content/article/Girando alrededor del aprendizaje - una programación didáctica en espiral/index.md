@@ -10,7 +10,7 @@ twitter:
   site: "@handle"
   title: "Girando alrededor del aprendizaje: una programación didáctica en espiral"
   description: "Reflexión y propuesta acerca de la mejora del aprendizaje"
-  image: "https://davidlms.com/article/h5p-y-las-interactive-wars/featuredimage.png"
+  image: "https://davidlms.com/article/girando-alrededor-del-aprendizaje-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/featuredimage.png"
 
 tags: ['reflexión', 'educación', 'evaluación formativa', 'repaso espaciado', 'programación didáctica', 'informática', 'servicios en red']
 categories: ['Reflexiones educativas']

@@ -1,6 +1,6 @@
 ---
 title: "H5P y las Interactive Wars"
-date: 2020-05-12T07:30:00+01:00
+date: 2020-05-15T07:30:00+01:00
 description: "Un repaso atípico a un gran conjunto de herramientas para la creación de contenido interactivo"
 images:
 - featuredimage.png

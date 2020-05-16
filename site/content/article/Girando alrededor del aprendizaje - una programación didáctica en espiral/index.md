@@ -38,7 +38,9 @@ Creo que el módulo Servicios en Red de 2ºSMR es el que **más fácilmente** se
 **¿Me acompañas?**
 
 ¿Quieres saber más sobre el **repaso espaciado**? En esta web se explica de una forma espectacular: [Cómo recordar todo casi para siempre](https://ncase.me/remember/es.html)
+
 ¿No conoces la **evaluación formativa**? Este vídeo lo explica sin explicarlo: [Austin y su mariposa](https://www.youtube.com/watch?v=2-mKkYQ7hA4)
+
 ¿Tienes **experiencia** con este tipo de programaciones y enfoques? **Escríbeme**.
 
 PD: La nomenclatura utilizada en esta entrada corresponde a Formación Profesional, pero lo que cuento puede ser aplicado al resto de las etapas.

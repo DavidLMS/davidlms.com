@@ -22,7 +22,7 @@ resizeImages: false
 
 Hace tiempo que **envidio** la [administración digital de Estonia](https://elpais.com/elpais/2018/04/05/eps/1522927807_984041.html). Aunque, por muchos motivos, [España no pueda compararse](https://analiticapublica.es/espana-no-es-estonia/), sí es verdad que la tecnología está ahí y está **infrautilizada**.
 
-Claro que una **transformación digital** requiere tiempo… Hasta que llega una epidemia. De repente, muchos trámites que requerían acudir a una oficina presencial, ya pueden hacerse desde casa. Los restaurantes tienen un código QR para leer su carta. El médico puede atenderte a través de una llamada telefónica y recetarte lo que necesites. Prácticamente de un día para otro. ¿Ya no es tan complicado **de llevar a cabo**?
+Claro que una **transformación digital** necesita tiempo… Hasta que llega una epidemia. De repente, muchos trámites que requerían acudir a una oficina presencial, ya pueden hacerse desde casa. Los restaurantes tienen un código QR para leer su carta. El médico puede atenderte a través de una llamada telefónica y recetarte lo que necesites. Prácticamente de un día para otro. ¿Ya no es tan complicado **de llevar a cabo**?
 
 Sea como sea, antes y ahora, hay que pensar en la transformación digital de nuestros centros educativos. **Pensar y actuar**. Además, a todos los niveles: **administrativo, pedagógico y de gestión**.
 

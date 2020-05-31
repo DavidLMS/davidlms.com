@@ -10,7 +10,7 @@ twitter:
   site: "@handle"
   title: "Es la hora de la transformación digital de los centros"
   description: "Comienza la cuenta atrás"
-  image: "https://davidlms.com/article/es-la-hora-de-la-transformacion-digital-de-los-centros/featuredimage.png"
+  image: "https://davidlms.com/article/es-la-hora-de-la-transformaci%C3%B3n-digital-de-los-centros/featuredimage.jpg"
 
 tags: ['reflexión', 'educación', 'transformación', 'productividad', 'tiempo', 'gestión', 'digital']
 categories: ['Reflexiones educativas']

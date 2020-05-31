@@ -1,6 +1,6 @@
 ---
 title: "Es la hora de la transformación digital de los centros"
-date: 2020-05-31T21:30:00+01:00
+date: 2020-05-31T21:15:00+01:00
 description: "Comienza la cuenta atrás"
 images:
 - featuredimage.png

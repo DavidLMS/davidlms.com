@@ -22,7 +22,7 @@ resizeImages: false
 
 Hace ya **casi un mes** que comencé esta aventura de dejar plasmado por escrito **pensamientos** con más o menos acierto. Así que hoy me he planteado que podría hacer una publicación tipo “**Cómo se hace**” (y no “Cómo se hizo”, porque se sigue haciendo) explicando con más detalle lo que conté en la [primera publicación](https://davidlms.com/article/hello-world/).
 
-Lo **primero** que hice fue registrar **el dominio** davidlms.com. Este paso no es gratuito, pero es **totalmente opcional**. Concretamente utilicé la plataforma [namecheap](www.namecheap.com), lo que supuso un coste de 12,94$ (con certificado SSL incluido) que tendré la opción de renovar el próximo 11 de mayo de 2021.
+Lo **primero** que hice fue registrar **el dominio** davidlms.com. Este paso no es gratuito, pero es **totalmente opcional**. Concretamente utilicé la plataforma [namecheap](https://www.namecheap.com), lo que supuso un coste de 12,94$ (con certificado SSL incluido) que tendré la opción de renovar el próximo 11 de mayo de 2021.
 
 Tenía claro que quería una web **estática** fácil de mantener. Buscaba algo simple, que tuviese tiempos de carga mínimos y me permitiera escribir los artículos en **Markdown**. Fue cuando descubrí el framework [HUGO](https://gohugo.io/), del que daré más detalles un poco más adelante.
 

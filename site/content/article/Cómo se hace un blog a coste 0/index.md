@@ -1,6 +1,6 @@
 ---
 title: "Cómo se hace un blog a coste 0"
-date: 2020-06-06T09:31:00+01:00
+date: 2020-06-06T08:31:00+01:00
 description: "Anímate a crear uno y compartir tu opinión"
 images:
 - featuredimage.png

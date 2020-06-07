@@ -26,22 +26,4 @@ Por último, quiero mostrarte en la siguiente tabla la inversión realizada en e
 | Concepto | Fecha | Inversión |
 |:------:|:------:|:------:|:-------:|
 |   Dominio (un año)   |   Mayo 2020   |   12,94$ |
-|   TOTAL   | 12,94$ |
-
-<table style="width:50%" border="1px solid black" align="center" border-collapse="separate" border-spacing="5 px">
-  <caption>Resumen de gastos del blog</caption>
-  <tr>
-    <th><b><center>Concepto</center></b></th>
-    <th><b><center>Fecha</center></b></th>
-	<th><b><center>Inversión</center></b></th>
-  </tr>
-  <tr>
-    <td>Dominio (un año)</td>
-    <td>Mayo 2020</td>
-	<td>12,94$</td>
-  </tr>
-  <tr><b>
-    <td colspan="2"><b><center>TOTAL</center></b></td>
-    <td><b><center>12,94$</center></b></td>
-  </tr>
-</table>
+|   TOTAL  | | 12,94$ |

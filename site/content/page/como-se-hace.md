@@ -23,6 +23,11 @@ Si quieres acceder a las estadísticas de visitantes de este blog, [aquí las ti
 
 Por último, quiero mostrarte en la siguiente tabla la inversión realizada en el blog hasta el momento:
 
+| Concepto | Fecha | Inversión |
+|:------:|:------:|:------:|:-------:|
+|   Dominio (un año)   |   Mayo 2020   |   12,94$ |
+|   TOTAL   | 12,94$ |
+
 <table style="width:50%" border="1px solid black" align="center" border-collapse="separate" border-spacing="5 px">
   <caption>Resumen de gastos del blog</caption>
   <tr>

@@ -1,6 +1,6 @@
 ---
 title: "Herramientas para la comunicación horizontal en centros educativos"
-date: 2020-06-15T17:31:00+01:00
+date: 2020-06-15T16:31:00+01:00
 description: "Buscando mejoras para la coordinación entre docentes"
 images:
 - featuredimage.png

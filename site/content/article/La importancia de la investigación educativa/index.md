@@ -1,6 +1,6 @@
 ---
 title: "La importancia de la investigación educativa"
-date: 2020-06-19T16:31:00+01:00
+date: 2020-06-19T16:20:00+01:00
 description: "Cómo la investigación-acción grupal y coordinada nos puede llevar a la mejora de la educación"
 images:
 - featuredimage.png

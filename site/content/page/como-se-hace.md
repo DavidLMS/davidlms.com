@@ -26,4 +26,5 @@ Por último, quiero mostrarte en la siguiente tabla la inversión realizada en e
 | Concepto | Fecha | Inversión |
 |:------:|:------:|:------:|:-------:|
 |   Dominio (un año)   |   Mayo 2020   |   12,94$ |
-|   TOTAL  | | 12,94$ |
+|   Analítica con Plausible (un año)   |   Junio 2020   |   48$ |
+|   TOTAL  | | 60,94$ |

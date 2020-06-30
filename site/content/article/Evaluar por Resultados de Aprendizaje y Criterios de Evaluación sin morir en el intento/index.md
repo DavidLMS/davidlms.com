@@ -1,6 +1,6 @@
 ---
 title: "Evaluar por Resultados de Aprendizaje y Criterios de Evaluación sin morir en el intento"
-date: 2020-06-19T16:20:00+01:00
+date: 2020-06-30T18:20:00+01:00
 description: "Una introducción para nuevos profesores de FP"
 images:
 - featuredimage.jpg

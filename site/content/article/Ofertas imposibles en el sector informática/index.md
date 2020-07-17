@@ -10,7 +10,7 @@ twitter:
   site: "@handle"
   title: "Ofertas imposibles en el sector informática"
   description: "¿Por qué no las cambiamos?"
-  image: "https://davidlms.com/article/d%C3%B3nde-est%C3%A1-el-conocimiento-en-tu-centro-educativo/featuredimage.jpg"
+  image: "https://davidlms.com/article/ofertas-imposibles-en-el-sector-inform%C3%A1tica/featuredimage.jpg"
 
 tags: ['ofertas de empleo', 'informática', 'tecnologías', 'empresa', 'aprender a aprender', 'experiencia']
 categories: ['Reflexiones educativas']

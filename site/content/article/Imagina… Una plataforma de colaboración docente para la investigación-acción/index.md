@@ -10,7 +10,7 @@ twitter:
   site: "@handle"
   title: "Imagina… Una plataforma de colaboración docente para la investigación-acción"
   description: "¿Sumamos para multiplicar?"
-  image: "https://davidlms.com/article/ofertas-imposibles-en-el-sector-inform%C3%A1tica/featuredimage.jpg"
+  image: "https://davidlms.com/article/imagina-una-plataforma-de-colaboraci%C3%B3n-docente-para-la-investigaci%C3%B3n-acci%C3%B3n/featuredimage.jpg"
 
 tags: ['investigación educativa', 'informática', 'docencia', 'recurso', 'investigación-acción', 'colaboración']
 categories: ['Imaginaciones mías']

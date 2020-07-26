@@ -1,6 +1,6 @@
 ---
 title: "Imagina… Una plataforma de colaboración docente para la investigación-acción"
-date: 2020-07-26T10:20:00+01:00
+date: 2020-07-26T11:05:00+02:00
 description: "¿Sumamos para multiplicar?"
 images:
 - featuredimage.jpg

@@ -12,7 +12,7 @@ twitter:
   description: "¿Sumamos para multiplicar?"
   image: "https://davidlms.com/article/imagina-una-plataforma-de-colaboraci%C3%B3n-docente-para-la-investigaci%C3%B3n-acci%C3%B3n/featuredimage.jpg"
 
-tags: ['investigación educativa', 'informática', 'docencia', 'recurso', 'investigación-acción', 'colaboración']
+tags: ['investigacion educativa', 'informatica', 'docencia', 'recurso', 'investigacion-accion', 'colaboracion']
 categories: ['Imaginaciones mías']
 author: "David Romero"
 noSummary: true

@@ -12,7 +12,7 @@ twitter:
   description: "Un centro que no conoce su historia, está condenado a repetirla"
   image: "https://davidlms.com/article/d%C3%B3nde-est%C3%A1-el-conocimiento-en-tu-centro-educativo/featuredimage.jpg"
 
-tags: ['información', 'base de conocimiento', 'wiki', 'organización', 'open source', 'wikijs']
+tags: ['informacion', 'base de conocimiento', 'wiki', 'organizacion', 'open source', 'wikijs']
 categories: ['Recursos']
 author: "David Romero"
 noSummary: true

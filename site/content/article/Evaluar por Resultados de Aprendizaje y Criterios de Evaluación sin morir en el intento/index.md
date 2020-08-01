@@ -12,7 +12,7 @@ twitter:
   description: "Una introducción para nuevos profesores de FP"
   image: "https://davidlms.com/article/evaluar-por-resultados-de-aprendizaje-y-criterios-de-evaluaci%C3%B3n-sin-morir-en-el-intento/featuredimage.jpg"
 
-tags: ['evaluación', 'educativa', 'resultado de aprendizaje', 'criterio de evaluación', 'módulo', 'calificación']
+tags: ['evaluacion', 'educativa', 'resultado de aprendizaje', 'criterio de evaluacion', 'modulo', 'calificacion']
 categories: ['Reflexiones educativas']
 author: "David Romero"
 noSummary: true

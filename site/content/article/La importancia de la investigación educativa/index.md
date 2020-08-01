@@ -12,7 +12,7 @@ twitter:
   description: "Cómo la investigación-acción grupal y coordinada nos puede llevar a la mejora de la educación"
   image: "https://davidlms.com/article/la-importancia-de-la-investigaci%C3%B3n-educativa/featuredimage.jpg"
 
-tags: ['investigación', 'educativa', 'investigación-acción', 'colaboración', 'innovación', 'honestidad']
+tags: ['investigacion', 'educativa', 'investigacion-accion', 'colaboracion', 'innovacion', 'honestidad']
 categories: ['Reflexiones educativas']
 author: "David Romero"
 noSummary: true

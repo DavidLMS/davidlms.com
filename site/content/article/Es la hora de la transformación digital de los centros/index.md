@@ -12,7 +12,7 @@ twitter:
   description: "Comienza la cuenta atrás"
   image: "https://davidlms.com/article/es-la-hora-de-la-transformaci%C3%B3n-digital-de-los-centros/featuredimage.jpg"
 
-tags: ['reflexión', 'educación', 'transformación', 'productividad', 'tiempo', 'gestión', 'digital']
+tags: ['reflexion', 'educacion', 'transformacion', 'productividad', 'tiempo', 'gestion', 'digital']
 categories: ['Reflexiones educativas']
 author: "David Romero"
 noSummary: true

@@ -12,7 +12,7 @@ twitter:
   description: "Reflexión y propuesta acerca de la mejora del aprendizaje"
   image: "https://davidlms.com/article/girando-alrededor-del-aprendizaje-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/featuredimage.png"
 
-tags: ['reflexión', 'educación', 'evaluación formativa', 'repaso espaciado', 'programación didáctica', 'informática', 'servicios en red']
+tags: ['reflexion', 'educacion', 'evaluacion formativa', 'repaso espaciado', 'programacion didactica', 'informatica', 'servicios en red']
 categories: ['Reflexiones educativas']
 author: "David Romero"
 noSummary: true

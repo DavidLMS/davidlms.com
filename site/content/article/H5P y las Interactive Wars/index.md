@@ -12,7 +12,7 @@ twitter:
   description: "Un repaso atípico a un gran conjunto de herramientas para la creación de contenido interactivo"
   image: "https://davidlms.com/article/h5p-y-las-interactive-wars/featuredimage.png"
 
-tags: ['H5P', 'Contenido interactivo', 'Herramienta', 'Creación', 'profesores', 'informática', 'quiz']
+tags: ['H5P', 'contenido interactivo', 'herramienta', 'creacion', 'profesores', 'informatica', 'quiz']
 categories: ['Recursos']
 author: "David Romero"
 noSummary: true

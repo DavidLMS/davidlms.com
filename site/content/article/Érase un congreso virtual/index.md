@@ -12,7 +12,7 @@ twitter:
   description: "Compartir es el camino"
   image: "https://davidlms.com/article/%C3%A9rase-un-congreso-virtual/featuredimage.png"
 
-tags: ['Congreso', 'Virtual', 'ApuntesFPInformática', 'compartir', 'profesores', 'informática']
+tags: ['Congreso', 'Virtual', 'ApuntesFPInformatica', 'compartir', 'profesores', 'informatica']
 categories: ['Eventos']
 author: "David Romero"
 noSummary: true

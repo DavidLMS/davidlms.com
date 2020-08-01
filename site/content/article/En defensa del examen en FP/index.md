@@ -12,7 +12,7 @@ twitter:
   description: "Es necesario promover el debate"
   image: "https://davidlms.com/article/en-defensa-del-examen-en-fp/featuredimage.png"
 
-tags: ['reflexión', 'educación', 'examen', 'prueba', 'FP', 'instrumento', 'debate']
+tags: ['reflexion', 'educacion', 'examen', 'prueba', 'FP', 'instrumento', 'debate']
 categories: ['Reflexiones educativas']
 author: "David Romero"
 noSummary: true

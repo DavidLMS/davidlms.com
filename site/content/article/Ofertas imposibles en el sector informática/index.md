@@ -12,7 +12,7 @@ twitter:
   description: "¿Por qué no las cambiamos?"
   image: "https://davidlms.com/article/ofertas-imposibles-en-el-sector-inform%C3%A1tica/featuredimage.jpg"
 
-tags: ['ofertas de empleo', 'informática', 'tecnologías', 'empresa', 'aprender a aprender', 'experiencia']
+tags: ['ofertas de empleo', 'informatica', 'tecnologias', 'empresa', 'aprender a aprender', 'experiencia']
 categories: ['Reflexiones educativas']
 author: "David Romero"
 noSummary: true

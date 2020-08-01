@@ -12,7 +12,7 @@ twitter:
   description: "Anímate a crear uno y compartir tu opinión"
   image: "https://davidlms.com/article/c%C3%B3mo-se-hace-un-blog-a-coste-0/featuredimage.jpg"
 
-tags: ['blog', 'gratuito', 'compartir', 'opinión', 'hugo', 'netlify', 'plausible']
+tags: ['blog', 'gratuito', 'compartir', 'opinion', 'hugo', 'netlify', 'plausible']
 categories: ['Recursos']
 author: "David Romero"
 noSummary: true

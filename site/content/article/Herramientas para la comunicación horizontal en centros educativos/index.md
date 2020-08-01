@@ -12,7 +12,7 @@ twitter:
   description: "Buscando mejoras para la coordinación entre docentes"
   image: "https://davidlms.com/article/herramientas-para-la-comunicaci%C3%B3n-horizontal-en-centros-educativos/featuredimage.jpg"
 
-tags: ['comunicación horizontal', 'coordinación', 'claustro', 'proyectos', 'innovación', 'canales', 'Zulip']
+tags: ['comunicacion horizontal', 'coordinacion', 'claustro', 'proyectos', 'innovacion', 'canales', 'Zulip']
 categories: ['Recursos']
 author: "David Romero"
 noSummary: true

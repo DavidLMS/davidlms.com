@@ -1,6 +1,6 @@
 ---
 title: "Servicios en Red: Una programación didáctica en espiral"
-date: 2020-08-01T11:05:00+02:00
+date: 2020-08-04T19:03:00+02:00
 description: "Todo tiene un comienzo... ¿y un fin?"
 images:
 - featuredimage.jpg

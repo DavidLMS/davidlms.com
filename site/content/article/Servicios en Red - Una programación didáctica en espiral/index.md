@@ -10,7 +10,7 @@ twitter:
   site: "@handle"
   title: "Servicios en Red: Una programación didáctica en espiral"
   description: "Todo tiene un comienzo... ¿y un fin?"
-  image: "https://davidlms.com/article/imagina-una-plataforma-de-colaboraci%C3%B3n-docente-para-la-investigaci%C3%B3n-acci%C3%B3n/featuredimage.jpg"
+  image: "https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/featuredimage.jpg"
 
 tags: ['programacion didactica', 'modelo espiral', 'criterios de evaluacion', 'conceptual', 'procedimental', 'servicios en red']
 categories: ['Propuestas didácticas']

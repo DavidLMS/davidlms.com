@@ -21,7 +21,7 @@ resizeImages: false
 ---
 Después de definir el  [objetivo de esta programación](https://davidlms.com/article/girando-alrededor-del-aprendizaje-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/)  y  [clasificar los criterios de evaluación](https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/) , toca desglosar en términos generales **a qué vamos a dedicar cada semana**.
 
-Lo ideal hubiese sido **trabajar todos los resultados de aprendizaje en paralel**o, de forma que se fuera profundizando en cada uno de ellos durante el curso. Sin embargo, al tratarse de un grado medio, he pensado que quizás sería demasiado abrumador, por lo que he optado por agrupar los resultados de aprendizaje. De esta forma, se aprenderán en paralelo **un conjunto de los mismos**. Esto no significa que, una vez trabajado un grupo, no se volverán a usar durante el curso. **Las evaluaciones y proyectos están diseñados para que se vayan repasando los contenidos** tratados anteriormente a lo largo de todo el curso escolar.
+Lo ideal hubiese sido **trabajar todos los resultados de aprendizaje en paralelo**, de forma que se fuera profundizando en cada uno de ellos durante el curso. Sin embargo, al tratarse de un grado medio, he pensado que quizás sería demasiado abrumador, por lo que he optado por agrupar los resultados de aprendizaje. De esta forma, se aprenderán en paralelo **un conjunto de los mismos**. Esto no significa que, una vez trabajado un grupo, no se volverán a usar durante el curso. **Las evaluaciones y proyectos están diseñados para que se vayan repasando los contenidos** tratados anteriormente a lo largo de todo el curso escolar.
 
 Para fomentar la evaluación formativa, **se realizarán evaluaciones todas las semanas**. En cada evaluación, un porcentaje se destinará al repaso de algunos de los resultados de aprendizaje previos y otro porcentaje a la evaluación de nuevos criterios.
 
@@ -69,7 +69,7 @@ A continuación, tenéis una **propuesta de trabajo para cada una de las semanas
 
 El orden y la agrupación de resultados de aprendizaje está realizado en base a **criterios subjetivos**. Si alguien tiene interés especial en eso, podría dar una explicación al respecto.
 
-Me gustaría que aquellos profesores que han impartido el módulo alguna vez, **me comentaran sus opiniones al respecto, así como formas alternativas de plantearlo**.
+Me gustaría que aquellos profesores que han impartido el módulo alguna vez, **me comentaran sus opiniones sobre esta distribución temporal, así como formas alternativas de plantearlo**.
 
 Una vez llegados a un consenso aquí, tocará decidir **en cada sesión qué contenido se trabaja y/o qué criterio se evalúa**.
 

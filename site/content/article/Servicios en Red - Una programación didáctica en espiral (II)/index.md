@@ -10,7 +10,7 @@ twitter:
   site: "@handle"
   title: "Servicios en Red: Una programación didáctica en espiral (II)"
   description: "Ubicando los resultados de aprendizaje en el tiempo"
-  image: "https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/featuredimage.jpg"
+  image: "https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral-ii/featuredimage.jpg"
 
 tags: ['programacion didactica', 'modelo espiral', 'criterios de evaluacion', 'contenidos', 'temporalización', 'servicios en red']
 categories: ['Propuestas didácticas']

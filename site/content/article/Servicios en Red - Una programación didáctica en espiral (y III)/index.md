@@ -19,7 +19,7 @@ noSummary: true
 
 resizeImages: false
 ---
-Una vez definido el [objetivo de esta programación](https://davidlms.com/article/girando-alrededor-del-aprendizaje-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/, [clasificar los criterios de evaluación](https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/) y [establecer una planificación general semanal](https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral-ii/), terminaremos esta serie **desglosando las distintas sesiones de una de las unidades**. Concretamente, la **unidad 1: “Crea tu propio servidor de hosting”**, correspondiente a las semanas 3-8 de la planificación general, es decir, un total de 42 sesiones.
+Una vez definido el [objetivo de esta programación](https://davidlms.com/article/girando-alrededor-del-aprendizaje-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/), [clasificar los criterios de evaluación](https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/) y [establecer una planificación general semanal](https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral-ii/), terminaremos esta serie **desglosando las distintas sesiones de una de las unidades**. Concretamente, la **unidad 1: “Crea tu propio servidor de hosting”**, correspondiente a las semanas 3-8 de la planificación general, es decir, un total de 42 sesiones.
 
 Tenéis la **propuesta completa** en la siguiente tabla:
 

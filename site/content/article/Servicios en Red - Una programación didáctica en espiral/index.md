@@ -95,4 +95,4 @@ Tenéis **la tabla completa** con todos los criterios clasificados del módulo a
 
 Este **es el punto de partida**, y sobre esta base construiremos una nueva programación didáctica. Próximamente en sus mejores dispositivos.
 
-
+**Actualización**: Ya tenéis disponible la segunda publicación de esta serie [aquí](https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral-ii/) y el desenlace [aquí](https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral-y-iii/).

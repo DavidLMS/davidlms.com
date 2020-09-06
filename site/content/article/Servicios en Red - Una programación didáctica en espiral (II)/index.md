@@ -73,4 +73,5 @@ Me gustaría que aquellos profesores que han impartido el módulo alguna vez, **
 
 Una vez llegados a un consenso aquí, tocará decidir **en cada sesión qué contenido se trabaja y/o qué criterio se evalúa**.
 
+**Actualización**: Ya tenéis disponible el desenlace de esta serie [aquí](https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral-y-iii/).
 

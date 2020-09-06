@@ -31,37 +31,81 @@ Tenéis la **propuesta completa** en la siguiente tabla:
 |   2   |   - Reflexión: ¿Cómo intercambiamos archivos con un servidor?
 | | - Explicación: Transferencia de ficheros con FTP |
 | | - Práctica: Descarga y subida de ficheros en un servidor usando vsftpd usando SSH para la instalación   |
-|   3   |   - Reflexión: ¿Qué necesito para poner en línea una página web?<br/><br/>- Explicación: Servidores web<br/><br/>- Práctica: Permite el acceso a tus compañeros a una página web propia, usando SSH para la instalación del servidor web nginx y subiendo los archivos al servidor con vsftpd   |
-|   4   |   - Reflexión: ¿Hay alternativas a SSH?<br/><br/>- Explicación: Telnet<br/><br/>- Práctica: Prueba a realizar una conexión Telnet y otra SSH capturando paquetes con Wireshark. ¿Cuál es la diferencia?   |
-|   5  |   - Finalización de prácticas pendientes<br/><br/>- Práctica de ampliación: Pon una página web online con https://es.000webhost.com/   |
+|   3   |   - Reflexión: ¿Qué necesito para poner en línea una página web? |
+| | - Explicación: Servidores web |
+| | - Práctica: Permite el acceso a tus compañeros a una página web propia, usando SSH para la instalación del servidor web nginx y subiendo los archivos al servidor con vsftpd   |
+|   4   |   - Reflexión: ¿Hay alternativas a SSH? |
+| | - Explicación: Telnet |
+| | - Práctica: Prueba a realizar una conexión Telnet y otra SSH capturando paquetes con Wireshark. ¿Cuál es la diferencia?   |
+|   5  |   - Finalización de prácticas pendientes |
+| | - Práctica de ampliación: Pon una página web online con https://es.000webhost.com/   |
 |   6   |   - Evaluación de los criterios: 3b, 6b, 5b y 5f   |
 |   7   |   - Revisión de la evaluación   |
-|   8   |   - Reflexión: ¿Se puede ver el escritorio de un ordenador controlado a distancia?<br/><br/>- Explicación: Acceso remoto en modo gráfico<br/><br/>- Práctica: Accede al ordenador de un compañero usando Escritorio Remoto y TeamViewer. ¿Cuáles son las diferencias?   |
-|   9   |   - Reflexión: ¿Cómo gestionamos un servidor FTP con varios usuarios?<br/><br/>- Explicación: Usuarios, grupos y acceso anónimo en un servidor FTP<br/><br/>- Práctica: Permite el acceso en tu servidor a toda la clase usando el acceso anónimo y a dos compañeros usando usuarios enjaulados   |
-|   10   |   - Reflexión: ¿Podemos asegurar la comunicación entre un cliente y una página web?<br/><br/>- Explicación: Los protocolos HTTP y HTTPS<br/><br/>- Práctica: Asegura tu página web con un certificado HTTPS. Compara el tráfico HTTP y HTTPS en Wireshark   |
-|   11   |   - Reflexión: ¿FTP es un protocolo seguro?<br/><br/>- Explicación: FTPS y SFTP como alternativas<br/><br/>- Práctica: Usa un protocolo seguro para la transferencia de archivos   |
-|   12   |   - Finalización de prácticas pendientes<br/><br/>- Práctica de ampliación: ¿Puedes encontrar y usar una app en tu teléfono para controlar remotamente un ordenador?   |
-|   13   |   - Evaluación de los criterios: 3c, 3d, 5i, 6c, 6d y 6f<br/><br/>- Recuperación de los criterios: 3b, 6b, 5b y 5f   |
+|   8   |   - Reflexión: ¿Se puede ver el escritorio de un ordenador controlado a distancia? |
+| | - Explicación: Acceso remoto en modo gráfico |
+| | - Práctica: Accede al ordenador de un compañero usando Escritorio Remoto y TeamViewer. ¿Cuáles son las diferencias?   |
+|   9   |   - Reflexión: ¿Cómo gestionamos un servidor FTP con varios usuarios? |
+| | - Explicación: Usuarios, grupos y acceso anónimo en un servidor FTP |
+| | - Práctica: Permite el acceso en tu servidor a toda la clase usando el acceso anónimo y a dos compañeros usando usuarios enjaulados   |
+|   10   |   - Reflexión: ¿Podemos asegurar la comunicación entre un cliente y una página web? |
+| | - Explicación: Los protocolos HTTP y HTTPS |
+| | - Práctica: Asegura tu página web con un certificado HTTPS. Compara el tráfico HTTP y HTTPS en Wireshark   |
+|   11   |   - Reflexión: ¿FTP es un protocolo seguro? |
+| | - Explicación: FTPS y SFTP como alternativas |
+| | - Práctica: Usa un protocolo seguro para la transferencia de archivos   |
+|   12   |   - Finalización de prácticas pendientes |
+| | - Práctica de ampliación: ¿Puedes encontrar y usar una app en tu teléfono para controlar remotamente un ordenador?   |
+|   13   |   - Evaluación de los criterios: 3c, 3d, 5i, 6c, 6d y 6f |
+| | - Recuperación de los criterios: 3b, 6b, 5b y 5f   |
 |   14   |   - Revisión de la evaluación   |
-|   15   |   - Reflexión: ¿Puedo administrar un servidor sin interfaz gráfica a través de una interfaz gráfica?<br/><br/>- Explicación: Acceso remoto a través de la web<br/><br/>- Práctica: Instalación y prueba de webmin   |
-|   16   |   - Reflexión: ¿Puedo poner límites a los usuarios de un servidor FTP?<br/><br/>- Explicación: Límites y cuotas<br/><br/>- Práctica: Configuración de límites y cuotas en vsftpd   |
-|   17   |   - Reflexión: ¿Cómo controlo un servidor FTP por línea de comandos?<br/><br/>- Explicación: Comandos FTP<br/><br/>- Práctica: Accede a tu servidor FTP usando la línea de comandos, descarga y sube algún archivo y compruébalo   |
-|   18   |   - Reflexión: ¿Qué diferencia al modo de acceso activo y pasivo en un servidor FTP?<br/><br/>- Explicación: Funcionamiento del acceso activo y pasivo en un servidor FTP<br/><br/>- Práctica: Accede a tu servidor FTP usando el modo activo y pasivo capturando la conexión con Wireshark. Compáralas   |
-|   19   |   - Finalización de prácticas pendientes<br/><br/>- Práctica de ampliación: Instala Monsta FTP para usar una web como cliente de tu servidor FTP   |
-|   20   |   - Evaluación de los criterios: 3e, 3f, 3g y 6g<br/><br/>- Recuperación de los criterios: 3b, 3c, 3d   |
+|   15   |   - Reflexión: ¿Puedo administrar un servidor sin interfaz gráfica a través de una interfaz gráfica? |
+| | - Explicación: Acceso remoto a través de la web |
+| | - Práctica: Instalación y prueba de webmin   |
+|   16   |   - Reflexión: ¿Puedo poner límites a los usuarios de un servidor FTP? |
+| | - Explicación: Límites y cuotas |
+| | - Práctica: Configuración de límites y cuotas en vsftpd   |
+|   17   |   - Reflexión: ¿Cómo controlo un servidor FTP por línea de comandos? |
+| | - Explicación: Comandos FTP |
+| | - Práctica: Accede a tu servidor FTP usando la línea de comandos, descarga y sube algún archivo y compruébalo   |
+|   18   |   - Reflexión: ¿Qué diferencia al modo de acceso activo y pasivo en un servidor FTP? |
+| | - Explicación: Funcionamiento del acceso activo y pasivo en un servidor FTP |
+| | - Práctica: Accede a tu servidor FTP usando el modo activo y pasivo capturando la conexión con Wireshark. Compáralas   |
+|   19   |   - Finalización de prácticas pendientes |
+| | - Práctica de ampliación: Instala Monsta FTP para usar una web como cliente de tu servidor FTP   |
+|   20   |   - Evaluación de los criterios: 3e, 3f, 3g y 6g |
+| | - Recuperación de los criterios: 3b, 3c, 3d   |
 |   21   |   - Revisión de la evaluación   |
-|   22   |   - Reflexión: ¿Puedo tener distintas páginas web en un mismo servidor?<br/><br/>- Explicación: Sitios virtuales<br/><br/>- Práctica: Configuración de sitios virtuales en nginx   |
-|   23   |   - Reflexión: Las acciones en una página web, ¿Se ejecutan en el cliente o en el servidor?<br/><br/>- Explicación: Código cliente y código servidor. Lenguajes<br/><br/>- Práctica: Ejecuta código cliente y código servidor en nginx   |
-|   24   |   - Reflexión: ¿Se puede extender la funcionalidad de un servidor web con módulos?<br/><br/>- Explicación: Utilidad e instalación de módulos<br/><br/>- Práctica: Instalación de nginx con módulos asociados   |
-|   25   |   - Reflexión: ¿Puedo bloquear el acceso en mi página web a una determinada IP?<br/><br/>- Explicación: Seguridad en un servidor web<br/><br/>- Práctica: Asegura tu servidor nginx   |
-|   26   |   - Finalización de prácticas pendientes<br/><br/>- Práctica de ampliación: Sirve tu página web usando IIS en Windows Server   |
-|   27   |   - Evaluación de los criterios: 5c, 5d, 5e, 5g, 5h<br/><br/>- Recuperación de los criterios: 5b, 5f, 5i   |
+|   22   |   - Reflexión: ¿Puedo tener distintas páginas web en un mismo servidor? |
+| | - Explicación: Sitios virtuales |
+| | - Práctica: Configuración de sitios virtuales en nginx   |
+|   23   |   - Reflexión: Las acciones en una página web, ¿Se ejecutan en el cliente o en el servidor? |
+| | - Explicación: Código cliente y código servidor. Lenguajes |
+| | - Práctica: Ejecuta código cliente y código servidor en nginx   |
+|   24   |   - Reflexión: ¿Se puede extender la funcionalidad de un servidor web con módulos? |
+| | - Explicación: Utilidad e instalación de módulos |
+| | - Práctica: Instalación de nginx con módulos asociados   |
+|   25   |   - Reflexión: ¿Puedo bloquear el acceso en mi página web a una determinada IP? |
+| | - Explicación: Seguridad en un servidor web |
+| | - Práctica: Asegura tu servidor nginx   |
+|   26   |   - Finalización de prácticas pendientes |
+| | - Práctica de ampliación: Sirve tu página web usando IIS en Windows Server   |
+|   27   |   - Evaluación de los criterios: 5c, 5d, 5e, 5g, 5h |
+| | - Recuperación de los criterios: 5b, 5f, 5i   |
 |   28   |   - Revisión de la evaluación   |
-|   29   |   - Reflexión: ¿Cómo explicarías a un familiar las distintas formas que tenemos de acceder y administrar un sistema remotamente?<br/><br/>- Explicación: Creamos definiciones de los distintos tipos de acceso y administración remoto entre todos<br/><br/>- Trabajo personal: Escribimos nuestras propias definiciones y escenarios de uso para cada tipo   |
-|   30   |   - Reflexión: ¿Cuál es la utilidad de un servidor FTP? ¿En qué modos puede operar?<br/><br/>- Explicación: Se proponen escenarios empresariales y se discuten soluciones en grupo<br/><br/>- Trabajo personal: Búsqueda de ejemplos en Internet   |
-|   31   |   - Reflexión: ¿Cómo funciona un servidor web? ¿Qué protocolos utiliza?<br/><br/>- Explicación: Procedimiento de comunicación entre cliente y servidor web y descripción del funcionamiento de los protocolos<br/><br/>- Trabajo personal: Creamos nuestros propios diagramas que expliquen las comunicaciones de un servidor web   |
-|   32   |   - Reflexión: ¿Cuáles son las ventajas y desventajas de cada tipo de acceso remoto?<br/><br/>- Explicación: Se proponen escenarios empresariales y se discuten soluciones en grupo<br/><br/>- Trabajo personal: Creamos una tabla con las ventajas y desventajas de cada tipo de acceso remoto   |
-|   33   |   - Autoevaluamos nuestro conocimiento teórico de los servicios<br/><br/>- Repaso   |
+|   29   |   - Reflexión: ¿Cómo explicarías a un familiar las distintas formas que tenemos de acceder y administrar un sistema remotamente? |
+| | - Explicación: Creamos definiciones de los distintos tipos de acceso y administración remoto entre todos |
+| | - Trabajo personal: Escribimos nuestras propias definiciones y escenarios de uso para cada tipo   |
+|   30   |   - Reflexión: ¿Cuál es la utilidad de un servidor FTP? ¿En qué modos puede operar? |
+| | - Explicación: Se proponen escenarios empresariales y se discuten soluciones en grupo |
+| | - Trabajo personal: Búsqueda de ejemplos en Internet   |
+|   31   |   - Reflexión: ¿Cómo funciona un servidor web? ¿Qué protocolos utiliza? |
+| | - Explicación: Procedimiento de comunicación entre cliente y servidor web y descripción del funcionamiento de los protocolos |
+| | - Trabajo personal: Creamos nuestros propios diagramas que expliquen las comunicaciones de un servidor web   |
+|   32   |   - Reflexión: ¿Cuáles son las ventajas y desventajas de cada tipo de acceso remoto? |
+| | - Explicación: Se proponen escenarios empresariales y se discuten soluciones en grupo |
+| | - Trabajo personal: Creamos una tabla con las ventajas y desventajas de cada tipo de acceso remoto   |
+|   33   |   - Autoevaluamos nuestro conocimiento teórico de los servicios |
+| | - Repaso   |
 |   34   |   - Evaluación de los criterios: 3a, 5a, 6a y 6g   |
 |   35   |   - Revisión de la evaluación   |
 |   36   |   - Proyecto: Creamos nuestro propio Hosting   |

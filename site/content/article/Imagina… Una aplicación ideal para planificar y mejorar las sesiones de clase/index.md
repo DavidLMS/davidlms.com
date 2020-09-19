@@ -10,7 +10,7 @@ twitter:
   site: "@handle"
   title: "Imagina… Una aplicación ideal para planificar y mejorar las sesiones de clase"
   description: "Listado de funciones deseables"
-  image: "https://davidlms.com/article/imagina-una-aplicac%C3%B3n-ideal-para-planificar-y-mejorar-las-sesiones-de-clase/featuredimage.jpg"
+  image: "https://davidlms.com/article/imagina-una-aplicaci%C3%B3n-ideal-para-planificar-y-mejorar-las-sesiones-de-clase/"
 
 tags: ['planificacion', 'sesiones', 'docencia', 'aplicacion', 'mejora continua', 'productividad']
 categories: ['Imaginaciones mías']

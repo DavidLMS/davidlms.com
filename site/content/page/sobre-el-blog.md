@@ -10,7 +10,6 @@ Este es un blog personal. Y, como tal, recogerá lo que me apetezca escribir en 
 
 Gracias por leer, espero leerte a ti también pronto.
 
-Si te gusta el blog, y quieres apoyar su continuidad, puedes:
-<script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Invitarme a un café', '#29abe0', 'W7W714LIE');kofiwidget2.draw();</script> 
+
 
 

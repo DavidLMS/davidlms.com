@@ -26,7 +26,7 @@ Aunque tiene **muchos defectos y limitaciones**, porque no le podido dedicar má
 - **Genera todas las sesiones de una asignatura para todo un curso**. Indicando una fecha de inicio de curso, otra de fin de curso, los días festivos y los días y horas de la semana en los que hay una sesión de la clase, **muestra todas las sesiones que habrá a lo largo del curso**, creando una fila por cada una con el número de sesión, la fecha, el día de la semana y la hora concreta. En la fila de cada sesión hay una columna para planificar **qué se hará en la misma**.
 - **Traslada todas las sesiones de la asignatura a un Calendario de Google**, incluyendo el desarrollo de esa sesión **en la descripción** del evento. De esta manera, teniendo el calendario sincronizado, **puedo consultar qué tengo que hacer** en la próxima sesión **en todo momento**, mirando en el reloj, la tablet o el ordenador. También se puede exportar en formato .icalc, por si quieres llevártelo a tu aplicación favorita.
 
-Todo se realiza en una Hoja de Cálculo de Google, ya que es un formato muy fácil de manipular. Para el próximo curso simplemente puede copiarse la columna de las sesiones en las nuevas sesiones que se generen, teniendo en cuenta los comentarios que se hayan puesto para mejorarlas.
+Todo se realiza en una Hoja de Cálculo de Google, por ser un formato muy fácil de manipular. Para el próximo curso, simplemente puede copiarse la columna de las sesiones en las nuevas que se generen, teniendo en cuenta los comentarios que se hayan puesto para mejorarlas.
 
 **¿Te gustaría probarlo para planificar tus clases?** Puedes hacerlo siguiendo las instrucciones que encontrarás en el [repositorio del proyecto](https://github.com/DavidLMS/ZoltarScript).
 

@@ -10,7 +10,7 @@ twitter:
   site: "@handle"
   title: "ZoltarScript: Un pequeño programa para la planificación sesiones"
   description: "¿Te gustaría saber de un vistazo qué clase tienes a continuación y qué tienes planificado hacer en la misma?"
-  image: "https://davidlms.com/article/imagina-una-aplicaci%C3%B3n-ideal-para-planificar-y-mejorar-las-sesiones-de-clase/featuredimage.jpg"
+  image: "https://davidlms.com/article/zoltarscrip-un-peque%C3%B1o-programa-para-la-planificaci%C3%B3n-sesiones/featuredimage.jpg"
 
 tags: ['zoltar', 'sesiones', 'docencia', 'script', 'calendario', 'productividad']
 categories: ['Pequeños programas']

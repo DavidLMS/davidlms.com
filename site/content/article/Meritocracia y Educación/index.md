@@ -1,6 +1,6 @@
 ---
 title: "Meritocracia y Educación"
-date: 2020-09-25T19:00:00+02:00
+date: 2020-10-02T18:00:00+02:00
 description: "¿A mismo esfuerzo, mismas oportunidades?"
 images:
 - featuredimage.jpg

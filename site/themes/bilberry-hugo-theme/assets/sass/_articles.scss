@@ -103,14 +103,13 @@ article {
 
         a {
             font-style: italic;
-            color: blue;
         }
 
         a.more {
             display: block;
             margin: 2.5rem 0;
             margin-bottom: 1rem;
-            color: $highlight-color;
+            color: blue;/*$highlight-color;*/
             font-size: 1.125em;
             text-decoration: none;
             font-style: normal;

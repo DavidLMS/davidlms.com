@@ -32,7 +32,7 @@ La primera prueba la realizaré con **el servicio** [PageSpeed Insights](https:/
 * [Análsis de PageSpeed en un ordenador antes de activar Cloudflare](https://davidlms.github.io/ArchivosBlog/PageSpeed_antes_cloudfare_ordenador.html)
 * [Análsis de PageSpeed en un móvil antes de activar Cloudflare](https://davidlms.github.io/ArchivosBlog/PageSpeed_antes_cloudfare_movil.html)
 
-La segunda prueba la realizaré usando **el servicio** [Pingdom Website Speed Test](https://tools.pingdom.com/), que nos permite calcular el **tiempo de carga** del blog desde distintas ciudades del mundo. Tenéis un resumen de los resultados en la siguiente tabla:
+La segunda prueba la realizaré usando **el servicio** [Pingdom Website Speed Test](https://tools.pingdom.com/), que nos permite calcular el **tiempo de carga** del blog desde distintas ciudades del mundo. Tienes un resumen de los resultados en la siguiente tabla:
 
 | Región | Rendimiento | Tiempo de carga | Detalle |
 |:------:|:------:|:------:|:------:|
@@ -56,7 +56,7 @@ El resultado en PageSpeed es **una puntuación de 98/100 en el rendimiento de la
 * [Análsis de PageSpeed en un ordenador después de activar Cloudflare](https://davidlms.github.io/ArchivosBlog/PageSpeed_despues_cloudfare_ordenador.html)
 * [Análsis de PageSpeed en un móvil después de activar Cloudflare](https://davidlms.github.io/ArchivosBlog/PageSpeed_despues_cloudfare_movil.html)
 
-En la siguiente tabla tenéis el resumen de los análisis realizados en Pingdom:
+En la siguiente tabla tienes el resumen de los análisis realizados en Pingdom:
 
 | Región | Rendimiento | Tiempo de carga | Detalle |
 |:------:|:------:|:------:|:------:|

@@ -35,7 +35,7 @@ La primera prueba la realizaré con **el servicio **[PageSpeed Insights](https:/
 La segunda prueba la realizaré usando **el servicio **[Pingdom Website Speed Test](https://tools.pingdom.com/), que nos permite calcular el **tiempo de carga** del blog desde distintas ciudades del mundo. Tenéis un resumen de los resultados en la siguiente tabla:
 
 | Región | Rendimiento | Tiempo de carga | Detalle |
-|:———:|:———:|:———:|:———:|
+|:------:|:------:|:------:|:------:|
 |   Asia - Japón - Tokyo   |   86  | 4.53s | [link](https://tools.pingdom.com/#5d478cb750400000) |
 |   Europa - Alemania - Frankfurt   |   86  | 328ms |  [link](https://tools.pingdom.com/#5d478d3443400000) |
 |   Europa - Reino Unido - Londres  |   86  | 547ms |  [link](https://tools.pingdom.com/#5d478d4cca800000) |
@@ -59,7 +59,7 @@ El resultado en PageSpeed es **una puntuación de 98/100 en el rendimiento de la
 En la siguiente tabla tenéis el resumen de los análisis realizados en Pingdom:
 
 | Región | Rendimiento | Tiempo de carga | Detalle |
-|:———:|:———:|:———:|:———:|
+|:------:|:------:|:------:|:------:|
 |   Asia - Japón - Tokyo   |   83  | 1.75s | [link](https://tools.pingdom.com/#5d4983bda7800000) |
 |   Europa - Alemania - Frankfurt   |   81  | 1.51s |  [link](https://tools.pingdom.com/#5d4984116c400000) |
 |   Europa - Reino Unido - Londres  |   83  | 2.18 |  [link](https://tools.pingdom.com/#5d49844952c00000) |
@@ -72,7 +72,7 @@ En la siguiente tabla tenéis el resumen de los análisis realizados en Pingdom:
 
 Vemos que **las puntuaciones en PageSpeed han mejorado considerablemente**, y eso es muy positivo para el blog, ya que es uno de los factores a considerar para situarlo en el buscador de Google. En Pingdom, **aunque el tiempo medio de carga es menor**, sí me ha llamado la atención que ahora **el tiempo de carga de las ciudades de Europa y América del Sur es más lento** que antes de activar el servicio. Es una pena, ya que la mayor parte de las visitas vienen de estas regiones. **Pero hay un detalle importante**. En Cloudflare aparece la siguiente imagen:
 
-![Diagrama en Cloudflare sobre el tiempo de carga](/static/cargacloudflare.png)
+![Diagrama en Cloudflare sobre el tiempo de carga](/cargacloudflare.png)
 
 El tiempo de carga total con Cloudflare es más lento, sin embargo, **se muestra contenido parcial más rápidamente**. ¿Y no es la pantalla en blanco lo que nos agobia? ¿No preferimos comprobar antes que la página se está cargando? **¿Qué posibilidades hay de que alguien abandone una web que está tratando de visitar una vez se ha cargado “algo”?**
 

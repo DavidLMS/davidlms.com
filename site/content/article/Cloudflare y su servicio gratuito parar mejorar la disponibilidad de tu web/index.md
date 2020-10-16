@@ -1,5 +1,5 @@
 ---
-title: "Cloudfare y su servicio gratuito parar mejorar la disponibilidad de tu web"
+title: "Cloudflare y su servicio gratuito parar mejorar la disponibilidad de tu web"
 date: 2020-10-16T18:00:00+02:00
 description: "¿Cómo ha mejorado el rendimiento del blog?"
 images:
@@ -8,9 +8,9 @@ images:
 twitter:
   card: "summary"
   site: "@handle"
-  title: "Cloudfare y su servicio gratuito parar mejorar la disponibilidad de tu web"
+  title: "Cloudflare y su servicio gratuito parar mejorar la disponibilidad de tu web"
   description: "¿Cómo ha mejorado el rendimiento del blog?"
-  image: "https://davidlms.com/article/cloudflare-y-su-servicio-gratuito-para-mejorar-la-disponibilidad-de-tu-web/featuredimage.jpg"
+  image: "https://davidlms.com/article/cloudflare-y-su-servicio-gratuito-parar-mejorar-la-disponibilidad-de-tu-web/featuredimage.jpg"
 
 tags: ['cloudflare', 'CDN', 'DDoS', 'Blog', 'pingdom', 'pagespeed']
 categories: ['Recursos']

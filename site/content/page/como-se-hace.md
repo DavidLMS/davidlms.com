@@ -21,6 +21,8 @@ También he querido llevar **un registro de los visitantes** del blog, más por 
 
 Si quieres acceder a las estadísticas de visitantes de este blog, [aquí las tienes](https://plausible.io/davidlms.com).
 
+En octubre de 2020 activé el servicio gratuito de Cloudflare en el dominio para mejorar la disponibilidad de la web y mitigar los posibles ataques DDoS. Puedes ver cómo lo hice detalladamente [aquí](https://davidlms.com/article/cloudflare-y-su-servicio-gratuito-parar-mejorar-la-disponibilidad-de-tu-web/).
+
 Por último, quiero mostrarte en la siguiente tabla la inversión realizada en el blog hasta el momento:
 
 | Concepto | Fecha | Inversión |

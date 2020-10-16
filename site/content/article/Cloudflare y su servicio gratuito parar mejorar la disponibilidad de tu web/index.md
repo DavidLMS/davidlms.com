@@ -21,18 +21,18 @@ resizeImages: false
 ---
 Desde que comencé el blog he sido transparente en lo que respecta a la parte técnica del mismo, y de hecho tenéis la sección [Cómo se hace](https://davidlms.com/page/como-se-hace/) **totalmente actualizada**.
 
-Esta semana he dado de alta el dominio en el **servicio gratuito de [Cloudflare]**(https://www.cloudflare.com/es-es/) para mejorar la **disponibilidad** de la web. ¿Quieres saber en qué consiste, cómo lo he hecho y qué cambios he observado? Sigue leyendo.
+Esta semana he dado de alta el dominio en el **servicio gratuito de **[Cloudflare](https://www.cloudflare.com/es-es/) para mejorar la **disponibilidad** de la web. ¿Quieres saber en qué consiste, cómo lo he hecho y qué cambios he observado? Sigue leyendo.
 
 Cloudflare es una empresa estadounidense que ofrece varios servicios en internet. Entre ellos, dos de forma gratuita, que son el [CDN](https://www.cloudflare.com/es-es/cdn/) y la [mitigación de ataques DDoS](https://www.cloudflare.com/es-es/ddos/). Un **CDN** es una red de entrega de contenido. Simplificando, son varios servidores repartidos geográficamente de forma estratégica que almacenan tu sitio web, por lo que se mejora la rapidez (cuando hay un acceso, se le deriva al servidor más cercano) y la disponibilidad (es menos probable que el sitio deje de estar online si está replicado en varios servidores). Un **ataque DDoS**, simplificando también, se produce cuando varios dispositivos (muchos) realizan múltiples peticiones a un servidor o red concreta, con el objetivo de saturarlo y que deje de estar disponible.
 
 Antes de activar el servicio, voy a realizar **algunas pruebas de rendimiento previo**, para poder comprobar si mejora posteriormente. Es importante recalcar que, dependiendo del estado de la red y otros factores, las pruebas pueden variar continuamente, así que solamente serán una estimación.
 
-La primera prueba la realizaré con **el servicio [PageSpeed Insights]**(https://developers.google.com/speed/pagespeed/insights/?hl=es) de Google. El resultado es una puntuación de **88/100 en el rendimiento de la web en un ordenador** y **una puntuación de 64/100 en un móvil**. Puedes acceder a los detalles de estos análisis en los siguientes enlaces:
+La primera prueba la realizaré con **el servicio **[PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=es) de Google. El resultado es una puntuación de **88/100 en el rendimiento de la web en un ordenador** y **una puntuación de 64/100 en un móvil**. Puedes acceder a los detalles de estos análisis en los siguientes enlaces:
 
 * [Análsis de PageSpeed en un ordenador antes de activar Cloudflare](https://davidlms.github.io/ArchivosBlog/PageSpeed_antes_cloudfare_ordenador.html)
 * [Análsis de PageSpeed en un móvil antes de activar Cloudflare](https://davidlms.github.io/ArchivosBlog/PageSpeed_antes_cloudfare_movil.html)
 
-La segunda prueba la realizaré usando **el servicio [Pingdom Website Speed Test]**(https://tools.pingdom.com/), que nos permite calcular el **tiempo de carga** del blog desde distintas ciudades del mundo. Tenéis un resumen de los resultados en la siguiente tabla:
+La segunda prueba la realizaré usando **el servicio **[Pingdom Website Speed Test](https://tools.pingdom.com/), que nos permite calcular el **tiempo de carga** del blog desde distintas ciudades del mundo. Tenéis un resumen de los resultados en la siguiente tabla:
 
 | Región | Rendimiento | Tiempo de carga | Detalle |
 |:———:|:———:|:———:|:———:|

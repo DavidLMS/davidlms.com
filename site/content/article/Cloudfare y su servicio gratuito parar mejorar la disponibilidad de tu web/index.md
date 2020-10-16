@@ -1,6 +1,6 @@
 ---
 title: "Cloudfare y su servicio gratuito parar mejorar la disponibilidad de tu web"
-date: 2020-10-02T18:00:00+02:00
+date: 2020-10-16T18:00:00+02:00
 description: "¿Cómo ha mejorado el rendimiento del blog?"
 images:
 - featuredimage.jpg

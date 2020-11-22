@@ -10,7 +10,7 @@ twitter:
   site: "@handle"
   title: "Transformación Digital Mínima"
   description: "La transformación con sentido"
-  image: "https://davidlms.com/article/transformacion-digital-minima/featuredimage.jpg"
+  image: "https://davidlms.com/article/transformaci%C3%B3n-digital-m%C3%ADnima/featuredimage.jpg"
 
 tags: ['transformacion digital minima', 'consultoria tecnologica', 'digitalizacion', 'inversion', 'opinion', 'cambio']
 categories: ['Reflexiones educativas']

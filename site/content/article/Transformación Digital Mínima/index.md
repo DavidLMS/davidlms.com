@@ -19,7 +19,7 @@ noSummary: true
 
 resizeImages: false
 ---
-Sin lugar a dudas, la **Transformación Digital** es uno de los conceptos que se han puesto **más de moda durante este 2020**. Quizás, porque la pandemia ha obligado a acelerar la conversión a digital de muchas empresas y autónomos. Quizás, porque [el gobierno ha anunciado](https://www.europapress.es/economia/noticia-gobierno-movilizara-140000-millones-inversion-publico-privada-cinco-anos-digitalizar-espana-20200723125016.html) que **invertirá] mucha pasta** a la causa. Quizás haya sido el sumatorio de un poquito de todo. Y ya era hora. **Porque vamos tarde no, lo siguiente**.
+Sin lugar a dudas, la **Transformación Digital** es uno de los conceptos que se han puesto **más de moda durante este 2020**. Quizás, porque la pandemia ha obligado a acelerar la conversión a digital de muchas empresas y autónomos. Quizás, porque [el gobierno ha anunciado](https://www.europapress.es/economia/noticia-gobierno-movilizara-140000-millones-inversion-publico-privada-cinco-anos-digitalizar-espana-20200723125016.html) que **invertirá mucha pasta** a la causa. Quizás haya sido el sumatorio de un poquito de todo. Y ya era hora. **Porque vamos tarde no, lo siguiente**.
 
 Pero la tecnología digital **no ha llegado de un día para otro**. Sin embargo, como país, hemos sido bastante reacios a aceptarla. El año pasado la administración no validaba un documento firmado digitalmente. Este año es lo recomendable, llegando incluso a ser la única vía válida en algunos casos. De 0 a 100. De nada a todo. Así no habrá transformación. Como mucho, una digitalización acelerada. Una digitalización que, seamos sinceros, **aumentará exponencialmente la brecha digital generacional**, dejando a un sector de la población prácticamente obsoleto.
 

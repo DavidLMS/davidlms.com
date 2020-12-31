@@ -47,8 +47,8 @@ Y a mitad de camino me topé con [HAASH](https://haash.io/). Ni tan mal. Es verd
 
 Esta es mi forma de decir que, si conoces algún sistema que cumpla todo lo que quiero, no dudes en contactar conmigo. Y, por qué no, si estás buscando un proyecto web en el que **embarcarte para aprender**, lo suficientemente sencillo como para que una sola persona pueda llevarlo a cabo, aquí parece que hay un nicho. Una herramienta que genere, a partir de ficheros Markdown un sitio web tipo FAQ estático con categorías, buscador con Algolia, comentarios con Discuss... Ahí lo dejo.
 
-No quería dejar que terminara este año sin dejar nada escrito por aquí. 
+No he querido que terminara este año sin dejar nada escrito por aquí. 
 
-No he querido dejar pasar la oportunidad de desearte **un magnífico año nuevo, lleno de inquietudes, ilusiones, proyectos y buenas noticias**. No sabemos lo que nos traerá. Pero lo importante no es saberlo, sino **estar dispuestos** a adaptarnos a lo que traiga.
+No he querido dejar pasar la oportunidad de desearte **un magnífico año nuevo, lleno de inquietudes, ilusiones, proyectos y buenas noticias**. No sabemos lo que nos traerá. Pero lo importante no es saberlo, sino **estar dispuestos** a adaptarnos a lo que venga.
 
 **Hasta el año que viene**.

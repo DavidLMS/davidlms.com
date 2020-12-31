@@ -10,7 +10,7 @@ twitter:
   site: "@handle"
   title: "El curso en el que me convertí en FAQ"
   description: "¿Cansados de escribir una y otra vez las mismas respuestas?"
-  image: "https://davidlms.com/article/el-curso-en-el-que-me-converti-en-FAQ/featuredimage.jpg"
+  image: "https://davidlms.com/article/el-curso-en-el-que-me-convert%C3%AD-en-faq/featuredimage.jpg"
 
 tags: ['FAQ', 'herramientas', 'comparativa', 'semipresencialidad', 'productividad', 'busqueda']
 categories: ['Recursos']

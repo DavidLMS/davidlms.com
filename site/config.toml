@@ -115,7 +115,7 @@ disqusShortname = "davidlms"
       { link = "https://twitter.com/LMS_David_RS", icon = "fab fa-twitter" },
       { link = "https://github.com/DavidLMS", icon = "fab fa-github" },
       { link = "https://t.me/joinchat/AAAAAFA74Gj2dEmulN9zgQ", icon = "fab fa-telegram" },
-      { link = "mailto:hola@davidlms.com", icon = "fab fa-envelope" },
+      { link = "mailto:hola@davidlms.com", icon = "fas fa-envelope" },
     ]
 
     # credits line configuration

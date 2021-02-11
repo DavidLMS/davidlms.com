@@ -30,10 +30,13 @@ Entonces me encontré con [este curso](https://serversideup.net/courses/gain-fle
 Si también queréis utilizarlo con el vuestro, **lo tenéis accesible** en [este enlace](https://davidlms.github.io/Practicas/SERRED/wireguard.html).
 
 Puede serte especialmente útil para trabajar el resultado de aprendizaje 8 del módulo **Servicios en Red** de 2ºCFGM SMR, en concreto los criterios:
+
 i) Se ha comprobado el acceso a una red determinada desde los sistemas conectados a otra red distinta.
+
 j) Se ha implantado y verificado la configuración para acceder desde una red pública a un servicio localizado en una máquina de una red privada local.
 
 También si impartes el módulo **Seguridad y Alta Disponibilidad** de 2ºCFGS ASIR, ya que puede servirte para impartir el resultado de aprendizaje 3, en concreto el criterio:
+
 d) Se han configurado redes privadas virtuales mediante protocolos seguros a distintos niveles.
 
 Siempre que pueda, y me apetezca, por aquí me tendréis **compartiendo recursos con vosotros**.

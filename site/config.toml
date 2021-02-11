@@ -114,6 +114,7 @@ disqusShortname = "davidlms"
     socialMediaLinks = [
       { link = "https://twitter.com/LMS_David_RS", icon = "fab fa-twitter" },
       { link = "https://github.com/DavidLMS", icon = "fab fa-github" },
+      { link = "mailto:hola@davidlms.com", icon = "fas fa-envelope" },
     ]
 
     # credits line configuration

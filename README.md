@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c66a178c-3963-41b8-9afb-5daaf0344047/deploy-status)](https://app.netlify.com/sites/ecstatic-aryabhata-bdb1da/deploys)
+
 # Victor Hugo
 
 **A Hugo boilerplate for creating truly epic websites**

@@ -21,7 +21,9 @@ También he querido llevar **un registro de los visitantes** del blog, más por 
 
 Si quieres acceder a las estadísticas de visitantes de este blog, [aquí las tienes](https://plausible.io/davidlms.com).
 
-En octubre de 2020 activé el servicio gratuito de Cloudflare en el dominio para mejorar la disponibilidad de la web y mitigar los posibles ataques DDoS. Puedes ver cómo lo hice detalladamente [aquí](https://davidlms.com/article/cloudflare-y-su-servicio-gratuito-parar-mejorar-la-disponibilidad-de-tu-web/).
+En octubre de 2020 activé **el servicio gratuito de Cloudflare** en el dominio para mejorar la disponibilidad de la web y mitigar los posibles ataques DDoS. Puedes ver cómo lo hice detalladamente [aquí](https://davidlms.com/article/cloudflare-y-su-servicio-gratuito-parar-mejorar-la-disponibilidad-de-tu-web/).
+
+En marzo de 2021 me encontré el blog fuera de servicio. En la página de error, Cloudflare indicaba que su DNS funcionaba correctamente y el problema estaba en el hosting. Sin embargo, en el panel de Netlify todo parecía correcto. Así que **desactivé Cloudflare**, quedándome con la red CDN original de Netlify. Al cabo de las horas el sitio volvió a estar en línea.
 
 Por último, quiero mostrarte en la siguiente tabla la inversión realizada en el blog hasta el momento:
 

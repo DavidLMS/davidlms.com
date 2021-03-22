@@ -3,14 +3,14 @@ title: "La transparencia de los nuevos DAW y DAM"
 date: 2021-03-22T19:01:00+02:00
 description: "Análisis sobre el nuevo borrador publicado por el Ministerio"
 images:
-- featuredimage.jpg
+- featuredimage.png
 
 twitter:
   card: "summary"
   site: "@handle"
   title: "La transparencia de los nuevos DAW y DAM"
   description: "Análisis sobre el nuevo borrador publicado por el Ministerio"
-  image: "https://davidlms.com/article/la-transparencia-de-los-nuevos-daw-y-dam/featuredimage.jpg"
+  image: "https://davidlms.com/article/la-transparencia-de-los-nuevos-daw-y-dam/featuredimage.png"
 
 tags: ['DAM', 'DAW', 'borrador', 'ministerio', 'transparencia', 'actualizacion']
 categories: ['Reflexiones educativas']

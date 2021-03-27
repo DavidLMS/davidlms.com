@@ -2,13 +2,15 @@
 
 ## ¿De qué trata este repositorio?
 
-En este repositorio se aloja un blog personal, que se realiza usando el framework Hugo y se despliega en Netlify. Puedes comprobar si el build es correcto en el siguiente banner:
+En este repositorio se aloja un blog personal estático, que se realiza usando el framework [Hugo](https://gohugo.io/) y se despliega en [Netlify](https://www.netlify.com/). Puedes comprobar si el build es correcto en el siguiente banner:
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c66a178c-3963-41b8-9afb-5daaf0344047/deploy-status)](https://app.netlify.com/sites/ecstatic-aryabhata-bdb1da/deploys)
 
+También puedes consultar más detalladamente [cómo se realiza](https://davidlms.com/page/como-se-hace/).
+
 ## ¿Cómo accedo al blog?
 
-Puedes hacerlo en [davidlms.com](https://davidlms.com).
+Puedes hacerlo en [davidlms.com](https://davidlms.com)
 
 ## ¿Qué tipo de contenido puedo encontrar?
 

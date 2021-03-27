@@ -1,6 +1,6 @@
 # davidlms.com
 
-# #¿De qué trata este repositorio?
+## ¿De qué trata este repositorio?
 
 En este repositorio se aloja un blog personal, que se realiza usando el framework Hugo y se despliega en Netlify. Puedes comprobar si el build es correcto en el siguiente banner:
 

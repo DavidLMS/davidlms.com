@@ -10,7 +10,7 @@ twitter:
   site: "@handle"
   title: "Private Relay: ¿La solución definitiva para el anonimato en internet?"
   description: "Lo que se sabe, lo que intuyo y lo que opino del nuevo servicio de Apple"
-  image: "https://davidlms.com/article/la-transparencia-de-los-nuevos-daw-y-dam/featuredimage.png"
+  image: "https://davidlms.com/article/private-relay-la-soluci%C3%B3n-definitiva-para-el-anonimato-en-internet/featuredimage.png"
 
 tags: ['private relay', 'apple', 'wwdc', 'anonimato', 'privacidad', 'vpn']
 categories: ['Cosas más técnicas']
@@ -49,27 +49,27 @@ Los pilares del servicio Private Relay son:
 -	La localización exacta de tu dirección IP está protegida.
 -	Ninguna compañía (ni siquiera Apple) puede ver lo que haces.
 
-![Características de Private Relay. Fuente: Apple](/static/privaterelay01.png)
+![Características de Private Relay. Fuente: Apple](/privaterelay01.png)
 
 El discurso proporcionado por el técnico de Apple es el siguiente:
 
-![Esquema general de Private Relay. Fuente: Apple](/static/privaterelay02.png)
+![Esquema general de Private Relay. Fuente: Apple](/privaterelay02.png)
 
 “Vamos a explorar brevemente cómo funciona Private Relay cuando voy a comprar cosas para mi nueva casa. Primero, cuando hacemos una conexión a una web de venta de mobiliario, se eligen aleatoriamente dos servidores Proxy diferentes en la red de Private Relay, por lo que un solo operador no tiene el control ni tampoco puede ver el escenario completo. El proxy que acepta mi conexión desde internet se llama Ingress Proxy (proxy de entrada). Este proxy oculta mi IP de otros servidores y cifra mi tráfico de internet para que mi proveedor de servicios no sepa qué estoy haciendo. La retransmisión de la petición hacia internet la realiza el Egress Proxy (proxy de salida), para evitar que el Ingress Proxy conozca el sitio al que estoy realizando la petición.
 
-![Funciones de los proxies de entrada y salida en Private Relay. Fuente: Apple](/static/privaterelay03.png)
+![Funciones de los proxies de entrada y salida en Private Relay. Fuente: Apple](/privaterelay03.png)
 
 Private Relay gestiona el acceso a la red de forma que no requiere ningún tipo de identificación o información personal, usando firmas RSA ciegas. Una operación criptográfica de cegado realizada por mi dispositivo me permite acceder a la red sin dar ningún tipo de información sobre mi cuenta o sobre quién está realizando la conexión.
 
-![Verificación de tokens de acceso en Private Relay. Fuente: Apple](/static/privaterelay04.png)
+![Verificación de tokens de acceso en Private Relay. Fuente: Apple](/privaterelay04.png)
 
 Usando la clave pública del servidor de tokens de acceso, un proxy Private Relay puede verificar rápidamente el permiso de acceso a la red. Antes de hacer una conexión, el Servidor de Tokens de Acceso de Private Relay proporciona un conjunto de tokens diferentes a mi dispositivo. Esto me da acceso a cualquier proxy que elija cuando lo necesite.
 
-![Tokens de acceso cegados para no permitir el rastreo del origen en Private Relay. Fuente: Apple](/static/privaterelay05.png)
+![Tokens de acceso cegados para no permitir el rastreo del origen en Private Relay. Fuente: Apple](/privaterelay05.png)
 
 Para forzar la separación de información entre los proxies que elijo, la conexión se encapsula usando varias capas de cifrado. Los proxies van eliminando esas capas conforme la conexión pasa a través de ellos. Solamente mi dispositivo puede descifrar cada capa, lo cual es necesario para conocer que estoy accediendo a la web de mobiliario.
 
-![Capas de cifrado en Private Relay. Fuente: Apple](/static/privaterelay06.png)
+![Capas de cifrado en Private Relay. Fuente: Apple](/privaterelay06.png)
 
 Cuando se realiza la conexión, el Egress Proxy elige una IP aleatoriamente. Esto ayuda a evitar que se relacione mi búqueda de un sofá con mi búsqueda del cortacésped, o con mi pedido reciente de una mesa. A lo largo del tiempo las conexiones Private Relay se crean automáticamente y se reutilizan para proporcionar protección contra el rastreo de IP y un buen rendimiento. La forma en la que Private Relay oculta mi IP tiene un beneficio más sobre la privacidad. Puesto que la dirección IP de mi casa puede geolocalizarse, el Ingress Proxy puede compartir esa localización conmigo. Esto me permite informar al Egress Proxy qué grupo de direcciones IP elegir. Esto es un gran ejemplo de buen servicio manteniendo la privacidad. Los sitios web pueden proporcionar contenido local en Safari mientras mi localización precisa permanece oculta.
 
@@ -77,13 +77,13 @@ Recuerda, el Ingress Proxy es el único que puede ver mi dirección IP y la conv
 
 Vamos a ver cómo funciona. Cuando me conecto, ambos sitios ven conexiones entrantes desde una dirección IP que se geolocaliza en mi área general. Pero hay varias posibles localizaciones de las direcciones IP de Private Relay que son compartidas por todos en la región.
 
-![Información a la que accede el servidor del sitio web en Private Relay. Fuente: Apple](/static/privaterelay07.png)
+![Información a la que accede el servidor del sitio web en Private Relay. Fuente: Apple](/privaterelay07.png)
 
 Cuando la opción "Use Country and Time Zone" se selecciona en las opciones de iCloud Internet Privacy, no se le da ninguna pista al Egress Proxy.
 
 Así que se elige una dirección IP del grupo que representa toda la región que pertenece al Ingress Proxy. Como resultado, los sitios web verán conexiones realizadas desde un área regional extensa. El mismo conjunto de direcciones IP se utiliza para todos en la región.
 
-![Selección de la IP en función del área en Private Relay. Fuente: Apple](/static/privaterelay08.png)
+![Selección de la IP en función del área en Private Relay. Fuente: Apple](/privaterelay08.png)
 
 Con la configuración de localización generalizada, el sitio web del cortacésped ahora ve una localización aleatoria, la cual para mí pueden ser lugares como Los Ángeles en lugar de Cupertino.”
 

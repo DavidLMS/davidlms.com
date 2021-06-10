@@ -118,15 +118,42 @@ Cuando realizamos una petición a un servidor web en Safari (una vez resuelto el
 2.	Nuestro navegador cifra el contenido de la petición junto con su clave pública (PU) usando la clave pública del servidor web (PS). Básicamente esto es lo que realiza el cifrado HTTPS.
 3.	Vuelve a cifrar lo anterior, enmascarando la IP de destino de la petición (la del servidor del sitio web) y añadiendo otro token de sesión y su clave pública (PU), con la clave pública del proxy de salida (PE).
 4.	De nuevo vuelve a cifrar lo anterior, añadiendo otro token de sesión y la IP del proxy de salida elegido, con la clave pública del proxy de entrada (PI).
+
+![Esquema del paquete de petición con todas las capas cifradas en el cliente](/propuestaprivaterelay01.png)
+
 5.	Ahora envía el paquete con todas sus capas de cifrado a la dirección IP del proxy de entrada.
 6.	El proxy de entrada descifra la primera capa con su clave secreta (SI) y verifica con la clave pública del servidor de tokens de acceso que el token es válido. A continuación, geolocaliza la IP del usuario y le asigna una zona extensa aproximada.
+
+![Esquema del paquete de petición con la capa del proxy de entrada descifrada](/propuestaprivaterelay02.png)
+
 7.	Envía el paquete con el resto de capas y la zona aproximada al proxy de salida cuya IP ha descifrado usando uno de sus puertos (y registrando que las comunicaciones de ese puerto pertenecen a la IP del usuario).
 8.	El proxy de salida registra el puerto origen de la petición y lo mapea con otro de sus puertos, por el que reenviará la petición. Descifra una capa más con su clave privada (SE) y obtiene la IP destino (la del servidor del sitio web) y un token de acceso. Verifica el token de acceso y elige una IP aleatoria de la zona que le ha indicado el proxy de entrada. Le envía lo que queda del paquete, usando esa IP elegida como origen, al servidor del sitio web.
+
+![Esquema del paquete de petición con la capa del proxy de salida descifrada](/propuestaprivaterelay03.png)
+
 9.	El servidor del sitio web descifra el contenido de la petición usando su clave privada (SS), obteniendo la clave pública del usuario (PU). Esto es propio del cifrado HTTPS.
+
+![Esquema del paquete de petición con todas las capas descifradas en el servidor web](/propuestaprivaterelay04.png)
+
 10.	El servidor del sitio web procesa la petición y cifra la respuesta usando la clave pública del usuario (PU), enviándola de vuelta al proxy de salida. Este paso también pertenece al protocolo HTTPS.
+
+![Esquema del paquete de respuesta con la primera capa cifrada en el servidor web](/propuestaprivaterelay05.png)
+
 11.	El proxy de salida recibe la respuesta por un puerto que tiene registrado con otro (por el que le llegó la petición del proxy de entrada). Cifra la respuesta junto con la IP de origen (la del servidor del sitio web) usando de nuevo la clave pública del usuario (PU) y la envía por el puerto registrado.
+
+![Esquema del paquete de respuesta con la segunda capa cifrada en el proxy de salida para ocultar la IP del servidor web](/propuestaprivaterelay06.png)
+
 12.	El proxy de entrada recibe el paquete por un puerto que tiene registrado con una IP de origen (la del usuario), y a la que le reenvía el paquete.
-13.	El navegador del usuario recibe el paquete. Descifra la primera capa con su clave privada (SU) y verifica el origen de la respuesta (IP del servidor del sitio web). Descifra ahora la segunda capa con su clave privada de nuevo (SU), obteniendo la respuesta del servidor.
+
+![Esquema del paquete de respuesta con la segunda capa cifrada en el proxy de salida pasando por el proxy de entrada](/propuestaprivaterelay07.png)
+
+13.	El navegador del usuario recibe el paquete. Descifra la primera capa con su clave privada (SU) y verifica el origen de la respuesta (IP del servidor del sitio web). 
+
+![Esquema del paquete de respuesta con la segunda capa descifrada en el cliente](/propuestaprivaterelay08.png)
+
+14. Descifra ahora la segunda capa con su clave privada de nuevo (SU), obteniendo la respuesta del servidor.
+
+![Esquema del paquete de respuesta con todas las capas descifradas en el cliente](/propuestaprivaterelay09.png)
 
 En esta comunicación:
 

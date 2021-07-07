@@ -28,6 +28,7 @@
     </div>
     {{ end }}
 </div>
+{{ if .IsHome }}{{ end }}{{ else }}
 <div id="hyvor-talk-view"></div>
 <script type="text/javascript">
     var HYVOR_TALK_WEBSITE = 4527;
@@ -37,3 +38,4 @@
     };
 </script>
 <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>
+{{ end }}

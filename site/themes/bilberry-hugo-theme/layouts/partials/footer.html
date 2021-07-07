@@ -1,5 +1,16 @@
 {{ if .Site.Params.showFooter | default true }}
 <footer>
+	{{ if not .IsHome}}
+		<div id="hyvor-talk-view"></div>
+		<script type="text/javascript">
+		    var HYVOR_TALK_WEBSITE = 4527;
+		    var HYVOR_TALK_CONFIG = {
+		        url: '{{ .Permalink }}',
+		        id: '{{ .File.UniqueID }}'
+		    };
+		</script>
+		<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>
+	{{ end }}
     <div class="container">
 
         {{ if gt (.Site.Params.amountLatestPostsInFooter | default 7) 0 }}

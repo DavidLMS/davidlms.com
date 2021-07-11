@@ -43,4 +43,4 @@ Siempre que pueda, y me apetezca, por aquí me tendréis **compartiendo recursos
 
 **Nos vemos por videoconferencia**.
 
-Actualización 11/07/2021: He cambiado el enlace de la guía, [este es el original publicado](https://davidlms.github.io/Practicas/SERRED/wireguard.html), modificado gracias a la [publicación sobre el formato CodeLab](https://davidlms.com/article/en-busca-de-un-formato-para-las-gu%C3%ADas-pr%C3%A1cticas-codelab/).
+**Actualización 11/07/2021**: He cambiado el enlace de la guía, [este es el original publicado](https://davidlms.github.io/Practicas/SERRED/wireguard.html), modificado gracias a la [publicación sobre el formato CodeLab](https://davidlms.com/article/en-busca-de-un-formato-para-las-gu%C3%ADas-pr%C3%A1cticas-codelab/).

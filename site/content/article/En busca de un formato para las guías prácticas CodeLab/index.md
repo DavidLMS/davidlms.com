@@ -1,6 +1,6 @@
 ---
 title: "En busca de un formato para las guías prácticas: CodeLab"
-date: 2021-07-11T18:36:00+02:00
+date: 2021-07-11T19:41:00+02:00
 description: "Crea guías técnicas atractivas, de fácil navegación y adaptables al futuro"
 images:
 - featuredimage.png
@@ -10,7 +10,7 @@ twitter:
   site: "@handle"
   title: "En busca de un formato para las guías prácticas: CodeLab"
   description: "Crea guías técnicas atractivas, de fácil navegación y adaptables al futuro"
-  image: "https://davidlms.com/article/private-relay-la-soluci%C3%B3n-definitiva-para-el-anonimato-en-internet/featuredimage.png"
+  image: "https://davidlms.com/article/en-busca-de-un-formato-para-las-gu%C3%ADas-pr%C3%A1cticas-codelab/featuredimage.png"
 
 tags: ['codelab', 'guía', 'práctica', 'página web', 'interactividad', 'responsive']
 categories: ['Recursos']

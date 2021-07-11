@@ -27,7 +27,7 @@ WireGuard es a la vez **una aplicación y un protocolo de comunicación** que se
 
 Entonces me encontré con [este curso](https://serversideup.net/courses/gain-flexibility-and-increase-privacy-with-wireguard-vpn/) creado por [Jay Rogers](https://jaydrogers.com/) en la web [ServerSide UP](https://serversideup.net/) y estaba tan detalladamente explicado que tuve que pedirle que me dejara hacer algo similar en castellano para mi alumnado.
 
-Si también queréis utilizarlo con el vuestro, **lo tenéis accesible** en [este enlace](https://davidlms.github.io/Practicas/SERRED/wireguard.html).
+Si también queréis utilizarlo con el vuestro, **lo tenéis accesible** en [este enlace](https://davidlms.github.io/Practicas/SERRED/wireguard-ubuntu-server-20).
 
 Puede serte especialmente útil para trabajar el resultado de aprendizaje 8 del módulo **Servicios en Red** de 2ºCFGM SMR, en concreto los criterios:
 
@@ -42,3 +42,5 @@ d) Se han configurado redes privadas virtuales mediante protocolos seguros a dis
 Siempre que pueda, y me apetezca, por aquí me tendréis **compartiendo recursos con vosotros**.
 
 **Nos vemos por videoconferencia**.
+
+Actualización 11/07/2021: He cambiado el enlace de la guía, [este es el original publicado](https://davidlms.github.io/Practicas/SERRED/wireguard.html), modificado gracias a la [publicación sobre el formato CodeLab](https://davidlms.com/article/en-busca-de-un-formato-para-las-gu%C3%ADas-pr%C3%A1cticas-codelab/).

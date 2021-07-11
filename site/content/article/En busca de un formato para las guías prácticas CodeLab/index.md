@@ -36,10 +36,10 @@ Así que me puse a investigar al respecto. De lo que he encontrado, me ha gustad
 
 **Y existe**. Resulta que hay una comunidad de voluntarios que han creado una herramienta capaz de generar un sitio estático con una guía en formato CodeLab partiendo de un archivo Markdown. Y ahora la guía sobre WireGuard [luce así](https://davidlms.github.io/Practicas/SERRED/wireguard-ubuntu-server-20). Creo que estaréis de acuerdo con que la mejora es muy notable.
 
-Como siempre, cuando os cuento algo no lo hago sin un objetivo. En este caso hay dos.
+Como siempre, cuando os cuento algo no lo hago sin un objetivo. **En este caso hay dos**.
 
-El primero, es que si conocéis herramientas similares que cumplan estos requisitos básicos y sean útiles para crear guías prácticas o material didáctico similar, sabéis que [me interesa que me lo contéis](mailto:hola@davidlms.com).
+El primero, es que **si conocéis herramientas similares** que cumplan estos requisitos básicos y sean útiles para crear guías prácticas o material didáctico similar, sabéis que [me interesa que me lo contéis](mailto:hola@davidlms.com).
 
-El segundo objetivo es enseñaros a vosotros también a crear estos CodeLabs si os ha gustado el formato. Para ello, he creado un [CodeLab sobre la creación de un CodeLab](https://davidlms.github.io/Practicas/crear-codelab). Únicamente es una adaptación del [original creado por Marc DiPasquale](https://www.marcd.dev/codelab-4-codelab), al que desde aquí le doy las gracias por permitirme adaptarlo al castellano.
+El segundo objetivo es **enseñaros** a vosotros también a **crear estos CodeLabs** si os ha gustado el formato. Para ello, he creado un [CodeLab sobre la creación de un CodeLab](https://davidlms.github.io/Practicas/crear-codelab). Únicamente es una adaptación del [original creado por Marc DiPasquale](https://www.marcd.dev/codelab-4-codelab), al que desde aquí le doy las gracias por permitirme adaptarlo al castellano.
 
 Estoy deseando ver qué es lo próximo que vais a crear.

@@ -25,7 +25,7 @@ En octubre de 2020 activé **el servicio gratuito de Cloudflare** en el dominio 
 
 En marzo de 2021 me encontré el blog fuera de servicio. En la página de error, Cloudflare indicaba que su DNS funcionaba correctamente y el problema estaba en el hosting. Sin embargo, en el panel de Netlify todo parecía correcto. Así que **desactivé Cloudflare**, quedándome con la red CDN original de Netlify. Al cabo de las horas el sitio volvió a estar en línea.
 
-En junio de 2021 un lector del blog me comentó que DISQUS no cuidaba demasiado la privacidad, por decirlo de alguna forma, así que estuve buscando alternativas que sí se tomaran este asunto en serio. No encontré ninguna gratuita, pero [Hyvor Talk](https://talk.hyvor.com/) me ofrecía lo que buscaba a un precio más o menos asequible. Así que migré los comentarios existentes de DISQUS a Hyvor Talk y a funcionar. Espero vuestros comentarios, ahora que he hecho lo posible por cuidar mejor de vuestros datos.
+En junio de 2021 un lector del blog me comentó que DISQUS no cuidaba demasiado la privacidad, por decirlo de alguna forma, así que estuve buscando alternativas que sí se tomaran este asunto en serio. No encontré ninguna gratuita, pero [Hyvor Talk](https://talk.hyvor.com/) me ofrecía lo que buscaba a un precio más o menos asequible. Así que migré los comentarios existentes **de DISQUS a Hyvor Talk** y a funcionar. Espero vuestros comentarios, ahora que he hecho lo posible por cuidar mejor de vuestros datos.
 
 Por último, quiero mostrarte en la siguiente tabla la inversión realizada en el blog hasta el momento:
 

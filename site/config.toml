@@ -553,7 +553,8 @@ theme = "uBlogger"
     # Author config
     # uBlogger CHANGED | 1.0.0
     [author]
-      name = "DavidRomero"
+      name = "David Romero"
+      homepage = "https://davidlms.com"
 
     # Sitemap config
     [sitemap]

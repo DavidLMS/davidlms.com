@@ -10,7 +10,7 @@ theme = "uBlogger"
 
 [params]
   # uBlogger CHANGED | 0.2.0 uBlogger theme version
-  version = "2.0.2"
+  version = "2.0.X"
   # site description
   description = "Un blog personal"
   # site keywords

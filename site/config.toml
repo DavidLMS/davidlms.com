@@ -1,598 +1,148 @@
+title = "Una parada en el camino"
 baseURL = "https://davidlms.com/"
-# [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "es"
-# language code
-languageCode = "es"
-title = "davidlms"
+theme = "bilberry-hugo-theme"
 
-# Change the default theme to be use when building the site with Hugo
-theme = "uBlogger"
+# Generate the robots.txt file for SEO
+enableRobotsTXT = true
+
+# Change to one of your content languages definded at the end.
+#DefaultContentLanguage = "es"
+
+# Enable / Disable Google Analytics statistics for your site
+googleAnalytics = ""
+
+# Enable / Disable comments on the articles via Disqus.
+#disqusShortname = "davidlms"
+
+# Enable / Disable open link with a new tab.
+[blackfriday]
+  hrefTargetBlank = false
 
 [params]
-  # uBlogger CHANGED | 0.2.0 uBlogger theme version
-  version = "2.0.X"
-  # site description
+  # Custom CSS / JS modules that will be imported by the template.
+  # Files are relative to the static/ directory or a URL.
+  # Files are imported in the order they appear here, after
+  # theme.css and theme.js, respectively.
+  css_modules = []
+  js_modules = []
+
+  # Description and meta data for the search engines
+  author = "David Romero"
   description = "Un blog personal"
-  # site keywords
-  keywords = ["blog","personal","responsive","posts","david","romero","informatica","educacion","computer","education"]
-  # site default theme ("light", "dark", "auto")
-  defaultTheme = "auto"
-  # public git repo url only then enableGitInfo is true
-  gitRepo = ""
-  # uBlogger NEW | 0.1.1 which hash function used for SRI, when empty, no SRI is used
-  # ("sha256", "sha384", "sha512", "md5")
-  fingerprint = ""
-  # uBlogger NEW | 0.2.0 date format
-  dateFormat = "02-01-2006"
-  # website images for Open Graph and Twitter Cards
-  images = ["/android-chrome-384x384.png"]
+  keywords = "blog,personal,responsive,posts,david,romero,informatica,educacion,computer,education"
 
-  # uBlogger NEW | 0.2.0 App icon config
-  [params.app]
-    # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "davidlms"
-    # whether to omit favicon resource links
-    noFavicon = false
-    # modern SVG favicon to use in place of older style .png and .ico files
-    svgFavicon = ""
-    # Android browser theme color
-    themeColor = "#ffffff"
-    # Safari mask icon color
-    iconColor = "#5bbad5"
-    # Windows v8-10 tile color
-    tileColor = "#da532c"
+  # How many articles should be displayed at once?
+  paginate = 3
 
-  # uBlogger NEW | 0.2.0 Search config
-  [params.search]
-    enable = true
-    # type of search engine ("lunr", "algolia")
-    type = "algolia"
-    # max index length of the chunked content
-    contentLength = 4000
-    # placeholder of the search bar
-    placeholder = ""
-    # uBlogger NEW | 0.2.1 max number of results length
-    maxResultLength = 10
-    # uBlogger NEW | 0.2.3 snippet length of the result
-    snippetLength = 30
-    # uBlogger NEW | 0.2.1 HTML tag name of the highlight part in results
-    highlightTag = "em"
-    # uBlogger NEW | 0.2.4 whether to use the absolute URL based on the baseURL in search index
-    absoluteURL = false
-    [params.search.algolia]
-      index = "prod_davidlms"
-      appID = "V6RE0DL7Q2"
-      searchKey = "9df684cda06affe668945f0e870ec328"
+  # Enable / Disable MathJax
+  enable_mathjax    = false
 
-  # Header config
-  [params.header]
-    # desktop header mode ("fixed", "normal", "auto")
-    desktopMode = "fixed"
-    # mobile header mode ("fixed", "normal", "auto")
-    mobileMode = "auto"
-    # uBlogger NEW | 0.2.0 Header title config
-    [params.header.title]
-      # URL of the LOGO
-      logo = ""
-      # title name
-      name = ""
-      # you can add extra information before the name (HTML format is supported), such as icons
-      pre = ""
-      # you can add extra information after the name (HTML format is supported), such as icons
-      post = ""
+  # Enable / Disable algolia search
+  algolia_search    = true
+  algolia_appId     = "V6RE0DL7Q2"
+  algolia_apiKey    = "9df684cda06affe668945f0e870ec328"
+  algolia_indexName = "prod_davidlms"
+    # Set this option to false if you want to search within all articles in all languages at once
+    algolia_currentLanguageOnly = false
 
-  # Footer config
-  [params.footer]
-    enable = true
-    # uBlogger NEW | 0.2.0 Custom content (HTML format is supported)
-    custom = ''
-    # uBlogger NEW | 0.2.0 whether to show Hugo and theme info
-    hugo = true
-    # uBlogger NEW | 0.2.0 whether to show copyright info
-    copyright = true
-    # uBlogger NEW | 0.2.0 whether to show the author
-    author = true
-    # Site creation time
-    since = 2020
-    # ICP info only in China (HTML format is supported)
-    icp = ""
-    # license info (HTML format is supported)
-    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  # Media configuration
+    # let hugo automatically resize and crop your images to the correct sizes
+    # NB: When enabled the image files get renamed by adding additional information,
+    #     even if the image has the correct sizes.
+    resizeImages = true
 
-  # uBlogger NEW | 0.2.0 Section (all posts) page config
-  [params.section]
-    # special amount of posts in each section page
-    paginate = 20
-    # date format (month and day)
-    dateFormat = "02-01"
-    # amount of RSS pages
-    rss = 10
+  # Header configuration
+    # your subtitle if you want to use any
+    subtitle = "Por David Romero"
 
-  # uBlogger NEW | 0.2.0 List (category or tag) page config
-  [params.list]
-    # special amount of posts in each list page
-    paginate = 20
-    # date format (month and day)
-    dateFormat = "02-01"
-    # amount of RSS pages
-    rss = 10
+    # if you want to use gravatar for the header image
+    gravatarEMail = "lms.davidromero@gmail.com"
 
-  # Home page config
-  [params.home]
-    # uBlogger NEW | 0.2.0 amount of RSS pages
-    rss = 10
-    # Home page profile
-    [params.home.profile]
-      enable = true
-      # Gravatar Email for preferred avatar in home page
-      gravatarEmail = "lms.davidromero@gmail.com"
-      # URL of avatar shown in home page
-      avatarURL = "/images/avatar.png"
-      # uBlogger CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = "davidlms"
-      # subtitle shown in home page
-      subtitle = ""
-      # whether to show social links
-      social = true
-      # uBlogger NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = ""
-    # Home page posts
-    [params.home.posts]
-      enable = true
-      # special amount of posts in each home posts page
-      paginate = 6
-      # uBlogger DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
-      # default behavior when you don't set "hiddenFromHomePage" in front matter
-      defaultHiddenFromHomePage = false
+    # set an path to the image file you want to use | overwrites gravatar
+    customImage = ""
 
-  # Social config about the author
-  [params.social]
-    GitHub = "DavidLMS"
-    Linkedin = "david-romero-santos"
-    Twitter = "LMS_David_RS"
-    Instagram = ""
-    Facebook = ""
-    Telegram = "https://t.me/joinchat/AAAAAFA74Gj2dEmulN9zgQ"
-    Medium = ""
-    Gitlab = ""
-    Youtubelegacy = ""
-    Youtubecustom = ""
-    Youtubechannel = ""
-    Tumblr = ""
-    Quora = ""
-    Keybase = ""
-    Pinterest = ""
-    Reddit = ""
-    Codepen = ""
-    FreeCodeCamp = ""
-    Bitbucket = ""
-    Stackoverflow = ""
-    Weibo = ""
-    Odnoklassniki = ""
-    VK = ""
-    Flickr = ""
-    Xing = ""
-    Snapchat = ""
-    Soundcloud = ""
-    Spotify = ""
-    Bandcamp = ""
-    Paypal = ""
-    Fivehundredpx = ""
-    Mix = ""
-    Goodreads = ""
-    Lastfm = ""
-    Foursquare = ""
-    Hackernews = ""
-    Kickstarter = ""
-    Patreon = ""
-    Steam = ""
-    Twitch = ""
-    Strava = ""
-    Skype = ""
-    Whatsapp = ""
-    Zhihu = ""
-    Douban = ""
-    Angellist = ""
-    Slidershare = ""
-    Jsfiddle = ""
-    Deviantart = ""
-    Behance = ""
-    Dribbble = ""
-    Wordpress = ""
-    Vine = ""
-    Googlescholar = ""
-    Researchgate = ""
-    Mastodon = ""
-    Thingiverse = ""
-    Devto = ""
-    Gitea = ""
-    XMPP = ""
-    Matrix = ""
-    Bilibili = ""
-    Email = "hola@davidlms.com"
-    RSS = true # uBlogger NEW | 0.2.0
+    # define the icon you want to use for the overlay for the customImage or gravatar.
+    overlayIcon = "fa-laptop"
 
-  # uBlogger CHANGED | 0.2.0 Page config
-  [params.page]
-    # uBlogger NEW | 1.0.0 main subject for articles, by default classic. more on themes}
-    theme = "classic"
-    # uBlogger NEW | 0.2.0 whether to hide a page from home page
-    hiddenFromHomePage = false
-    # uBlogger NEW | 0.2.0 whether to hide a page from search results
-    hiddenFromSearch = false
-    # uBlogger NEW | 1.2.0 Allows you to hide the preview image on the article page
-    hiddenFeaturedImage = false
-    # uBlogger NEW | 0.2.0 whether to enable twemoji
-    twemoji = false
-    # whether to enable lightgallery
-    lightgallery = false
-    # uBlogger NEW | 0.2.0 whether to enable the ruby extended syntax
-    ruby = true
-    # uBlogger NEW | 0.2.0 whether to enable the fraction extended syntax
-    fraction = true
-    # uBlogger NEW | 0.2.0 whether to enable the fontawesome extended syntax
-    fontawesome = true
-    # whether to show link to Raw Markdown content of the content
-    linkToMarkdown = true
-    # uBlogger NEW | 0.2.4 whether to show the full text content in RSS
-    rssFullText = false
-    # uBlogger NEW | 1.1.0 Post display settings on the page
-    [params.summary]
-      # uBlogger NEW | 1.1.0 Display previews on the page of posts
-      hiddenImage = false
-      # uBlogger NEW | 1.1.0 Allows you to hide the description
-      hiddenDescription = false
-      # uBlogger NEW | 1.1.0 Allows you to hide the title
-      hiddenTitle = false
-    # uBlogger NEW | 1.1.0 Tag display settings
-    [params.summary.tags]
-      # uBlogger NEW | 1.1.0 One of the options for displaying tags
-      theme = "image"
-      # uBlogger NEW | 1.1.0 Text color
-      color = "white"
-      # uBlogger NEW | 1.1.0 Backing color
-      background = "black"
-      # uBlogger NEW | 1.1.0 Tag transparency
-      transparency = 0.9
-    # uBlogger NEW | 1.2.0 Fasting time display
-    [params.timeAgo]
-      enable = "false"
-      lang = "es"
-    # uBlogger NEW | 0.2.0 Table of the contents config
-    [params.page.toc]
-      # whether to enable the table of the contents
-      enable = true
-      # uBlogger NEW | 0.2.9 whether to keep the static table of the contents in front of the post
-      keepStatic = true
-      # whether to make the table of the contents in the sidebar automatically collapsed
-      auto = true
-    # uBlogger CHANGED | 0.2.0 KaTeX mathematical formulas
-    [params.page.math]
-      enable = true
-      # default block delimiter is $$ ... $$ and \\[ ... \\]
-      blockLeftDelimiter = ""
-      blockRightDelimiter = ""
-      # default inline delimiter is $ ... $ and \\( ... \\)
-      inlineLeftDelimiter = ""
-      inlineRightDelimiter = ""
-      # KaTeX extension copy_tex
-      copyTex = true
-      # KaTeX extension mhchem
-      mhchem = true
-    # uBlogger NEW | 0.2.0 Code config
-    [params.page.code]
-      # whether to show the copy button of the code block
-      copy = true
-      # the maximum number of lines of displayed code by default
-      maxShownLines = 10
-    # uBlogger NEW | 0.2.0 Mapbox GL JS config
-    [params.page.mapbox]
-      # access token of Mapbox GL JS
-      accessToken = ""
-      # style for the light theme
-      lightStyle = "mapbox://styles/mapbox/light-v9"
-      # style for the dark theme
-      darkStyle = "mapbox://styles/mapbox/dark-v9"
-      # whether to add NavigationControl
-      navigation = true
-      # whether to add GeolocateControl
-      geolocate = true
-      # whether to add ScaleControl
-      scale = true
-      # whether to add FullscreenControl
-      fullscreen = true
-    # uBlogger CHANGED | 0.2.0 social share links in post page
-    [params.page.share]
-      enable = true
-      Twitter = true
-      Facebook = true
-      Linkedin = false
-      Whatsapp = true
-      Pinterest = false
-      Tumblr = false
-      HackerNews = false
-      Reddit = false
-      VK = false
-      Buffer = false
-      Xing = false
-      Line = true
-      Instapaper = false
-      Pocket = false
-      Digg = false
-      Stumbleupon = false
-      Flipboard = false
-      Weibo = true
-      Renren = false
-      Myspace = true
-      Blogger = true
-      Baidu = false
-      Odnoklassniki = false
-      Evernote = true
-      Skype = false
-      Trello = false
-      Mix = false
-    # uBlogger NEW | 0.2.7 Third-party library config
-    [params.page.library]
-      [params.page.library.css]
-        # someCSS = "some.css"
-        # located in "assets/"
-        # Or
-        # someCSS = "https://cdn.example.com/some.css"
-      [params.page.library.js]
-        # someJavascript = "some.js"
-        # located in "assets/"
-        # Or
-        # someJavascript = "https://cdn.example.com/some.js"
-    # uBlogger CHANGED | 0.2.10 Page SEO config
-    [params.page.seo]
-      # image URL
-      images = []
-      # Publisher info
-      [params.page.seo.publisher]
-        name = ""
-        logoUrl = ""
+    # always display the top navigation (with pages and search) on non-mobile screens
+    permanentTopNav = false
 
-    # uBlogger CHANGED | 1.1.0 Comment config
-    [params.comment]
-      enable = true
-      # uBlogger NEW | 1.0.0
-      # Remark42 comment config
-      [params.comment.remark42]
-        enable = false
-        # the location of your server with Remark42
-        host = "https://remark.example.com"
-        # remark42 supports comments for several sites at once, this identifier indicates which site to display comments for.
-        site = "you_site_key"
-        # design theme
-        theme = "light"
-        # language
-        locale = "en"
-        # enable or disable smiley support
-        emailSubscribe = "true"
-      # Disqus comment config
-      [params.comment.disqus]
-        # uBlogger NEW | 0.1.1
-        enable = false
-        # Disqus shortname to use Disqus in posts
-        shortname = ""
-      # Gitalk comment config
-      [params.comment.gitalk]
-        # uBlogger NEW | 0.1.1
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
-      # Valine comment config
-      [params.comment.valine]
-        enable = false
-        appId = ""
-        appKey = ""
-        placeholder = ""
-        avatar = "mp"
-        meta= ""
-        pageSize = 10
-        lang = ""
-        visitor = true
-        recordIP = true
-        highlight = true
-        enableQQ = false
-        serverURLs = ""
-        # uBlogger NEW | 0.2.6 emoji data file name, default is "google.yml"
-        # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
-        # located in "themes/uBlogger/assets/data/emoji/" directory
-        # you can store your own data files in the same path under your project:
-        # "assets/data/emoji/"
-        emoji = ""
-      # Facebook comment config
-      [params.comment.facebook]
-        enable = false
-        width = "100%"
-        numPosts = 10
-        appId = ""
-        languageCode = ""
-      # uBlogger NEW | 0.2.0 Telegram comments config
-      [params.comment.telegram]
-        enable = false
-        siteID = ""
-        limit = 5
-        height = ""
-        color = ""
-        colorful = true
-        dislikes = false
-        outlined = false
-      # uBlogger NEW | 0.2.0 Commento comment config
-      [params.comment.commento]
-        enable = false
-      # uBlogger NEW | 0.2.5 Utterances comment config
-      [params.comment.utterances]
-        enable = false
-        # owner/repo
-        repo = ""
-        issueTerm = "pathname"
-        label = ""
-        lightTheme = "github-light"
-        darkTheme = "github-dark"
+    # always display the top navigation when scrolling
+    # works only with permanentTopNav = true
+    stickyNav = false
 
-  # Site verification code config for Google/Bing/Yandex/Pinterest/Baidu
-  [params.verification]
-    google = ""
-    bing = ""
-    yandex = ""
-    pinterest = ""
-    baidu = ""
+    # show a language chooser in the header
+    showHeaderLanguageChooser = true
 
-  # uBlogger NEW | 0.2.10 Site SEO config
-  [params.seo]
-    # image URL
-    image = ""
-    # thumbnail URL
-    thumbnailUrl = ""
+  # Content configuration
+    # Enable an optional pinned page to display at the top of the index
+    # pinnedPost = "/content/github/"
+    # Set to true to pin only to the first page, false to all pages
+    # pinOnlyToFirstPage = true
 
-  # uBlogger NEW | 0.2.0 Analytics config
-  [params.analytics]
-    enable = false
-    # Google Analytics
-    [params.analytics.google]
-      id = ""
-      # whether to anonymize IP
-      anonymizeIP = true
-    # Fathom Analytics
-    [params.analytics.fathom]
-      id = ""
-      # server url for your tracker if you're self hosting
-      server = ""
-    # uBlogger NEW | 1.0.0
-    # Yandex.Metrika
-    [params.analytics.yandex]
-      # your meter number
-      id = ""
+    # enable automatical localization of the article's PublishedDate with momentjs
+    enableMomentJs = true
 
-  # uBlogger NEW | 0.2.7 Cookie consent config
-  [params.cookieconsent]
-    enable = false
-    # text strings used for Cookie consent banner
-    [params.cookieconsent.content]
-      message = ""
-      dismiss = ""
-      link = ""
+    # customize the date format | only works if momentjs is disabled | only works with English month names
+    # you can customize it with the options you find here:
+    # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+    dateFormat = "2006-01-02"
 
-  # uBlogger CHANGED | 0.2.7 CDN config for third-party library files
-  [params.cdn]
-    # CDN data file name, disabled by default
-    # ("jsdelivr.yml")
-    # located in "themes/uBlogger/assets/data/cdn/" directory
-    # you can store your own data files in the same path under your project:
-    # "assets/data/cdn/"
-    data = ""
+    # display the estimated reading time for an article
+    showReadingTime = true
 
-  # uBlogger NEW | 0.2.8 Compatibility config
-  [params.compatibility]
-    # whether to use Polyfill.io to be compatible with older browsers
-    polyfill = false
-    # whether to use object-fit-images to be compatible with older browsers
-    objectFit = false
+  # Footer configuration
+    showFooter = true
 
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "Posts"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link
-    title = ""
-    weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-    weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
-    weight = 3
+    # How many articles should be displayed at latest posts in the footer?
+    # Set to -1 to hide the 'Latest Posts' column
+    amountLatestPostsInFooter = 7
 
-    # Markup related config in Hugo
-    [markup]
-      # Syntax Highlighting
-      [markup.highlight]
-        codeFences = true
-        guessSyntax = true
-        lineNos = true
-        lineNumbersInTable = true
-        # false is a necessary configuration
-        noClasses = false
-      # Goldmark is from Hugo 0.60 the default library used for Markdown
-      [markup.goldmark]
-        [markup.goldmark.extensions]
-          definitionList = true
-          footnote = true
-          linkify = true
-          strikethrough = true
-          table = true
-          taskList = true
-          typographer = true
-        [markup.goldmark.renderer]
-          # whether to use HTML tags directly in the document
-          unsafe = true
-      # Table Of Contents settings
-      [markup.tableOfContents]
-        startLevel = 2
-        endLevel = 6
+    # How many categories should be displayed in the footer section?
+    # Set to -1 to hide the 'Categories' column
+    amountCategoriesInFooter = 7
 
-    # Author config
-    # uBlogger CHANGED | 1.0.0
-    [author]
-      name = "David Romero"
-      homepage = "https://davidlms.com"
+    # show a language chooser in the footer
+    showFooterLanguageChooser = false
 
-    # Sitemap config
-    [sitemap]
-      changefreq = "weekly"
-      filename = "sitemap.xml"
-      priority = 0.5
+    # social media profile urls for the footer links
+    showSocialMedia = true
 
-    # Permalinks config
-    [Permalinks]
-      # posts = ":year/:month/:filename"
-      posts = ":filename"
+    # define your links with FontAwesome 5 (only free icons are supported)
+    # all icons https://fontawesome.com/icons?d=gallery&m=free
+    # brand icons https://fontawesome.com/icons?d=gallery&s=brands&m=free
+    socialMediaLinks = [
+      { link = "https://twitter.com/LMS_David_RS", icon = "fab fa-twitter" },
+      { link = "https://github.com/DavidLMS", icon = "fab fa-github" },
+      { link = "https://t.me/joinchat/AAAAAFA74Gj2dEmulN9zgQ", icon = "fab fa-telegram" },
+      { link = "mailto:hola@davidlms.com", icon = "fas fa-envelope" },
+    ]
 
-    # Privacy config
-    [privacy]
-      # uBlogger DELETED | 0.2.0 privacy of the Google Analytics (replaced by params.analytics.google)
-      [privacy.googleAnalytics]
-        # ...
-      [privacy.twitter]
-        enableDNT = true
-      [privacy.youtube]
-        privacyEnhanced = true
+    # credits line configuration
+    copyrightBy = "David Romero"
+    copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
+    #copyrightYearOverride = "2017"
+    copyrightUrl = "https://github.com/DavidLMS"
+    creditsText = "Tema Bilberry Hugo"
+    creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
 
-    # Options to make output .md files
-    [mediaTypes]
-      [mediaTypes."text/plain"]
-        suffixes = ["md"]
 
-    # Options to make output .md files
-    [outputFormats.MarkDown]
-      mediaType = "text/plain"
-      isPlainText = true
-      isHTML = false
+# customize your available languages for your multi-langual site
+# or delete the [Languages] blog to use the theme with only one supported language
+#[Languages]
+#  [Languages.es]
+#    weight = 1
+#[Languages.de]
+#    weight = 2
+#    title = "Mein cooler neuer Blog"
+#    subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
 
-    # Options to make hugo output files
-    [outputs]
-      # uBlogger CHANGED | 0.2.0
-      home = ["HTML", "RSS", "JSON"]
-      page = ["HTML", "MarkDown"]
-      section = ["HTML", "RSS"]
-      taxonomy = ["HTML", "RSS"]
-      taxonomyTerm = ["HTML"]
+# don't change anything below
+[taxonomies]
+  author   = "author"
+  tag      = "tags"
+  category = "categories"
+
+[outputs]
+  home = [ "HTML", "JSON", "RSS" ]
+  page = [ "HTML" ]

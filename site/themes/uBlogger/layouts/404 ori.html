@@ -4,10 +4,11 @@
 
 {{- define "content" -}}
     <div class="page" id="content-404">
-        <h3>¿PERO DÓNDE VAS?</h3>
-		<p>¿Te has perdido?</p>
-        <p><strong>Esto es un Error 404.</strong> No entres en pánico, simplemente significa que este enlace no está disponible en la página. </p>
-        <p>Por favor, vuelve a la <a href="javascript:void(0);" title="{{ T `back` }}" onclick="window.history.back();">página principal</a>.</p>
+        <h1 id="error-emoji"></h1>
+        <p class="error-text">
+            {{- T "pageNotFoundText" -}}&nbsp;
+            <a href="javascript:void(0);" title="{{ T `back` }}" onclick="window.history.back();">{{ T `back` }}</a>
+        </p>
     </div>
     <script>
         (function() {

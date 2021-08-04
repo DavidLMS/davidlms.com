@@ -24,7 +24,7 @@
             </div>
             {{- end -}}
             {{- end -}}
-            <a href="{{ $.RelPermalink }}" target="_blank">
+            <a href="{{ $.RelPermalink }}">
                 {{- dict "Src" . "Title" $.Description "Resources" $.Resources "Height" 798 "Width" 238 | partial "plugin/image.html" -}}
             </a>
         </div>

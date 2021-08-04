@@ -5,6 +5,16 @@
 
 {{- if $comment.enable -}}
     <div id="comments">
+		<div id="hyvor-talk-view"></div>
+		<script type="text/javascript">
+		    var HYVOR_TALK_WEBSITE = 4527;
+		    var HYVOR_TALK_CONFIG = {
+		        url: '{{ .Permalink }}',
+		        id: '{{ .File.UniqueID }}',
+				language: 'es'
+		    };
+		</script>
+		<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>
         {{- /* Disqus Comment System */ -}}
         {{- $disqus := $comment.disqus | default dict -}}
         {{- if $disqus.enable -}}

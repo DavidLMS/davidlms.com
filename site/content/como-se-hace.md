@@ -3,6 +3,8 @@ title: "Cómo se hace"
 date: 2020-06-02T20:10:14+01:00
 excludeFromTopNav: false
 showDate: false
+aliases:
+    - /page/como-se-hace/
 ---
 
 ¿Tienes interés en saber cómo se hace a nivel técnico este blog, qué inversión conlleva y cuáles son sus estadísticas de visitantes? En un ejercicio de transparencia inauguro esta sección, basada en la publicación [**Cómo se hace**](https://davidlms.com/article/c%C3%B3mo-se-hace-un-blog-a-coste-0/) y que irá actualizándose con las novedades que surjan.

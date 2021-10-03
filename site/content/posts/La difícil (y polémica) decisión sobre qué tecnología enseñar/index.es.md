@@ -100,7 +100,7 @@ Quizás conozcas el tejido empresarial del entorno. Quizás no.
 
 Quizás la gran mayoría coincida en las tecnologías que usa. Quizás no.
 
-Pero si enseño lo que usan, quizás sea una tecnología que está camino de quedarse obsoleta, no dejen de usarla porque es la que conoce su personal y les esté poniendo una **zancadilla en el futuro**. Y al alumnado también.
+Pero si enseño lo que usan, quizás sea una tecnología que está camino de quedarse obsoleta, no dejen de utilizarla porque es la que conoce su personal y les esté poniendo una **zancadilla en el futuro**. Y al alumnado también.
 
 Pero si enseño lo que usan, quizás sea muy distinto a lo que **se utiliza en otras partes**, o a lo que más demanda el mercado o demandará en breve. Y esté limitando la oportunidad al alumnado de crecer profesionalmente en otra zona distinta. ¿Y qué se yo de lo que demandará el mercado?
 

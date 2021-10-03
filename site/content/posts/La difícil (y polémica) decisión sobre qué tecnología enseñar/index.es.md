@@ -110,7 +110,7 @@ Añade a todas estas reflexiones el hecho de que no todo el alumnado de un mismo
 
 Y el tiempo. ¡Ay! Ese factor tiempo que todo lo limita.
 
-Todo esto puede matizarse, pero que **levante la mano** el profesor o profesora de informática que no se haya planteado una, varias o todas estas cuestiones alguna vez. Si no lo has hecho, creo que va **siendo hora de hacerlo**. La reflexión siempre es positiva.
+Claro que estas afirmaciones pueden matizarse, pero que **levante la mano** el profesor o profesora de informática que no se haya planteado una, varias o todas estas cuestiones alguna vez. Si no lo has hecho, creo que va **siendo hora de hacerlo**. La reflexión siempre es positiva.
 
 Si has llegado aquí buscando una respuesta clara y contundente, **no la vas a encontrar**. Pero quizás te vengan bien algunos consejos de un aprendiz:
 

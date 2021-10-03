@@ -2,8 +2,8 @@
 title: "La difícil (y polémica) decisión sobre qué tecnología enseñar"
 subtitle: ""
 description: "Cada septiembre, en FP de informática, la misma duda: ¿Qué tecnologías son las más adecuadas para enseñar en el módulo?"
-date: 2021-10-03T19:01:00+02:00
-lastmod: 2021-10-03T19:01:00+02:00
+date: 2021-10-03T17:01:00+02:00
+lastmod: 2021-10-03T17:01:00+02:00
 draft: false
 
 author: "davidlms.es"

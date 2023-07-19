@@ -2,8 +2,8 @@
 title: "Postmortem del curso 2022-2023"
 subtitle: ""
 description: "Nunca mejor dicho"
-date: 2023-07-18T07:22:00+02:00
-lastmod: 2023-07-18T07:22:00+02:00
+date: 2023-07-19T07:18:00+02:00
+lastmod: 2023-07-19T07:18:00+02:00
 draft: false
 
 author: "davidlms.es"

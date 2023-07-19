@@ -88,7 +88,7 @@ seo:
 
 O **un año y medio después**. También podría haber sido el título.
 
-La gente normal mide los años de enero a diciembre. Y es tradición aprovechar los últimos días para reflexionar acerca de qué he hecho, qué quería hacer y qué quiero hacer antes de afrontar un nuevo ciclo alrededor del sol. Pero el colectivo docente mide el paso del tiempo en **cursos académicos**. Y, al menos muchos, aprovechamos el verano para hacer eso mismo. Porque luego en diciembre estamos ya enfangados (en su primera [acepción](https://dle.rae.es/enfangar?m=form)) hasta las cejas en demasiadas cosas como para plantearnos nada medianamente serio. *Mientras escribo esto, me doy cuenta de que [ya conté lo mismo en otro post](https://davidlms.com/2021-y-un-giro-de-270/). Con los pocos que tengo publicados, y me repito. Lo mejor es que dejes de leer inmediatamente, porque lo que viene a continuación solo puede ser menos original.*
+La gente normal mide los años de enero a diciembre. Y es tradición aprovechar los últimos días para reflexionar acerca de qué he hecho, qué quería hacer y qué quiero hacer antes de afrontar un nuevo ciclo alrededor del sol. Pero el colectivo docente mide el paso del tiempo en **cursos académicos**. Y, al menos muchos, aprovechamos el verano para hacer eso mismo. Porque luego en diciembre estamos ya enfangados (en su primera [acepción](https://dle.rae.es/enfangar?m=form)) hasta las cejas en demasiadas cosas como para plantearnos nada medianamente serio. Mientras escribo esto, me doy cuenta de que [ya conté lo mismo en otro post](https://davidlms.com/2021-y-un-giro-de-270/). Con los pocos que tengo publicados, y me repito. Lo mejor es que dejes de leer inmediatamente, porque lo que viene a continuación solo puede ser menos original.
 
 Este curso comenzó con la **fantástica novedad** de que en el instituto se impartirían dos nuevas enseñanzas:
 
@@ -123,4 +123,4 @@ Después de este toque de publirreportaje, toca volver a conectar con el princip
 
 Nos vemos en la brecha.
 
-*PD: Ninguna IA ha sido maltratada para la redacción de este artículo... Pero sí para generar la imagen que lo ilustra.*
+PD: Ninguna IA ha sido maltratada para la redacción de este artículo... Pero sí para generar la imagen que lo ilustra.

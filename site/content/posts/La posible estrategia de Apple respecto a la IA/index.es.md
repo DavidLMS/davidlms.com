@@ -118,11 +118,11 @@ Ya sabes lo que pasó después. La respuesta fue visionOS. Pese a algunas [difer
 
 Sin embargo, si se presta la suficiente atención, Apple nos dejó en ese evento **algunas pistas** para confirmarnos que están trabajando en ello. Mira esta captura de la conferencia principal:
 
-captura1.png
+![Un modelo de lenguaje Transformer](/modelo-transformer.png)
 
 Espera... ¿Un modelo de lenguaje Transformer? Anda... Como GPT (cuyas siglas son Generative Pre-trained Transformer). En ese momento estaban hablando de las mejoras en funciones de autocorrección y autocompletado. Podrían haber dicho simplemente que las han mejorado (de hecho, es el tipo de cosa que probablemente en cualquier otra conferencia no le hubiesen dedicado ni cinco segundos), pero **indican explícitamente** que es un modelo Transformer. No puede ser una casualidad. Se trata de un modelo simple GPT de Apple. Que sí, que obviamente dista mucho de GPT-4. Pero ojo, que se ejecuta en el dispositivo y cada vez que se pulsa una letra del teclado. No suficiente con eso, volvieron a pronunciar la palabra clave a continuación:
 
-captura2.png
+![Reconocimiento de voz basado en Transformer](/basado-transformer.png)
 
 Otra vez Transformer... Ahora en el dictado (¿Alguien ha "susurrado" algo?). Es evidente que esta es la forma que ha elegido Apple para **mandarnos un mensaje claro** en la conferencia: Esta tecnología no nos es desconocida y llevamos tiempo trabajando en ella.
 

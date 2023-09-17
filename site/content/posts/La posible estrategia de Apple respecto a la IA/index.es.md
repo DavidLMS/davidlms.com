@@ -36,7 +36,7 @@ summaryStyle:
       background: "black"
       # uBlogger NEW | 1.1.0 Tag transparency
       transparency: 0.9
-tags: ['análisis', 'opinión']
+tags: ['opinión', 'inteligencia artificial']
 categories: ['Cosas más técnicas']
 resources:
 - name: "featured-image"

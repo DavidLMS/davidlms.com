@@ -1,5 +1,5 @@
 ---
-title: "Cómo se hace"
+title: "¿Qué ha ocurrido en OpenAI para que la Junta eche a Sam Altman?"
 date: 2023-11-20T18:00:14+01:00
 excludeFromTopNav: true
 showDate: false

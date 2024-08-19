@@ -191,7 +191,7 @@ enableRobotsTXT = true
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.png"
       # uBlogger CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = "davidlms"
+      title = "davidlms | Un blog personal"
       # subtitle shown in home page
       subtitle = ""
       # whether to show social links
@@ -200,6 +200,32 @@ enableRobotsTXT = true
       disclaimer = ""
     # Home page posts
     [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+      # uBlogger DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+      defaultHiddenFromHomePage = false
+  [languages.en.params.home]
+    # uBlogger NEW | 0.2.0 amount of RSS pages
+    rss = 10
+    # Home page profile
+    [languages.en.params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = "lms.davidromero@gmail.com"
+      # URL of avatar shown in home page
+      avatarURL = "/images/avatar.png"
+      # uBlogger CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+      title = "davidlms | A personal blog"
+      # subtitle shown in home page
+      subtitle = ""
+      # whether to show social links
+      social = true
+      # uBlogger NEW | 0.2.0 disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [languages.en.params.home.posts]
       enable = true
       # special amount of posts in each home posts page
       paginate = 6

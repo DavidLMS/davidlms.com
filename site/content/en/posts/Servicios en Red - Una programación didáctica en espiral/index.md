@@ -90,7 +90,7 @@ aliases:
 
 **Important**: Translated automatically from Spanish by [🌐💬 Aphra 1.0.0](https://github.com/DavidLMS/aphra)
 
-Following the trail of the gauntlet thrown in [this publication](https://davidlms.com/article/girando-alrededor-del-aprendizaje-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/), the time has come **to design a new curriculum**[^1] for the Network Services module[^2].
+Following the trail of the gauntlet thrown in [this publication](https://davidlms.com/en/girando-alrededor-del-aprendizaje-una-programación-didáctica-en-espiral/), the time has come **to design a new curriculum**[^1] for the Network Services module[^2].
 
 I'm going to start from the evaluation criteria of the different learning outcomes[^3], first dividing them into **conceptual** (things that students should know) and **procedural** (things that students should know how to do). Although I **prefer to make the distinction between theoretical (T) and practical (P)** directly. It may all sound very old-fashioned to you, but the conceptual and procedural terms are also outdated, and I think this way we understand each other much better. If you take a quick look at the criteria, you'll realize that categorization into one group or another is very simple. The theoretical ones **use verbs** like recognize, identify, illustrate, describe..., etc. The practical ones, on the other hand, use verbs like install, check, verify, create, configure, implement..., etc. If you disagree with any of the classified criteria **we can always discuss it**.
 
@@ -166,7 +166,7 @@ You have **the complete table** with all the classified criteria of the module b
 
 This **is the starting point**, and on this basis we will build a new curriculum design. Further details will be provided in upcoming publications.
 
-**Update**: You now have the second publication of this series available [here](https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral-ii/) and the conclusion [here](https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral-y-iii/).
+**Update**: You now have the second publication of this series available [here](https://davidlms.com/en/servicios-en-red-una-programación-didáctica-en-espiral-ii/) and the conclusion [here](https://davidlms.com/en/servicios-en-red-una-programación-didáctica-en-espiral-y-iii/).
 
 [^1]: "Programación didáctica" refers to a comprehensive educational planning process in Spanish-speaking countries, which includes curriculum design, teaching methodologies, and assessment strategies.
 

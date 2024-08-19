@@ -6,7 +6,7 @@ date: 2020-09-25T19:00:00+02:00
 lastmod: 2020-09-25T19:00:00+02:00
 draft: false
 
-author: "davidlms.es"
+author: "davidlms"
 
 # uBlogger NEW | 1.0.0 Article Update Information
 upd: ""

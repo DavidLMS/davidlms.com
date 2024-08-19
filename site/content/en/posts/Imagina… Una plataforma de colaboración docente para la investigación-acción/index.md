@@ -1,5 +1,5 @@
 ---
-title: "Envisioning... A teacher collaboration platform for action research[^1]"
+title: "Envisioning... A teacher collaboration platform for action research"
 subtitle: "Joining forces to multiply impact?"
 description: "Joining forces to multiply impact?"
 date: 2020-07-26T11:05:00+02:00
@@ -90,7 +90,7 @@ aliases:
 
 **Important**: Translated automatically from Spanish by [🌐💬 Aphra 1.0.0](https://github.com/DavidLMS/aphra)
 
-**Envision** a platform where teachers interested in participating in educational research can register, indicating the subjects or modules[^2] they teach and other relevant information, such as their school's geographical location.
+**Envision** a platform where teachers interested in participating in educational research can register, indicating the subjects or modules[^1] they teach and other relevant information, such as their school's geographical location.
 
 **Envision** that researchers can filter a search using this data and send a message requesting collaboration in the research they want to conduct, indicating: what hypotheses they wish to put to the test, what they ask of collaborators, and what they offer in return.
 
@@ -98,18 +98,16 @@ aliases:
 
 **Envision** that these articles have linked profiles of the teachers who have collaborated on them, with these articles also appearing on the teacher's profile following a two-way link.
 
-These are just ideas I've been toying with[^3]. If anyone knows of a software, preferably open source[^4] and with the possibility of installation on one's own server (self-hosted)[^5], **that is more or less ready for these use cases[^6]**, I kindly ask them to contact me.
+These are just ideas I've been toying with[^2]. If anyone knows of a software, preferably open source[^3] and with the possibility of installation on one's own server (self-hosted)[^4], **that is more or less ready for these use cases[^5]**, I kindly ask them to contact me.
 
 Let's continue to explore these possibilities.
 
-[^1]: Action research refers to a specific research methodology in education that combines investigation with practical application to address educational issues.
+[^1]: In the Spanish education system, "módulos" refers to specific units or components of a course.
 
-[^2]: In the Spanish education system, "módulos" refers to specific units or components of a course.
+[^2]: "Imaginaciones mías" in Spanish represents personal, conceptual ideas that go beyond simple imaginings.
 
-[^3]: "Imaginaciones mías" in Spanish represents personal, conceptual ideas that go beyond simple imaginings.
+[^3]: Open-source software refers to computer programs whose source code is freely accessible for use, modification, and distribution.
 
-[^4]: Open-source software refers to computer programs whose source code is freely accessible for use, modification, and distribution.
+[^4]: Self-hosted installation involves setting up and running software on one's own server, providing greater control over data and infrastructure.
 
-[^5]: Self-hosted installation involves setting up and running software on one's own server, providing greater control over data and infrastructure.
-
-[^6]: In software development, "use cases" describe how a user interacts with a system to achieve a specific goal.
+[^5]: In software development, "use cases" describe how a user interacts with a system to achieve a specific goal.

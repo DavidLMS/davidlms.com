@@ -126,7 +126,7 @@ Si has llegado aquí buscando una respuesta clara y contundente, **no la vas a e
 - **Debatir continuamente** acerca de las ventajas y las desventajas de cada elección. Y **compartir los resultados** de nuestras decisiones: empleabilidad del alumnado (se debería hacer un seguimiento al respecto) y su satisfacción con la formación recibida.
 - Crear **materiales didácticos colaborativos**. Las tecnologías cambian demasiado rápido. Si no es una nueva tecnología, es una nueva versión. Es imposible que un solo docente mantenga sus módulos completamente actualizados. La única manera de poder tener unos materiales didácticos a la altura de la calidad esperada, es colaborando entre nosotros.
 
-Y podría seguir enumerando acciones a llevar a cabo como comunidad, pero voy a parar porque este artículo va camino a convertirse en uno de la categoría [imaginaciones mías](https://davidlms.com/categories/imaginaciones-m%C3%ADas/). Quizás un día de estos lo haga. O quizás alguien se anime a hacerlo por mí.
+Y podría seguir enumerando acciones a llevar a cabo como comunidad, pero voy a parar porque este artículo va camino a convertirse en uno de la categoría [imaginaciones mías](https://davidlms.com/en/categories/my-conceptual-ideas/). Quizás un día de estos lo haga. O quizás alguien se anime a hacerlo por mí.
 
 No quiero sentar cátedra en un tema como este. Lo que me gustaría, como siempre, es escuchar tu opinión y así aprender de ella.
 

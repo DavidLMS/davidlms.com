@@ -11,7 +11,7 @@
 		    var HYVOR_TALK_CONFIG = {
 		        url: '{{ .Permalink }}',
 		        id: '{{ .File.UniqueID }}',
-				language: 'es'
+				language: '{{ .Site.Language.Lang }}'
 		    };
 		</script>
 		<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>

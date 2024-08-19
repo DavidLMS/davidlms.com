@@ -1,8 +1,24 @@
-{{- define "title" }} {{- T "pageNotFound" | printf "404 %v" }} - {{ .Site.Title -}} {{- end -}}
-{{- define "content" -}}
-<div class="page" id="content-404">
-    <p>{{ T "404Title" }}</p>
-    <p>{{ T "404Description" }}</p>
+{{ define "title" }}
+  {{ T "pageNotFound" | printf "404 %v" }} - {{ .Site.Title }}
+{{ end }}
+
+{{ define "content" }}
+  {{ $currentLang := .Site.Language.Lang }}
+  <div class="page" id="content-404"></div>
+  <h1>{{ T "404Title" }}</h1>
+  <p>{{ T "404Description" }}</p>
+  <p>
+    {{ T "returnHome" }} 
+    <a href="{{ "/" | relLangURL }}">{{ T "homePage" }}</a>
+  </p>
+  <p>
+    {{ T "switchLanguage" }}:
+    {{ range .Site.Languages }}
+      {{ if ne .Lang $currentLang }}
+        <a href="{{ .Lang | relURL }}">{{ .LanguageName }}</a>
+      {{ end }}
+    {{ end }}
+  </p>
 </div>
 <script>
     (function() {
@@ -10,4 +26,4 @@
         document.getElementById('error-emoji').appendChild(document.createTextNode(emojiArray[Math.floor(Math.random() * emojiArray.length)]));
     })();
 </script>
-{{- end -}}
+{{ end }}

@@ -5,6 +5,24 @@ defaultContentLanguage = "es"
 languageCode = "es"
 title = "davidlms | Un blog personal"
 
+[languages]
+  [languages.es]
+    contentDir = 'content/es'
+    disabled = false
+    languageCode = 'es'
+    languageDirection = 'ltr'
+    languageName = 'Spanish'
+    title = 'davidlms | Un blog personal'
+    weight = 1
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = true
+    languageCode = 'en'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'davidlms | A personal blog'
+    weight = 2
+
 enableGitInfo = false
 enableEmoji = true
 

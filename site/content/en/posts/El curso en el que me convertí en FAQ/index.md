@@ -123,20 +123,20 @@ I didn't want to miss the opportunity to wish you **a magnificent new year, full
 
 **Until then, see you next year**[^9].
 
-[^1] Blended learning refers to a hybrid educational model combining in-person and online instruction, which gained prominence during the COVID-19 pandemic.
+[^1]: Blended learning refers to a hybrid educational model combining in-person and online instruction, which gained prominence during the COVID-19 pandemic.
 
-[^2] Open Source refers to software whose source code is freely available for viewing, modification, and distribution.
+[^2]: Open Source refers to software whose source code is freely available for viewing, modification, and distribution.
 
-[^3] An accordion menu in web design is an expandable/collapsible content area, not the musical instrument.
+[^3]: An accordion menu in web design is an expandable/collapsible content area, not the musical instrument.
 
-[^4] Algolia is a hosted search engine provider, often used for implementing site search functionality.
+[^4]: Algolia is a hosted search engine provider, often used for implementing site search functionality.
 
-[^5] A Knowledge Base is a centralized repository of information, often used in customer service and information management contexts.
+[^5]: A Knowledge Base is a centralized repository of information, often used in customer service and information management contexts.
 
-[^6] A webhook is a method for real-time data transfer between web applications.
+[^6]: A webhook is a method for real-time data transfer between web applications.
 
-[^7] GraphQL is a query language for APIs, developed by Facebook.
+[^7]: GraphQL is a query language for APIs, developed by Facebook.
 
-[^8] This phrase reflects the cultural context of end-of-year reflections common in blogging.
+[^8]: This phrase reflects the cultural context of end-of-year reflections common in blogging.
 
-[^9] This phrase serves as both a New Year's greeting and a friendly farewell, often used in informal contexts.
+[^9]: This phrase serves as both a New Year's greeting and a friendly farewell, often used in informal contexts.

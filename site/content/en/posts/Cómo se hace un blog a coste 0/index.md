@@ -107,9 +107,14 @@ I've told you all this with the sole purpose of encouraging you to create your o
 
 There's also a secondary objective. If you know how I've done it, you can suggest how to do it better. I'll be waiting for you in the comments[^6].
 
-[^1] HUGO is a popular open-source static site generator.
-[^2] This is a translation of the Spanish idiom "empujón definitivo al vacío," which metaphorically means the final motivation to make a significant decision or take a risk.
-[^3] Netlify is a cloud computing company that offers hosting and serverless backend services for static websites.
-[^4] Plausible is a lightweight, open-source alternative to Google Analytics.
-[^5] "At zero cost" is a translation of the Spanish phrase "a coste 0," meaning completely free or without any expense.
-[^6] This is a translation of the Spanish phrase "Te espero en los comentarios," which is commonly used to invite readers to engage in discussion in the comment section.
+[^1]: HUGO is a popular open-source static site generator.
+
+[^2]: This is a translation of the Spanish idiom "empujón definitivo al vacío," which metaphorically means the final motivation to make a significant decision or take a risk.
+
+[^3]: Netlify is a cloud computing company that offers hosting and serverless backend services for static websites.
+
+[^4]: Plausible is a lightweight, open-source alternative to Google Analytics.
+
+[^5]: "At zero cost" is a translation of the Spanish phrase "a coste 0," meaning completely free or without any expense.
+
+[^6]: This is a translation of the Spanish phrase "Te espero en los comentarios," which is commonly used to invite readers to engage in discussion in the comment section.

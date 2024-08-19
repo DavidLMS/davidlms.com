@@ -118,14 +118,14 @@ What about your educational center? Do you use any software for this purpose? Do
 
 Catch you later.
 
-[^1] An educational center in the Spanish system refers to any institution that provides formal education, including primary schools, secondary schools, and universities.
+[^1]: An educational center in the Spanish system refers to any institution that provides formal education, including primary schools, secondary schools, and universities.
 
-[^2] Educational management platforms in Spanish educational settings typically include tools for course creation, student data management, grading, and communication between teachers, students, and parents.
+[^2]: Educational management platforms in Spanish educational settings typically include tools for course creation, student data management, grading, and communication between teachers, students, and parents.
 
-[^3] ICT coordinators in Spanish schools are responsible for integrating and managing Information and Communication Technologies within the educational institution.
+[^3]: ICT coordinators in Spanish schools are responsible for integrating and managing Information and Communication Technologies within the educational institution.
 
-[^4] The "head of studies" (jefe de estudios) is a senior administrative position in Spanish schools, similar to an academic dean, responsible for overseeing academic programs and student affairs.
+[^4]: The "head of studies" (jefe de estudios) is a senior administrative position in Spanish schools, similar to an academic dean, responsible for overseeing academic programs and student affairs.
 
-[^5] A department head (jefe de departamento) in Spanish educational institutions is responsible for overseeing a specific department or area of study, managing faculty and staff, and coordinating educational programs and policies.
+[^5]: A department head (jefe de departamento) in Spanish educational institutions is responsible for overseeing a specific department or area of study, managing faculty and staff, and coordinating educational programs and policies.
 
-[^6] Wiki.js is an open-source wiki software platform designed for creating collaborative documentation and knowledge management systems.
+[^6]: Wiki.js is an open-source wiki software platform designed for creating collaborative documentation and knowledge management systems.

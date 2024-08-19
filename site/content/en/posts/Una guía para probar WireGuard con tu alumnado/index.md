@@ -115,8 +115,8 @@ Whenever I can, and feel like it, you'll have me here **sharing resources with y
 
 **Update 07/11/2021**: I've changed the guide link, [this is the original published](https://davidlms.github.io/Practicas/SERRED/wireguard_old.html), modified thanks to the [publication about the CodeLab format](https://davidlms.com/article/en-busca-de-un-formato-para-las-gu%C3%ADas-pr%C3%A1cticas-codelab/).
 
-[^1] WireGuard is a modern VPN protocol known for its simplicity and efficiency compared to older protocols.
-[^2] "Servicios en Red" is a specific networking module in Spanish vocational IT courses, focusing on network services and administration.
-[^3] 2ºCFGM SMR refers to the second year of a mid-level vocational training program in Microcomputer Systems and Networks in the Spanish education system.
-[^4] "Seguridad y Alta Disponibilidad" is a module that focuses on security and high availability in IT systems, part of advanced vocational training in Spain.
-[^5] 2ºCFGS ASIR refers to the second year of a higher-level vocational training program in Network Computer Systems Administration in the Spanish education system.
+[^1]: WireGuard is a modern VPN protocol known for its simplicity and efficiency compared to older protocols.
+[^2]: "Servicios en Red" is a specific networking module in Spanish vocational IT courses, focusing on network services and administration.
+[^3]: 2ºCFGM SMR refers to the second year of a mid-level vocational training program in Microcomputer Systems and Networks in the Spanish education system.
+[^4]: "Seguridad y Alta Disponibilidad" is a module that focuses on security and high availability in IT systems, part of advanced vocational training in Spain.
+[^5]: 2ºCFGS ASIR refers to the second year of a higher-level vocational training program in Network Computer Systems Administration in the Spanish education system.

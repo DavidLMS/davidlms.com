@@ -106,10 +106,10 @@ If you've found it useful and want to collaborate on the project, you can do so 
 - [Improve the script and submit a pull request](https://github.com/DavidLMS/ZoltarScript/pulls)[^6].
 - [Buy me a coffee](https://ko-fi.com/davidlms)[^7] (support my work).
 
-[^1] ZoltarScript: A custom-named script, possibly referencing the fortune-telling machine Zoltar, designed as an educational planning tool.
-[^2] Google Calendar: A cloud-based calendar service provided by Google.
-[^3] Google Sheet: A cloud-based spreadsheet service provided by Google, similar to Microsoft Excel.
-[^4] Project repository: A central location where all the project files and version history are stored, typically on platforms like GitHub.
-[^5] Issue: In the context of GitHub, an "issue" is a way to track tasks, enhancements, and bugs for projects.
-[^6] Pull request: A method of submitting contributions to a GitHub project, allowing for review before changes are merged.
-[^7] "Buy me a coffee": A common phrase used for small online donations to support content creators, not a literal invitation for coffee.
+[^1]: ZoltarScript: A custom-named script, possibly referencing the fortune-telling machine Zoltar, designed as an educational planning tool.
+[^2]: Google Calendar: A cloud-based calendar service provided by Google.
+[^3]: Google Sheet: A cloud-based spreadsheet service provided by Google, similar to Microsoft Excel.
+[^4]: Project repository: A central location where all the project files and version history are stored, typically on platforms like GitHub.
+[^5]: Issue: In the context of GitHub, an "issue" is a way to track tasks, enhancements, and bugs for projects.
+[^6]: Pull request: A method of submitting contributions to a GitHub project, allowing for review before changes are merged.
+[^7]: "Buy me a coffee": A common phrase used for small online donations to support content creators, not a literal invitation for coffee.

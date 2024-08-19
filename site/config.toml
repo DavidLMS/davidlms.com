@@ -69,8 +69,6 @@ enableRobotsTXT = true
           url = "/suscribete"
           title = ""
           weight = 5
-    [[languages.en.params.social]]
-          Twitter = "davidlmsEN"
 
 [params]
   # uBlogger CHANGED | 0.2.0 uBlogger theme version
@@ -193,7 +191,7 @@ enableRobotsTXT = true
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.png"
       # uBlogger CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      # title = "davidlms | Un blog personal"
+      title = "davidlms"
       # subtitle shown in home page
       subtitle = ""
       # whether to show social links

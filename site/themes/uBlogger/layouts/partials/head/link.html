@@ -50,3 +50,20 @@
 
 {{- /* Plausible.io */ -}}
 <script defer data-domain="davidlms.com" src="https://plausible.io/js/script.js"></script>
+
+{{- /* Language */ -}}
+<script>
+    (function() {
+        var lang = navigator.language || navigator.userLanguage;
+        lang = lang.substr(0, 2); // Obtener solo los dos primeros caracteres (ej. "es" de "es-ES")
+        
+        var supportedLangs = {{ .Site.Languages }};
+        var defaultLang = "{{ .Site.Language.Lang }}";
+        
+        if (supportedLangs.indexOf(lang) !== -1) {
+            window.location.replace("/" + lang + "/");
+        } else {
+            window.location.replace("/" + defaultLang + "/");
+        }
+    })();
+</script>

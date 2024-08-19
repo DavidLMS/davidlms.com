@@ -18,6 +18,7 @@ enableRobotsTXT = true
     languageDirection = 'ltr'
     languageName = 'Spanish'
     title = 'davidlms | Un blog personal'
+    description = 'Un blog personal'
     weight = 1
   [languages.en]
     contentDir = 'content/en'
@@ -26,13 +27,30 @@ enableRobotsTXT = true
     languageDirection = 'ltr'
     languageName = 'English'
     title = 'davidlms | A personal blog'
+    description = 'A personal blog'
     weight = 2
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      title = ""
+      weight = 1
+    [[languages.en.menu.main]]
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categories"
+      url = "/categories/"
+      title = ""
+      weight = 2
 
 [params]
   # uBlogger CHANGED | 0.2.0 uBlogger theme version
   version = "2.0.X"
   # site description
-  description = "Un blog personal"
+  # description = "Un blog personal"
   # site keywords
   keywords = ["blog","personal","responsive","posts","david","romero","informatica","educacion","computer","education"]
   # site default theme ("light", "dark", "auto")

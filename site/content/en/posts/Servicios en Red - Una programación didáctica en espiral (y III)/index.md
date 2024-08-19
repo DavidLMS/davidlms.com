@@ -89,7 +89,7 @@ aliases:
 ---
 **Important**: Translated automatically from Spanish by [🌐💬 Aphra 1.0.0](https://github.com/DavidLMS/aphra)
 
-Having defined the [objective of this curriculum design](https://davidlms.com/article/girando-alrededor-del-aprendizaje-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/), [classified the assessment criteria[^1]](https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/), and [established a general weekly plan](https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral-ii/), we'll conclude this series by **providing a detailed session-by-session breakdown of one of the units**. Specifically, **Unit 1: "Create your own hosting server"**, corresponding to weeks 3-8 of the general plan, that is, a total of 42 sessions.
+Having defined the [objective of this curriculum design](https://davidlms.com/en/girando-alrededor-del-aprendizaje-una-programación-didáctica-en-espiral/), [classified the assessment criteria[^1]](https://davidlms.com/en/servicios-en-red-una-programación-didáctica-en-espiral/), and [established a general weekly plan](https://davidlms.com/en/servicios-en-red-una-programación-didáctica-en-espiral-ii/), we'll conclude this series by **providing a detailed session-by-session breakdown of one of the units**. Specifically, **Unit 1: "Create your own hosting server"**, corresponding to weeks 3-8 of the general plan, that is, a total of 42 sessions.
 
 You have the **complete proposal** in the following table:
 

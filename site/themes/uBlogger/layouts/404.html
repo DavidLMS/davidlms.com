@@ -1,16 +1,6 @@
-{{- define "title" }}
-    {{- T "pageNotFound" | printf "404 %v" }} - {{ .Site.Title -}}
-{{- end -}}
-
+{{- define "title" }} {{- T "pageNotFound" | printf "404 %v" }} - {{ .Site.Title -}} {{- end -}}
 {{- define "content" -}}
-    <div class="page" id="content-404">
-		<p>¿Te has perdido?</p>
-        <p><strong>Esto es un Error 404.</strong> No entres en pánico, simplemente significa que este enlace no está disponible en la página. Por favor, vuelve a la <a href="/">página principal</a>.</p>
-    </div>
-    <script>
-        (function() {
-            var emojiArray = ['\\(o_o)/', '(˚Δ˚)b', '(^-^*)', '(≥o≤)', '(^_^)b', '(·_·)','(=\'X\'=)', '(>_<)', '(;-;)'];
-            document.getElementById('error-emoji').appendChild(document.createTextNode(emojiArray[Math.floor(Math.random() * emojiArray.length)]));
-        })();
-    </script>
+<h1>{{ T "404Title" }}</h1>
+
+<p>{{ T "404Description" }}</p>
 {{- end -}}

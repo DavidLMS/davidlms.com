@@ -139,8 +139,11 @@ other = "Home"
 [pageNotFound]
 other = "Page not found"
 
-[pageNotFoundText]
-other = "The page you're looking for doesn't exist. Sorry."
+[404Title]
+other = "Are you lost?"
+
+[404Description]
+other = "This is a 404 Error. Don't panic, it simply means that this link is not available on the page. Please return to the main page."
 # === 404.html ===
 
 # === shortcodes/admonition.html ===

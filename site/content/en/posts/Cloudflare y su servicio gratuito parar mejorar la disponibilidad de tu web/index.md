@@ -89,7 +89,7 @@ aliases:
 ---
 **Important**: Translated automatically from Spanish by [🌐💬 Aphra 1.0.0](https://github.com/DavidLMS/aphra)
 
-Since I started the blog, I've been transparent about its technical aspects, and in fact, you have the [How it's made](https://davidlms.com/page/como-se-hace/)[^1] section **fully updated**.
+Since I started the blog, I've been transparent about its technical aspects, and in fact, you have the [How it's made](https://davidlms.com/en/como-se-hace/)[^1] section **fully updated**.
 
 This week I registered the domain with [Cloudflare's](https://www.cloudflare.com/es-es/)[^2] **free service** to improve the website's **availability**. Want to know what it entails, how I did it, and what changes I've observed? Keep reading.
 

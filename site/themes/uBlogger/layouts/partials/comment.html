@@ -4,17 +4,13 @@
 {{- $commentConfig := dict -}}
 
 {{- if $comment.enable -}}
-    <div id="comments">
-		<div id="hyvor-talk-view"></div>
-		<script type="text/javascript">
-		    var HYVOR_TALK_WEBSITE = 4527;
-		    var HYVOR_TALK_CONFIG = {
-		        url: '{{ .Permalink }}',
-		        id: '{{ .File.UniqueID }}',
-				language: '{{ .Site.Language.Lang }}'
-		    };
-		</script>
-		<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>
+<script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
+<hyvor-talk-comments
+	website-id="4527"
+	page-id='{{ .Permalink }}'
+    page-url='{{ .File.UniqueID }}'
+    page-language='{{ .Site.Language.Lang }}'
+></hyvor-talk-comments>
         {{- /* Disqus Comment System */ -}}
         {{- $disqus := $comment.disqus | default dict -}}
         {{- if $disqus.enable -}}

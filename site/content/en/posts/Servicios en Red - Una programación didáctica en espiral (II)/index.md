@@ -89,7 +89,7 @@ aliases:
 ---
 **Important**: Translated automatically from Spanish by [🌐💬 Aphra 1.0.0](https://github.com/DavidLMS/aphra)
 
-After defining the [objective of this curriculum[^1]](https://davidlms.com/article/girando-alrededor-del-aprendizaje-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/) and [classifying the evaluation criteria[^2]](https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral/), it is time to outline in general terms **what we are going to dedicate each week to**.
+After defining the [objective of this curriculum[^1]](https://davidlms.com/en/girando-alrededor-del-aprendizaje-una-programación-didáctica-en-espiral/) and [classifying the evaluation criteria[^2]](https://davidlms.com/en/servicios-en-red-una-programación-didáctica-en-espiral/), it is time to outline in general terms **what we are going to dedicate each week to**.
 
 Ideally, we would have **worked on all learning outcomes in parallel**, deepening each of them throughout the course. However, as this is a vocational training program[^3], I thought it might be too overwhelming, so I have opted to group the learning outcomes. This way, **a set of them** will be learned in parallel. This does not mean that once a group has been worked on, they will not be revisited during the course. **The assessments and projects are designed to review the content** covered previously throughout the school year.
 
@@ -143,7 +143,7 @@ I would like those teachers who have taught the module before to **share their o
 
 Once we reach a consensus here, it will be time to decide **what content to work on and/or what criteria to evaluate in each session**.
 
-**Update**: You can now find the conclusion of this series [here](https://davidlms.com/article/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral-y-iii/).
+**Update**: You can now find the conclusion of this series [here](https://davidlms.com/en/servicios-en-red-una-programación-didáctica-en-espiral-y-iii/).
 
 [^1]: A comprehensive educational planning process in the Spanish education system, similar to curriculum development but with a focus on specific teaching strategies and methodologies.
 [^2]: Specific standards used to assess student performance and achievement in the Spanish education system.

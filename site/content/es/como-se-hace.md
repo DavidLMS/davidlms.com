@@ -31,11 +31,11 @@ En junio de 2021 un lector del blog me comentó que DISQUS no cuidaba demasiado 
 
 En agosto de 2021 llegó el momento de **cambiar la apariencia del blog**. El primer tema lo elegí rápido, por simplicidad y por centrarme pronto en el contenido. Sin embargo, viendo que había podido mantener el proyecto más de un año sin abandonarlo, llegó el momento de tomar la elección un poco más en serio. Me decanté por [uBlogger](https://themes.gohugo.io/themes/ublogger/). Pienso que es lo suficientemente moderno, pero a la vez lo suficientemente conservador, como para que pueda mantenerlo así por mucho tiempo. Hay algunas novedades, como la posibilidad del modo oscuro, así como una útil flechita para volver siempre arriba o el menú flotante de forma continua. Aunque sigo manteniendo los mismos servicios de búsqueda, comentarios y analítica. Incluso se ha corregido el histórico error que no permitía acceder al RSS del blog y me ha permitido redirigir los antiguos enlaces a los nuevos, para que no se rompa ninguno. Creo que la presentación ha ganado enteros. Para los nostálgicos, [aquí tenéis cómo se veía el blog en julio de 2021](/old2020.html).
 
-Por último, quiero mostrarte en la siguiente tabla la inversión realizada en el blog (actualizada a fecha de julio de 2021):
+Por último, quiero mostrarte en la siguiente tabla la inversión realizada en el blog (actualizada a fecha de julio de 2024):
 
 | Concepto | Fecha | Inversión |
 |:------:|:------:|:------:|
-|   Dominio (dos años)   |   Mayo 2020/2021   |   25,88$ |
-|   Analítica con Plausible (dos años)   |   Junio 2020/2021   |   96$ |
-|   Comentarios con Hyvor Talk (un año)   |   Julio 2021   |   72,60$ |
-|   TOTAL  | | 194,48$ |
+|   Dominio (cinco años)   |   Mayo 2020-24   |   64,70$ |
+|   Analítica con Plausible (cinco años)   |   Junio 2020-24   |   240$ |
+|   Comentarios con Hyvor Talk (cuatro años)   |   Julio 2021-24   |   290,40$ |
+|   TOTAL  | | 595,10$ |

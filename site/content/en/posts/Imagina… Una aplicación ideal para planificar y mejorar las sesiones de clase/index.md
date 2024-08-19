@@ -108,9 +108,14 @@ These are just **my imaginings**[^4]. If anyone knows of software, preferably op
 
 Let's continue imagining.
 
-[^1] In the Spanish education system, a "módulo" can refer to a specific unit of study within a vocational training course, which is different from a general subject or course.
-[^2] The Spanish school year typically runs from September to June, which may differ from other countries' academic calendars.
-[^3] Evaluation criteria in the Spanish education system are guidelines used to assess student performance and achievement in various subjects or domains.
-[^4] The phrase "imaginaciones mías" is used idiomatically to refer to one's personal thoughts or ideas, often with a slightly whimsical or self-deprecating tone.
-[^5] Open source software refers to programs with freely accessible source code, while self-hosted means the software can be installed and run on one's own server, providing greater control over data and customization.
-[^6] Additio, iDoceo, and Chalk Planboard are educational apps designed to help teachers with various aspects of classroom management, including lesson planning, grading, and student progress tracking.
+[^1]: In the Spanish education system, a "módulo" can refer to a specific unit of study within a vocational training course, which is different from a general subject or course.
+
+[^2]: The Spanish school year typically runs from September to June, which may differ from other countries' academic calendars.
+
+[^3]: Evaluation criteria in the Spanish education system are guidelines used to assess student performance and achievement in various subjects or domains.
+
+[^4]: The phrase "imaginaciones mías" is used idiomatically to refer to one's personal thoughts or ideas, often with a slightly whimsical or self-deprecating tone.
+
+[^5]: Open source software refers to programs with freely accessible source code, while self-hosted means the software can be installed and run on one's own server, providing greater control over data and customization.
+
+[^6]: Additio, iDoceo, and Chalk Planboard are educational apps designed to help teachers with various aspects of classroom management, including lesson planning, grading, and student progress tracking.

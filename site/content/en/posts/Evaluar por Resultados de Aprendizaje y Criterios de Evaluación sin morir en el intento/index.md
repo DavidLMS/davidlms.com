@@ -113,7 +113,7 @@ I recommend classifying the ACs of each LO into basic, intermediate, or advanced
 
 This classification will allow us to make a weighted average of these criteria to obtain a qualification of the LO. For example, we could consider that the basic ones have a weight of 4, the intermediate ones a weight of 2, and the advanced ones a weight of 1. Thus, if an LO has 6 criteria distributed as follows: c1 (basic), c2 (basic), c3 (basic), c4 (intermediate), c5 (intermediate) and c6 (advanced), the qualification of the LO would be calculated by adding the multiplications of the grade of each criterion by its corresponding weight and dividing the result by the sum of all the weights. For example:
 
-LO = (c1*4+c2*4+c3*4+c4*2+c5*2+c6*1)/(4+4+4+2+2+1)
+LO = (c1\*4+c2\*4+c3\*4+c4\*2+c5\*2+c6\*1)/(4+4+4+2+2+1)
 
 This formula calculates a weighted average of the criteria grades, giving more importance to basic criteria and less to advanced ones.
 

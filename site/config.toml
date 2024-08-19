@@ -1,9 +1,14 @@
 baseURL = "https://davidlms.com/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "es"
-# language code
-languageCode = "es"
-title = "davidlms | Un blog personal"
+
+enableGitInfo = false
+enableEmoji = true
+
+# Change the default theme to be use when building the site with Hugo
+theme = "uBlogger"
+
+enableRobotsTXT = true
 
 [languages]
   [languages.es]
@@ -22,14 +27,6 @@ title = "davidlms | Un blog personal"
     languageName = 'English'
     title = 'davidlms | A personal blog'
     weight = 2
-
-enableGitInfo = false
-enableEmoji = true
-
-# Change the default theme to be use when building the site with Hugo
-theme = "uBlogger"
-
-enableRobotsTXT = true
 
 [params]
   # uBlogger CHANGED | 0.2.0 uBlogger theme version

@@ -5,7 +5,7 @@ description: "Lo que se sabe, lo que intuyo y lo que opino del nuevo servicio de
 date: 2021-06-09T18:36:00+02:00
 lastmod: 2021-06-09T18:36:00+02:00
 draft: false
-author: "davidlms.es"
+author: "davidlms"
 
 # uBlogger NEW | 1.0.0 Article Update Information
 upd: ""

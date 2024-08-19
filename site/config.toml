@@ -191,7 +191,7 @@ enableRobotsTXT = true
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.png"
       # uBlogger CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = "davidlms | Un blog personal"
+      # title = "davidlms | Un blog personal"
       # subtitle shown in home page
       subtitle = ""
       # whether to show social links

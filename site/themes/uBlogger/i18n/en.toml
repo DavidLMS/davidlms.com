@@ -144,6 +144,15 @@ other = "Are you lost?"
 
 [404Description]
 other = "This is a 404 Error. Don't panic, it simply means that this link is not available on the page. Please return to the main page."
+
+[returnHome]
+other = "Return to the"
+
+[homePage]
+other = "home page"
+
+[switchLanguage]
+other = "Switch language"
 # === 404.html ===
 
 # === shortcodes/admonition.html ===

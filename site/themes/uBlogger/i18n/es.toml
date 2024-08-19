@@ -147,7 +147,7 @@ other = "Página no encontrada"
 other = "¿Te has perdido?"
 
 [404Description]
-other = "<strong>Esto es un Error 404</strong>. No entres en pánico, simplemente significa que este enlace no está disponible en la página. Por favor, vuelve a la <a href="/">página principal</a>."
+other = "Esto es un Error 404. No entres en pánico, simplemente significa que este enlace no está disponible en la página. Por favor, vuelve a la página principal."
 # === 404.html ===
 
 # === shortcodes/admonition.html ===

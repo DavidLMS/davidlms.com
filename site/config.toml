@@ -1,6 +1,7 @@
 baseURL = "https://davidlms.com/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "es"
+defaultContentLanguageInSubdir = true
 
 enableGitInfo = false
 enableEmoji = true

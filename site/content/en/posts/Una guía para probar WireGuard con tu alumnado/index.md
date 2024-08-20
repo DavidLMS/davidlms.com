@@ -6,7 +6,7 @@ date: 2021-02-11T18:03:00+02:00
 lastmod: 2021-02-11T18:03:00+02:00
 draft: false
 
-author: "davidlms"
+author: "davidlms.en"
 
 # uBlogger NEW | 1.0.0 Article Update Information
 upd: ""

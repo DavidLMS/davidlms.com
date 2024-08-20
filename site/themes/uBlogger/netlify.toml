@@ -11,3 +11,18 @@ HUGO_BASEURL = "https://ublogger.netlify.app"
 for = "/*"
 [headers.values]
 Access-Control-Allow-Origin = "*"
+
+[[redirects]]
+  from = "/*"
+  to = "/es/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/es/*"
+  to = "/es/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/en/*"
+  to = "/en/404.html"
+  status = 404

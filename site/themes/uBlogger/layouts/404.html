@@ -8,16 +8,38 @@
 
 {{- define "content" -}}
     <div class="page" id="content-404">
-        {{ if eq .Lang "en" }}
-            <p>Are you lost?</p>
-            <p><strong>This is a 404 Error.</strong> Don't panic, it just means this link is not available on the site. Please go back to the <a href="/en">homepage</a>.</p>
-        {{ else }}
-            <p>¿Te has perdido?</p>
-            <p><strong>Esto es un Error 404.</strong> No entres en pánico, simplemente significa que este enlace no está disponible en la página. Por favor, vuelve a la <a href="/">página principal</a>.</p>
-        {{ end }}
+        <p id="message"></p>
+        <p><a id="homepage-link" href="/"></a></p>
     </div>
     <script>
         (function() {
+            // Detectar el idioma basado en la URL
+            var lang = 'es'; // Idioma por defecto
+            if (window.location.pathname.startsWith('/en/')) {
+                lang = 'en';
+            }
+
+            // Definir los mensajes y enlaces según el idioma
+            var messages = {
+                'es': {
+                    'message': '¿Te has perdido? Esto es un Error 404. No entres en pánico, simplemente significa que este enlace no está disponible en la página. Por favor, vuelve a la ',
+                    'linkText': 'página principal',
+                    'linkHref': '/'
+                },
+                'en': {
+                    'message': 'Are you lost? This is a 404 Error. Don\'t panic, it just means this link is not available on the site. Please go back to the ',
+                    'linkText': 'homepage',
+                    'linkHref': '/en'
+                }
+            };
+
+            // Aplicar el contenido dinámico según el idioma detectado
+            document.getElementById('message').textContent = messages[lang]['message'];
+            var link = document.getElementById('homepage-link');
+            link.textContent = messages[lang]['linkText'];
+            link.href = messages[lang]['linkHref'];
+
+            // Añadir un emoji aleatorio
             var emojiArray = ['\\(o_o)/', '(˚Δ˚)b', '(^-^*)', '(≥o≤)', '(^_^)b', '(·_·)','(=\'X\'=)', '(>_<)', '(;-;)'];
             document.getElementById('error-emoji').appendChild(document.createTextNode(emojiArray[Math.floor(Math.random() * emojiArray.length)]));
         })();

@@ -1,15 +1,24 @@
 {{- define "title" }}
-    {{- T "pageNotFound" | printf "404 %v" }} - {{ .Site.Title -}}
+    {{ if eq .Lang "en" }}
+        404 - {{ .Site.Title }} - Page Not Found
+    {{ else }}
+        404 - {{ .Site.Title }} - Página no encontrada
+    {{ end }}
 {{- end -}}
 
 {{- define "content" -}}
     <div class="page" id="content-404">
-		<p>¿Te has perdido?</p>
-        <p><strong>Esto es un Error 404.</strong> No entres en pánico, simplemente significa que este enlace no está disponible en la página. Por favor, vuelve a la <a href="/">página principal</a>.</p>
+        {{ if eq .Lang "en" }}
+            <p>Are you lost?</p>
+            <p><strong>This is a 404 Error.</strong> Don't panic, it just means this link is not available on the site. Please go back to the <a href="/en">homepage</a>.</p>
+        {{ else }}
+            <p>¿Te has perdido?</p>
+            <p><strong>Esto es un Error 404.</strong> No entres en pánico, simplemente significa que este enlace no está disponible en la página. Por favor, vuelve a la <a href="/">página principal</a>.</p>
+        {{ end }}
     </div>
     <script>
         (function() {
-            var emojiArray = ['\\(o_o)/', '(˚Δ˚)b', '(^-^*)', '(≥o≤)', '(^_^)b', '(·_·)','(=\'X\'=)', '(>_<)', '(;-;)'];
+            var emojiArray = ['\\(o_o)/', '(˚Δ˚)b', '(^-^*)', '(≥o≤)', '(^_^)b', '(·_·)','(=\'X\'=)', '(>_<)', '(;-;)'];
             document.getElementById('error-emoji').appendChild(document.createTextNode(emojiArray[Math.floor(Math.random() * emojiArray.length)]));
         })();
     </script>

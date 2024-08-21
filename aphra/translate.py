@@ -3,9 +3,9 @@ Module for translating text using multiple steps and language models.
 """
 
 from dataclasses import dataclass
-from .llm_client import LLMModelClient
-from .prompts import get_prompt
-from .parsers import parse_analysis, parse_translation
+from llm_client import LLMModelClient
+from prompts import get_prompt
+from parsers import parse_analysis, parse_translation
 
 @dataclass
 class TranslationContext:

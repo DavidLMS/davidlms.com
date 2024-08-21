@@ -13,7 +13,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
-        fetch-depth: 2  # Asegura que obtengamos al menos dos commits para comparar
+        fetch-depth: 2
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -53,13 +53,16 @@ jobs:
           # Extract the folder name (post name)
           folder=$(dirname "$file")
           folder_name=$(basename "$folder")
+          post_name=$(basename "$folder_name")
 
-          # Copy the folder to the English posts directory
-          cp -r "$folder" "site/content/en/posts/$folder_name"
+          # Create the target directory if it doesn't exist
+          mkdir -p "site/content/en/posts/$post_name"
+
+          # Copy the files from the source directory to the target directory
+          cp "$folder"/* "site/content/en/posts/$post_name/"
 
           # Translate the index.md file
-          python -m aphra.translate --config_file=aphra/config.toml --source_language=Spanish --target_language=English --input_file="$folder/index.md" --output_file="site/content/en/posts/$folder_name/index.md"
-
+          python -m aphra.translate --config_file=aphra/config.toml --source_language=Spanish --target_language=English --input_file="site/content/en/posts/$post_name/index.md" --output_file="site/content/en/posts/$post_name/index.md"
         done < modified_files.txt
 
     - name: Commit changes

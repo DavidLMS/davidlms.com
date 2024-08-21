@@ -35,11 +35,14 @@ jobs:
     - name: Identify new or modified posts
       id: changes
       run: |
-        if git rev-parse HEAD^ >/dev/null 2>&1; then
+        set +e
+        git rev-parse HEAD^ >/dev/null 2>&1
+        if [ $? -eq 0 ]; then
           git diff --name-only HEAD^ HEAD | grep "^site/content/es/posts/" > modified_files.txt
         else
           git diff-tree --no-commit-id --name-only -r HEAD | grep "^site/content/es/posts/" > modified_files.txt
         fi
+        set -e
 
     - name: Translate posts
       if: steps.changes.outputs.changes != ''

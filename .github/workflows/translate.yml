@@ -1,0 +1,64 @@
+name: Translate New and Modified Posts
+
+on:
+  push:
+    paths:
+      - 'site/content/es/posts/**'
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        pip install -r aphra/requirements.txt
+
+    - name: Create config.toml
+      run: |
+        echo '[openrouter]' > aphra/config.toml
+        echo 'api_key = "${{ secrets.API_KEY_OPENROUTER }}"' >> aphra/config.toml
+        echo '' >> aphra/config.toml
+        echo '[llms]' >> aphra/config.toml
+        echo 'writer = "anthropic/claude-3.5-sonnet:beta"' >> aphra/config.toml
+        echo 'searcher = "perplexity/llama-3-sonar-large-32k-online"' >> aphra/config.toml
+        echo 'critiquer = "anthropic/claude-3.5-sonnet:beta"' >> aphra/config.toml
+
+    - name: Identify new or modified posts
+      id: changes
+      run: |
+        git diff --name-only HEAD^ HEAD | grep "^site/content/es/posts/" || echo "No changes detected" > /dev/null
+        git diff --name-only HEAD^ HEAD | grep "^site/content/es/posts/" > modified_files.txt
+
+    - name: Translate posts
+      if: steps.changes.outputs.changes != ''
+      run: |
+        while IFS= read -r file; do
+          # Extract the folder name (post name)
+          folder=$(dirname "$file")
+          folder_name=$(basename "$folder")
+
+          # Copy the folder to the English posts directory
+          cp -r "$folder" "site/content/en/posts/$folder_name"
+
+          # Translate the index.md file
+          python aphra/translate.py --config_file=aphra/config.toml --source_language=Spanish --target_language=English --input_file="$folder/index.md" --output_file="site/content/en/posts/$folder_name/index.md"
+
+        done < modified_files.txt
+
+    - name: Commit changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add site/content/en/posts/
+        git commit -m "Translated new/modified posts using Aphra"
+        git push
+      if: steps.changes.outputs.changes != ''

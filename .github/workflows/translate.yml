@@ -49,18 +49,17 @@ jobs:
     - name: Translate posts
       if: steps.read_changes.outputs.changes_detected == 'true'
       run: |
-        export PYTHONPATH=$PYTHONPATH:$(pwd)/aphra
         while IFS= read -r file; do
           # Extract the folder name (post name)
           folder=$(dirname "$file")
           folder_name=$(basename "$folder")
-    
+
           # Copy the folder to the English posts directory
           cp -r "$folder" "site/content/en/posts/$folder_name"
-    
+
           # Translate the index.md file
           python aphra/translate.py --config_file=aphra/config.toml --source_language=Spanish --target_language=English --input_file="$folder/index.md" --output_file="site/content/en/posts/$folder_name/index.md"
-    
+
         done < modified_files.txt
 
     - name: Commit changes

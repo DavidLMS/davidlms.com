@@ -42,7 +42,8 @@ jobs:
         cat modified_files.txt
 
     - name: Translate posts
-      if: steps.changes.outputs.changes != ''
+      if: |
+        [ -s modified_files.txt ]  # Verifica si modified_files.txt no está vacío
       run: |
         while IFS= read -r file; do
           # Extract the folder name (post name)
@@ -58,10 +59,11 @@ jobs:
         done < modified_files.txt
 
     - name: Commit changes
+      if: |
+        [ -s modified_files.txt ]  # Verifica si modified_files.txt no está vacío
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add site/content/en/posts/
         git commit -m "Translated new/modified posts using Aphra"
         git push
-      if: steps.changes.outputs.changes != ''

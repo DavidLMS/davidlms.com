@@ -33,10 +33,17 @@ jobs:
         echo 'critiquer = "anthropic/claude-3.5-sonnet:beta"' >> aphra/config.toml
 
     - name: Identify new or modified posts
-      id: changes
-      run: |
-        git diff --name-only HEAD^ HEAD | grep "^site/content/es/posts/" || echo "No changes detected" > /dev/null
-        git diff --name-only HEAD^ HEAD | grep "^site/content/es/posts/" > modified_files.txt
+    id: changes
+    run: |
+      if [ $(git rev-parse --is-inside-work-tree) ]; then
+        if git rev-parse HEAD^2 >/dev/null 2>&1; then
+          git diff --name-only HEAD^ HEAD | grep "^site/content/es/posts/" > modified_files.txt
+        else
+          git diff-tree --no-commit-id --name-only -r HEAD | grep "^site/content/es/posts/" > modified_files.txt
+        fi
+      else
+        echo "No git repository found" > /dev/null
+      fi
 
     - name: Translate posts
       if: steps.changes.outputs.changes != ''

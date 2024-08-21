@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        fetch-depth: 2  # Asegura que obtengamos al menos dos commits para comparar
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -35,20 +37,8 @@ jobs:
     - name: Identify new or modified posts
       id: changes
       run: |
-        set +e
-        git rev-parse HEAD^ >/dev/null 2>&1
-        if [ $? -eq 0 ]; then
-          git diff --name-only HEAD^ HEAD | grep "^site/content/es/posts/" > modified_files.txt
-        else
-          git diff-tree --no-commit-id --name-only -r HEAD | grep "^site/content/es/posts/" > modified_files.txt
-        fi
-        set -e
+        git log -m -1 --name-only --pretty=format:'' | grep "^site/content/es/posts/" > modified_files.txt
         echo "Modified files detected:"
-        cat modified_files.txt
-
-    - name: Debugging - Show modified files
-      run: |
-        echo "Files detected as modified:"
         cat modified_files.txt
 
     - name: Translate posts

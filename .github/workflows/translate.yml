@@ -62,7 +62,13 @@ jobs:
           cp "$folder"/* "site/content/en/posts/$post_name/"
 
           # Translate the index.md file
+          echo "Running translation for $post_name"
           python -m aphra.translate --config_file=aphra/config.toml --source_language=Spanish --target_language=English --input_file="site/content/en/posts/$post_name/index.md" --output_file="site/content/en/posts/$post_name/index.md"
+
+          # Verify translation
+          echo "Translation result for $post_name:"
+          cat "site/content/en/posts/$post_name/index.md"
+
         done < modified_files.txt
 
     - name: Commit changes

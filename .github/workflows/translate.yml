@@ -37,7 +37,7 @@ jobs:
     - name: Identify new or modified posts
       id: changes
       run: |
-        git log -m -1 --name-only --pretty=format:'' --diff-filter=AM | grep "^site/content/es/posts/" > modified_files.txt
+        git diff --name-only --diff-filter=AM HEAD^ HEAD | grep "^site/content/es/posts/" > modified_files.txt
         if [ -s modified_files.txt ]; then echo "true" > .changes_detected; else echo "false" > .changes_detected; fi
         echo "Modified or added files detected:"
         cat modified_files.txt

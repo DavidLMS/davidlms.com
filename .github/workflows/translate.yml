@@ -43,6 +43,13 @@ jobs:
           git diff-tree --no-commit-id --name-only -r HEAD | grep "^site/content/es/posts/" > modified_files.txt
         fi
         set -e
+        echo "Modified files detected:"
+        cat modified_files.txt
+
+    - name: Debugging - Show modified files
+      run: |
+        echo "Files detected as modified:"
+        cat modified_files.txt
 
     - name: Translate posts
       if: steps.changes.outputs.changes != ''

@@ -1,5 +1,5 @@
 ---
-title: "Test Translation"
+title: "Automatic Translation Test"
 subtitle: ""
 description: ""
 date: 2024-08-21T16:22:00+02:00
@@ -36,7 +36,7 @@ summaryStyle:
       background: "black"
       # uBlogger NEW | 1.1.0 Tag transparency
       transparency: 0.9
-tags: ['reflective', 'learning']
+tags: ['translation', 'software testing']
 categories: ['Personal']
 resources:
 - name: "featured-image"
@@ -85,12 +85,13 @@ seo:
   images: []
   # ...
 ---
+
 **Important**: Translated automatically from Spanish by [🌐💬 Aphra 1.0.0](https://github.com/DavidLMS/aphra)
 
-This post is intended to verify that automatic translations using [**Aphra 1.0.0**](https://github.com/DavidLMS/aphra)[^1] are functioning correctly.
+This post serves to verify the functionality of automatic translations using [**Aphra 1.0.0**][^1](https://github.com/DavidLMS/aphra).
 
-[^1]: Aphra 1.0.0 is a software tool designed to assist translators with various aspects of translation, including terminology management, quality assurance, and spell-checking. It is part of the evolution of Computer-Assisted Translation (CAT) tools and represents advancements in technology to support translation efficiency and consistency.
+Update successful![^2]
 
-[^2]: uBlogger, mentioned in the configuration metadata, refers to a blogging platform or theme used for structuring and displaying blog content.
+[^1]: Aphra 1.0.0 is an open-source automatic translation tool available on GitHub, designed to assist in software localization and content translation.
 
-[^3]: The extensive metadata at the beginning of the post is configuration information for the blog platform, which is why it remains largely unchanged in the translation.
+[^2]: In Spanish, "¡Cambiado!" is an exclamation indicating a sudden change or update. In the context of software testing, it likely indicates a successful change or update in the system being tested.

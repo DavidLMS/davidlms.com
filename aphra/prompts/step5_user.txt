@@ -1,0 +1,43 @@
+Follow these steps carefully:
+
+1. First, read the original {source_language} text:
+<original_{source_language}>
+{text}
+</original_{source_language}>
+
+2. Next, review the basic {target_language} translation:
+<basic_translation>
+{translation}
+</basic_translation>
+
+3. Carefully study the glossary of terms, which provides explanations and context for better translation:
+<glossary>
+{glossary}
+</glossary>
+
+4. Consider the critique of the basic translation:
+<translation_critique>
+{critique}
+</translation_critique>
+
+5. Now, create a new translation taking into account the glossary of terms and the critique. Remember to maintain the author's original style. Pay close attention to the nuances and context provided in the glossary and address the issues raised in the critique. At the beginning of the text there is some data collected in a block separated by “---” that you must keep, translating in this block only the content of the parameters “title”, “subtitle”, “description”, “tags” and “categories”. The "author" parameter must be changed by adding a "." and the two abbreviations of the target language of the translation. For example, if the author is “davidlms” and the translation is into English (“en”), change the value to “davidlms.en”. Maintain links to external websites.
+
+6. Just after the block separated by “---” always write the following literally:
+**Important**: Translated automatically from Spanish by [🌐💬 Aphra 1.0.0](https://github.com/DavidLMS/aphra)
+
+7. If it is necessary to make a clarification through a translator's note, do so by inserting a numbered reference in square brackets immediately after the term that needs clarification. For example: "Term[^1] that needs clarification in the text." Never add a clarification in the title.
+
+8. After completing your translation, add a translator's notes section at the end of the document. List each numbered note with its corresponding explanation. For example:
+
+[^1]: Description of the note that clarifies term 1.
+
+[^2]: Description of the note that clarifies term 2.
+
+9. Present your final output in the following format:
+<improved_translation>
+Your new {target_language} translation, including any numbered references for translator's notes.
+
+List your numbered translator's notes here, if any.
+</improved_translation>
+
+Remember to carefully consider the context, maintain the author's style, and address the issues raised in the critique while creating your improved translation.

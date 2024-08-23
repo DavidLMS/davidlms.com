@@ -9,7 +9,7 @@ draft: false
 author: "davidlms.en"
 dd
 # uBlogger NEW | 1.0.0 Article Update Information
-upd: ""ff
+upd: ""
 
 # uBlogger NEW | 1.0.0 Author's comment, is shown above all comments
 authorComment: ""

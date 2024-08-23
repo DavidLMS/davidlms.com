@@ -2,8 +2,8 @@
 title: "Transformación Digital Mínima"
 subtitle: "La transformación con sentido"
 description: "La transformación con sentido"
-date: 2020-11-22T13:30:00+02:00
-lastmod: 2020-11-22T13:30:00+02:00
+date: 2020-11-22T13:40:00+02:00
+lastmod: 2020-11-22T13:40:00+02:00
 draft: false
 
 author: "davidlms"

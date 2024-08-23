@@ -43,11 +43,15 @@ jobs:
     - name: Translate posts
       if: steps.changes.outputs.changes_detected == 'true'
       run: |
-        while IFS= read -r file; do
+        # Leer el archivo completo en un array
+        readarray -t files < modified_files.txt
+      
+        # Iterar sobre cada archivo
+        for file in "${files[@]}"; do
           # Remove leading and trailing quotes
           file=$(echo "$file" | sed 's/^"//; s/"$//')
       
-          # Handle spaces and special characters properly by using double quotes around variables
+          # Extract the folder name (post name)
           folder=$(dirname "$file")
           folder_name=$(basename "$folder")
           post_name=$(basename "$folder_name")
@@ -60,7 +64,7 @@ jobs:
       
           # Translate the index.md file
           python translate_runner.py aphra/config.toml Spanish English "$folder/index.md" "site/content/en/posts/$folder_name/index.md"
-        done < modified_files.txt
+        done
 
     - name: Commit changes
       if: steps.changes.outputs.changes_detected == 'true'

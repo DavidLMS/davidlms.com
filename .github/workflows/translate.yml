@@ -37,7 +37,7 @@ jobs:
     - name: Identify new or modified posts
       id: changes
       run: |
-        git diff --name-only --diff-filter=AMR HEAD^ HEAD | tr -d '"' | grep "^site/content/es/posts/" | grep "index.md$" | sed 's/^/"/; s/$/"/' | perl -pe 's/\\([0-3][0-7]{2})/chr(oct($1))/ge' > modified_files.txt || true
+        git diff --name-only --diff-filter=AMR HEAD^ HEAD | tr -d '"' | grep "^site/content/es/posts/" | grep "index.md$" | perl -pe 's/\\([0-3][0-7]{2})/chr(oct($1))/ge' > modified_files.txt || true
         if [ -s modified_files.txt ]; then echo "changes_detected=true" >> $GITHUB_OUTPUT; else echo "changes_detected=false" >> $GITHUB_OUTPUT; fi
 
     - name: Translate posts

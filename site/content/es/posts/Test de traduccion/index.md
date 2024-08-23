@@ -88,4 +88,4 @@ seo:
 
 Este post es solo para comprobar que las traducción automáticas con [**Aphra 1.0.0**](https://github.com/DavidLMS/aphra) funcionan.
 
-Modificado.
+Cambiado.

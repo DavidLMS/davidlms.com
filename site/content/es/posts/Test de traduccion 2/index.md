@@ -1,9 +1,9 @@
 ---
-title: "Test de traducción 2"
+title: "Test de traducción"
 subtitle: ""
 description: ""
-date: 2024-08-21T16:23:00+02:00
-lastmod: 2024-08-21T16:23:00+02:00
+date: 2024-08-21T16:22:00+02:00
+lastmod: 2024-08-21T16:22:00+02:00
 draft: false
 
 author: "davidlms"
@@ -87,3 +87,5 @@ seo:
 ---
 
 Este post es solo para comprobar que las traducción automáticas con [**Aphra 1.0.0**](https://github.com/DavidLMS/aphra) funcionan.
+
+¡Nuevo!

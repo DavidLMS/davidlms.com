@@ -1,9 +1,9 @@
 ---
-title: "Translation Test"
+title: "Translation Test 2"
 subtitle: ""
 description: ""
-date: 2024-08-21T16:22:00+02:00
-lastmod: 2024-08-21T16:22:00+02:00
+date: 2024-08-21T16:23:00+02:00
+lastmod: 2024-08-21T16:23:00+02:00
 draft: false
 
 author: "davidlms.en"
@@ -36,7 +36,7 @@ summaryStyle:
       background: "black"
       # uBlogger NEW | 1.1.0 Tag transparency
       transparency: 0.9
-tags: ['introspection', 'learning']
+tags: ['reflection', 'learning process']
 categories: ['Personal']
 resources:
 - name: "featured-image"
@@ -88,10 +88,10 @@ seo:
 
 **Important**: Translated automatically from Spanish by [🌐💬 Aphra 1.0.0](https://github.com/DavidLMS/aphra)
 
-This post serves to verify that automatic translations using [**Aphra 1.0.0**](https://github.com/DavidLMS/aphra)[^1] are functioning correctly.
+The purpose of this post is to test the functionality of automatic translations using [**Aphra 1.0.0**](https://github.com/DavidLMS/aphra)[^1].
 
-Update: Changes made![^2]
+Update: Changes have been made![^2]
 
-[^1]: Aphra is an open-source automatic translation tool specifically designed for web content and blog posts. Version 1.0.0 refers to a specific release of this software.
+[^1]: Aphra 1.0.0 is an automatic translation tool available on GitHub. It is designed to assist in the translation process, particularly for developers and translators working on software projects.
 
-[^2]: In Spanish web content, "¡Modificado!" is commonly used to indicate that a post or page has been updated or edited after its initial publication. The exclamation mark adds emphasis to notify readers of the change.
+[^2]: This phrase, originally "¡Modificado!" in Spanish, is commonly used in digital communication to indicate that changes have been made to a document or post.

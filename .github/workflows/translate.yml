@@ -37,42 +37,27 @@ jobs:
     - name: Identify new or modified posts
       id: changes
       run: |
-        git diff --name-only --diff-filter=AMR HEAD^ HEAD | tr -d '"' | grep "^site/content/es/posts/" | grep "index.md$" | sed 's/^/"/; s/$/"/' > modified_files.txt || true
+        git diff --name-only --diff-filter=AMR HEAD^ HEAD | tr -d '"' | grep "^site/content/es/posts/" | grep "index.md$" | sed 's/^/"/; s/$/"/' | perl -pe 's/\\([0-3][0-7]{2})/chr(oct($1))/ge' > modified_files.txt || true
         if [ -s modified_files.txt ]; then echo "changes_detected=true" >> $GITHUB_OUTPUT; else echo "changes_detected=false" >> $GITHUB_OUTPUT; fi
 
     - name: Translate posts
       if: steps.changes.outputs.changes_detected == 'true'
       run: |
-        cat modified_files.txt | python -c "
-        import sys
-        import os
-        import urllib.parse
-        
-        def decode_path(path):
-            return urllib.parse.unquote(path)
-        
-        files = sys.stdin.read().splitlines()
-        
-        for file in files:
-            file = decode_path(file.strip().strip('\"'))
-        
-            folder = os.path.dirname(file)
-            folder_name = os.path.basename(folder)
-            post_name = os.path.basename(folder_name)
-        
-            dest_dir = f'site/content/en/posts/{post_name}'
-            os.makedirs(dest_dir, exist_ok=True)
-        
-            for item in os.listdir(folder):
-                s = os.path.join(folder, item)
-                d = os.path.join(dest_dir, item)
-                if os.path.isdir(s):
-                    shutil.copytree(s, d, dirs_exist_ok=True)
-                else:
-                    shutil.copy2(s, d)
-        
-            os.system(f'python translate_runner.py aphra/config.toml Spanish English \"{file}\" \"{dest_dir}/index.md\"')
-        "
+        while IFS= read -r file; do
+          # Extract the folder name (post name)
+          folder=$(dirname "$file")
+          folder_name=$(basename "$folder")
+          post_name=$(basename "$folder_name")
+
+          # Create the target directory if it doesn't exist
+          mkdir -p "site/content/en/posts/$post_name"
+
+          # Copy the files from the source directory to the target directory
+          cp "$folder"/* "site/content/en/posts/$post_name/"
+
+          # Translate the index.md file
+          python translate_runner.py aphra/config.toml Spanish English "$folder/index.md" "site/content/en/posts/$folder_name/index.md"
+        done < modified_files.txt
 
     - name: Commit changes
       if: steps.changes.outputs.changes_detected == 'true'

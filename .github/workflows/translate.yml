@@ -38,16 +38,12 @@ jobs:
       id: changes
       run: |
         git diff --name-only --diff-filter=AMR HEAD^ HEAD | tr -d '"' | grep "^site/content/es/posts/" | grep "index.md$" > modified_files.txt
-        if [ -s modified_files.txt ]; then echo "true" > .changes_detected; else echo "false" > .changes_detected; fi
+        if [ -s modified_files.txt ]; then echo "changes_detected=true" >> $GITHUB_OUTPUT; else echo "changes_detected=false" >> $GITHUB_OUTPUT; fi
         echo "Modified or added files detected:"
         cat modified_files.txt
 
-    - name: Read changes detected
-      id: read_changes
-      run: echo "::set-output name=changes_detected::$(cat .changes_detected)"
-
     - name: Translate posts
-      if: steps.read_changes.outputs.changes_detected == 'true'
+      if: steps.changes.outputs.changes_detected == 'true'
       run: |
         while IFS= read -r file; do
           # Extract the folder name (post name)
@@ -66,7 +62,7 @@ jobs:
         done < modified_files.txt
 
     - name: Commit changes
-      if: steps.read_changes.outputs.changes_detected == 'true'
+      if: steps.changes.outputs.changes_detected == 'true'
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"

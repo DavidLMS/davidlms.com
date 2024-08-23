@@ -1,9 +1,9 @@
 ---
-title: "Test de traducción 2"
+title: "Test de traducción"
 subtitle: ""
 description: ""
-date: 2024-08-21T16:23:00+02:00
-lastmod: 2024-08-21T16:23:00+02:00
+date: 2024-08-21T16:22:00+02:00
+lastmod: 2024-08-21T16:22:00+02:00
 draft: false
 
 author: "davidlms"

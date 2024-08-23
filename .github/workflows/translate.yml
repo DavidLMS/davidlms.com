@@ -47,7 +47,7 @@ jobs:
           # Remove leading and trailing quotes
           file=$(echo "$file" | sed 's/^"//; s/"$//')
       
-          # Extract the folder name (post name)
+          # Handle spaces and special characters properly by using double quotes around variables
           folder=$(dirname "$file")
           folder_name=$(basename "$folder")
           post_name=$(basename "$folder_name")

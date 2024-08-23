@@ -43,20 +43,36 @@ jobs:
     - name: Translate posts
       if: steps.changes.outputs.changes_detected == 'true'
       run: |
-        cat modified_files.txt | while IFS= read -r file; do
-          # Remove leading and trailing quotes
-          file=$(echo "$file" | sed 's/^"//; s/"$//')
-
-          folder=$(dirname "$file")
-          folder_name=$(basename "$folder")
-          post_name=$(basename "$folder_name")
-      
-          mkdir -p "site/content/en/posts/$post_name"
-      
-          find "$folder" -maxdepth 1 -type f -print0 | xargs -0 -I {} cp {} "site/content/en/posts/$post_name/"
-
-          python translate_runner.py aphra/config.toml Spanish English "$folder/index.md" "site/content/en/posts/$post_name/index.md"
-        done
+        cat modified_files.txt | python -c "
+          import sys
+          import os
+          import urllib.parse
+          
+          def decode_path(path):
+              return urllib.parse.unquote(path)
+          
+          files = sys.stdin.read().splitlines()
+          
+          for file in files:
+              file = decode_path(file.strip().strip('\"'))
+          
+              folder = os.path.dirname(file)
+              folder_name = os.path.basename(folder)
+              post_name = os.path.basename(folder_name)
+          
+              dest_dir = f'site/content/en/posts/{post_name}'
+              os.makedirs(dest_dir, exist_ok=True)
+          
+              for item in os.listdir(folder):
+                  s = os.path.join(folder, item)
+                  d = os.path.join(dest_dir, item)
+                  if os.path.isdir(s):
+                      shutil.copytree(s, d, dirs_exist_ok=True)
+                  else:
+                      shutil.copy2(s, d)
+          
+              os.system(f'python translate_runner.py aphra/config.toml Spanish English \"{file}\" \"{dest_dir}/index.md\"')
+          "
 
     - name: Commit changes
       if: steps.changes.outputs.changes_detected == 'true'

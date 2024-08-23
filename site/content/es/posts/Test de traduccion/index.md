@@ -1,5 +1,5 @@
 ---
-title: "Test de traducción"
+title: "Test de traducción 2"
 subtitle: ""
 description: ""
 date: 2024-08-21T16:22:00+02:00

@@ -56,7 +56,7 @@ jobs:
           cp "$folder"/* "site/content/en/posts/$post_name/"
 
           # Translate the index.md file
-          python translate_runner.py aphra/config.toml Spanish English "$folder/index.md" "site/content/en/posts/$folder_name/index.md"
+          python aphra_runner.py aphra/config.toml Spanish English "$folder/index.md" "site/content/en/posts/$folder_name/index.md"
         done < modified_files.txt
 
     - name: Commit changes

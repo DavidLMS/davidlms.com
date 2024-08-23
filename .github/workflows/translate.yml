@@ -43,27 +43,19 @@ jobs:
     - name: Translate posts
       if: steps.changes.outputs.changes_detected == 'true'
       run: |
-        # Leer el archivo completo en un array
-        readarray -t files < modified_files.txt
-      
-        # Iterar sobre cada archivo
-        for file in "${files[@]}"; do
+        cat modified_files.txt | while IFS= read -r file; do
           # Remove leading and trailing quotes
           file=$(echo "$file" | sed 's/^"//; s/"$//')
-      
-          # Extract the folder name (post name)
+
           folder=$(dirname "$file")
           folder_name=$(basename "$folder")
           post_name=$(basename "$folder_name")
       
-          # Create the target directory if it doesn't exist
           mkdir -p "site/content/en/posts/$post_name"
       
-          # Copy the files from the source directory to the target directory
-          cp "$folder"/* "site/content/en/posts/$post_name/"
-      
-          # Translate the index.md file
-          python translate_runner.py aphra/config.toml Spanish English "$folder/index.md" "site/content/en/posts/$folder_name/index.md"
+          find "$folder" -maxdepth 1 -type f -print0 | xargs -0 -I {} cp {} "site/content/en/posts/$post_name/"
+
+          python translate_runner.py aphra/config.toml Spanish English "$folder/index.md" "site/content/en/posts/$post_name/index.md"
         done
 
     - name: Commit changes

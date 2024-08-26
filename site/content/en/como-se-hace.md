@@ -9,7 +9,7 @@ aliases:
 
 Are you interested in knowing how this blog is made on a technical level, what investment it entails, and what its visitor statistics are? As an exercise in transparency, I'm launching this section, based on the publication [**How it's done**](https://davidlms.com/article/c%C3%B3mo-se-hace-un-blog-a-coste-0/) and which will be updated with any new developments that arise.
 
-To start, I registered the domain davidlms.com. Specifically, I used the [namecheap](https://www.namecheap.com) platform, which cost $12.94 (including SSL certificate) with the option to renew on May 11, 2021.
+To start, I registered the domain davidlms.com. Specifically, I used the [namecheap](https://www.namecheap.com) platform, which cost $12.94 (including SSL certificate) with the option to renew every May.
 
 I knew I wanted a static website that was easy to maintain. I was looking for something simple, with minimal loading times, that would allow me to write articles in Markdown. That's when I discovered the Hugo framework.
 
@@ -31,11 +31,13 @@ In June 2021, a blog reader commented that, to put it mildly, DISQUS didn't take
 
 In August 2021, it was time to change the blog's appearance. I chose the first theme quickly, for simplicity and to focus soon on the content. However, seeing that I had been able to maintain the project for more than a year without abandoning it, it was time to take the choice a little more seriously. I opted for [uBlogger](https://themes.gohugo.io/themes/ublogger/). I think it's modern enough, but at the same time conservative enough, that I can maintain it like this for a long time. There are some new features, like the possibility of dark mode, as well as a useful little arrow to always go back to the top or the continuously floating menu. Although I'm still maintaining the same search, comment, and analytics services. It has even corrected the historical error that didn't allow access to the blog's RSS and has allowed me to redirect old links to new ones, so that none break. I believe the presentation has gained points. For the nostalgic, [here you can see how the blog looked in July 2021](/old2020.html).
 
-Lastly, I want to show you in the following table the investment made in the blog (updated as of July 2024):
+In August 2024, I wanted to try offering an **English version of the blog** automatically, using generative language models. I wasn't satisfied with the general automated translations available because they often contained contextual errors. My intention was for the translations to maintain my style but adapt as much as possible to an English-reading audience, making clarifications with notes if necessary to explain entities or concepts that only apply in my context. So, to meet this need, I developed [🌐💬 Aphra](https://github.com/DavidLMS/aphra), releasing the project so that anyone else could use it too. To integrate it seamlessly, I implemented a [Github Action](https://github.com/DavidLMS/davidlms.com/blob/master/.github/workflows/translate.yml) in the blog repository. This way, if a new article was added or an existing one was modified, 🌐💬 Aphra would automatically translate it. Fortunately, the theme I chose in 2021 was compatible with a multi-language approach, so I had to make only a few changes to the site’s file structure.
+
+Lastly, I want to show you in the following table the investment made in the blog (updated as of July 2024; I've omitted the English translation costs, which are about 20-30 cents per article):
 
 | Concept | Date | Investment |
 |:------:|:------:|:------:|
 |   Domain (five years)   |   May 2020-24   |   $64.70 |
 |   Analytics with Plausible (five years)   |   June 2020-24   |   $240 |
-|   Comments with Hyvor Talk (one year)   |   July 2021-24   |   $290.40 |
+|   Comments with Hyvor Talk (four years)   |   July 2021-24   |   $290.40 |
 |   TOTAL  | | $595.10 |

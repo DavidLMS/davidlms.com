@@ -8,7 +8,6 @@ draft: false
 
 author: "davidlms"
 
-# uBlogger NEW | 1.0.0 Article Update Information
 upd: ""
 
 # uBlogger NEW | 1.0.0 Author's comment, is shown above all comments

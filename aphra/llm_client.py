@@ -64,7 +64,10 @@ class LLMModelClient:
                     {"role": "user", "content": user_prompt}
                 ]
             )
-            response_content = response.choices[0].message.content
+            if response and response.choices:
+                response_content = response.choices[0].message.content
+            else:
+                logging.error('API response not valid: %s', response)
 
             if log_call:
                 self.log_model_call(user_prompt, response_content)

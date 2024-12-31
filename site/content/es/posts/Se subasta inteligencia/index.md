@@ -19,7 +19,6 @@ theme: ""
 # uBlogger NEW | 1.2.0 Allows you to hide the preview image on the article page
 hiddenFeaturedImage: false
 
-# uBlogger  | 1.2.0 Post display settings on the page
 summaryStyle:
     hiddenImage: false
     # uBlogger NEW | 1.1.0 Allows you to hide the description

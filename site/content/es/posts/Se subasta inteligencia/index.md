@@ -10,7 +10,6 @@ author: "davidlms"
 
 upd: ""
 
-# uBlogger NEW | 1.0.0 Author's comment, is shown above all comments
 authorComment: ""
 
 # uBlogger  | 1.2.0 article design theme

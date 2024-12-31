@@ -21,7 +21,6 @@ hiddenFeaturedImage: false
 
 # uBlogger  | 1.2.0 Post display settings on the page
 summaryStyle:
-    # uBlogger NEW | 1.1.0 Display previews on the page of posts
     hiddenImage: false
     # uBlogger NEW | 1.1.0 Allows you to hide the description
     hiddenDescription: false

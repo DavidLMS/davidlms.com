@@ -75,7 +75,7 @@ class LLMModelClient:
             raise
         except (ValueError, KeyError, TypeError) as e:
             logging.error('Error parsing response: %s', e)
-            logging.error('Response content: %s', response.text if response else 'No response')
+            logging.error('Response id: %s', response.id if response else 'No response')
             raise
 
     def log_model_call(self, user_prompt, response):

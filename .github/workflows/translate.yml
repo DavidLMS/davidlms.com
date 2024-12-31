@@ -1,10 +1,10 @@
 name: Translate New and Modified Posts
 
 on:
-  #push:
-   # paths:
-    #  - 'site/content/es/posts/**'
-  workflow_dispatch:
+  push:
+    paths:
+      - 'site/content/es/posts/**'
+  #workflow_dispatch:
 
 jobs:
   translate:

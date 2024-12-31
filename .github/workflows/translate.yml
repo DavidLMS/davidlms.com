@@ -31,7 +31,7 @@ jobs:
         echo '' >> aphra/config.toml
         echo '[llms]' >> aphra/config.toml
         echo 'writer = "anthropic/claude-3.5-sonnet:beta"' >> aphra/config.toml
-        echo 'searcher = "perplexity/llama-3-sonar-large-32k-online"' >> aphra/config.toml
+        echo 'searcher = "perplexity/llama-3.1-sonar-large-128k-online"' >> aphra/config.toml
         echo 'critiquer = "anthropic/claude-3.5-sonnet:beta"' >> aphra/config.toml
 
     - name: Identify new or modified posts

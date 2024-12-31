@@ -8,8 +8,10 @@ draft: false
 
 author: "davidlms"
 
+# uBlogger NEW | 1.0.0 Article Update Information
 upd: ""
 
+# uBlogger NEW | 1.0.0 Author's comment, is shown above all comments
 authorComment: ""
 
 # uBlogger  | 1.2.0 article design theme
@@ -17,7 +19,9 @@ theme: ""
 # uBlogger NEW | 1.2.0 Allows you to hide the preview image on the article page
 hiddenFeaturedImage: false
 
+# uBlogger  | 1.2.0 Post display settings on the page
 summaryStyle:
+    # uBlogger NEW | 1.1.0 Display previews on the page of posts
     hiddenImage: false
     # uBlogger NEW | 1.1.0 Allows you to hide the description
     hiddenDescription: false

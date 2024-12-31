@@ -11,7 +11,7 @@ author: "davidlms.en"
 upd: ""
 
 authorComment: ""
-[Technical parameters remain unchanged]
+
 tags: ['reflection', 'artificial intelligence']
 categories: ['Educational Reflections']
 ---

@@ -1,0 +1,53 @@
+name: Generate llms.txt
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  generate_and_commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push changes back to the repository
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9' 
+
+      - name: Install dependencies
+        run: pip install toml
+
+      - name: Run script to generate llms.txt files
+        run: python aphra/generate_main_llms_txt.py
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Stage changes
+        run: |
+          git add site/static/llms.txt
+          # Add post-specific llms.txt files. The glob should work.
+          # If post directories are directly under 'es/posts/' or 'en/posts/'
+          git add site/content/es/posts/**/llms.txt
+          git add site/content/en/posts/**/llms.txt
+          # A more general glob if structure is less fixed (but might pick up unintended files if any)
+          # git add site/content/**/llms.txt 
+
+      - name: Commit and push if changes
+        run: |
+          # See if there are any changes to commit
+          if ! git diff --staged --quiet; then
+            git commit -m "Automated update of llms.txt files"
+            git push
+          else
+            echo "No changes to llms.txt files to commit."
+          fi

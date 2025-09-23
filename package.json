@@ -13,11 +13,12 @@
     "preview:hugo": "npm run start:hugo -- -D -F",
     "preview:webpack": "npm run start:webpack",
     "prebuild": "rimraf dist",
-    "build": "npm run build:webpack && npm run build:hugo",
-    "build:preview": "npm run build:webpack && npm run build:hugo:preview",
+    "build": "npm run build:webpack && npm run build:hugo && npm run copy:markdown",
+    "build:preview": "npm run build:webpack && npm run build:hugo:preview && npm run copy:markdown",
     "build:hugo": "hugo -d ../dist -s site",
     "build:hugo:preview": "npm run build:hugo -- -D -F",
-    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
+    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
+    "copy:markdown": "node scripts/copy-markdown.js"
   },
   "author": "",
   "license": "MIT",

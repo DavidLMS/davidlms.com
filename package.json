@@ -7,15 +7,15 @@
   "scripts": {
     "lint": "eslint src",
     "start": "run-p start:**",
-    "start:hugo": "hugo -d ../dist -s site -vw",
-    "start:webpack": "webpack-dev-server --config webpack.dev.js --hot",
+    "start:hugo": "hugo -d ../dist -s site --baseURL http://localhost:3000/ --watch",
+    "start:webpack": "cross-env WATCHPACK_POLLING=true CHOKIDAR_USEPOLLING=1 webpack-dev-server --config webpack.dev.js --hot",
     "preview": "run-p preview:**",
     "preview:hugo": "npm run start:hugo -- -D -F",
     "preview:webpack": "npm run start:webpack",
     "prebuild": "rimraf dist",
     "build": "npm run build:webpack && npm run build:hugo",
     "build:preview": "npm run build:webpack && npm run build:hugo:preview",
-    "build:hugo": "hugo -d ../dist -s site -v",
+    "build:hugo": "hugo -d ../dist -s site",
     "build:hugo:preview": "npm run build:hugo -- -D -F",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
   },
@@ -39,10 +39,9 @@
     "exports-loader": "^0.7.0",
     "fancy-log": "^1.3.2",
     "file-loader": "^4.1.0",
-    "hugo-bin": "^0.58.0",
+    "hugo-bin": "^0.140.0",
     "imports-loader": "^0.8.0",
     "mini-css-extract-plugin": "^0.9.0",
-    "node-sass": "^4.13.1",
     "npm-run-all": "^4.1.5",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "plugin-error": "^1.0.1",
@@ -50,6 +49,7 @@
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^6.7.0",
     "rimraf": "^3.0.0",
+    "sass": "^1.77.5",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.1.4",
     "uglifyjs-webpack-plugin": "^2.1.3",
@@ -62,5 +62,8 @@
   },
   "resolutions": {
     "natives": "1.1.6"
+  },
+  "hugo-bin": {
+    "buildTags": "extended"
   }
 }

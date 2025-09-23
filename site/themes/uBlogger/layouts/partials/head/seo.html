@@ -28,7 +28,7 @@
         {{- with .Site.LanguageCode -}}
             "inLanguage": "{{ . }}",
         {{- end -}}
-        {{- with .Site.Author.name -}}
+        {{- with .Site.Params.author.name -}}
             "author": {
                 "@type": "Person",
                 "name": {{ . | safeHTML }}
@@ -126,7 +126,7 @@
         {{- with .Site.Copyright -}}
             "license": {{ . | safeHTML }},
         {{- end -}}
-        {{- $publisherName := default .Site.Author.name | default " " -}}
+        {{- $publisherName := default .Site.Params.author.name | default " " -}}
         {{- $publisherPath := print "data/authors/" $publisherName ".json" -}}
         {{ if (fileExists $publisherPath) -}}
         {{ $publisher := index .Site.Data.authors $publisherName }}
@@ -143,7 +143,7 @@
             {{- end -}}
         },
         {{- end -}}
-        {{- $authorName := $params.author | default .Site.Author.name | default " " -}}
+        {{- $authorName := $params.author | default .Site.Params.author.name | default " " -}}
         {{- $authorPath := print "data/authors/" $authorName ".json" -}}
         {{ if (fileExists $authorPath) -}}
         {{ $author := index .Site.Data.authors $authorName }}

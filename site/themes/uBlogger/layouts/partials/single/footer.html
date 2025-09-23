@@ -12,7 +12,7 @@
     {{- partial "plugin/share.html" . -}}
 </div>
 
-{{- $authorName := $params.author | default .Site.Author.name | default " " -}}
+{{- $authorName := $params.author | default .Site.Params.author.name | default " " -}}
 {{ $author := "" }}
 {{- $authorPath := print "data/authors/" $authorName ".json" -}}
 {{ if (fileExists $authorPath) -}}

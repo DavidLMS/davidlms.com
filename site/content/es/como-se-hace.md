@@ -33,11 +33,13 @@ En agosto de 2021 llegó el momento de **cambiar la apariencia del blog**. El pr
 
 En agosto de 2024 quise probar a **ofrecer una versión en inglés del blog** de forma automática, utilizando modelos de lenguaje generativos. No me bastaban las traducciones automáticas disponibles de forma general, porque solían contener errores de contexto. Mi intención era que las traducciones mantuviesen mi estilo, pero se adaptaran al máximo a una audiencia lectora en inglés, haciendo aclaraciones con notas si fuera necesario para explicar entidades o conceptos que solo tengan aplicación en mi entorno. Así que, para cubrir esta necesidad, desarrollé [🌐💬 Aphra](https://github.com/DavidLMS/aphra), liberando el proyecto de forma que cualquiera pueda usarlo también. Para integrarlo de forma transparente, implementé una [Github Action](https://github.com/DavidLMS/davidlms.com/blob/master/.github/workflows/translate.yml) en el repositorio del blog. De esta forma, si se añadía un nuevo artículo o se modificaba uno existente, se hacía una traducción automática por parte de 🌐💬 Aphra. Por suerte, el tema que elegí en 2021 era compatible con un enfoque multilenguaje, así que tuve que hacer pocos cambios en la estructura de archivos del sitio.
 
-Por último, quiero mostrarte en la siguiente tabla la inversión realizada en el blog (actualizada a fecha de julio de 2024, he omitido los gastos de traducción al inglés, que son unos 20-30 céntimos por artículo):
+En septiembre de 2025 el blog **estuvo en crisis**, porque en todo el año aún no había publicado ningún artículo nuevo. En lugar de cerrarlo y buscar otros formatos, decidí darle otra oportunidad. Para ello, añadí una sección "[Microblog](https://davidlms.com/es/micro/)" en la que republicar contenido que sí estaba creando en redes sociales, uniendo en un solo portal todo lo que quería compartir y permitiéndome experimentar con un formato más rápido de crear.
+
+Por último, quiero mostrarte en la siguiente tabla la inversión realizada en el blog (actualizada a fecha de julio de 2025, he omitido los gastos de traducción al inglés, que son unos 20-30 céntimos por artículo):
 
 | Concepto | Fecha | Inversión |
 |:------:|:------:|:------:|
-|   Dominio (cinco años)   |   Mayo 2020-24   |   64,70$ |
-|   Analítica con Plausible (cinco años)   |   Junio 2020-24   |   240$ |
-|   Comentarios con Hyvor Talk (cuatro años)   |   Julio 2021-24   |   290,40$ |
-|   TOTAL  | | 595,10$ |
+|   Dominio (seis años)   |   Mayo 2020-25   |   77,64$ |
+|   Analítica con Plausible (seis años)   |   Junio 2020-25   |   288$ |
+|   Comentarios con Hyvor Talk (cinco años)   |   Julio 2021-25   |   363$ |
+|   TOTAL  | | 728,64$ |

@@ -9,11 +9,11 @@
     </div>
     {{- end -}}
 
-    {{- /* 001: Twitter */ -}}
+    {{- /* 001: X (Twitter) */ -}}
     {{- if $share.Twitter -}}
     <div class="share-link">
-        <a class="share-icon share-twitter" href="javascript:void(0);" title="{{ T `shareOn` }} Twitter" data-sharer="twitter" data-url="{{ .Permalink }}" data-title="{{ .Title }}"{{ with .Site.Params.Social.Twitter }} data-via="{{ . }}"{{ end }}{{ with .Params.tags }} data-hashtags="{{ delimit . `,` }}"{{ end }}>
-            {{- dict "Class" "svg-social-icon icon-twitter" | partial "plugin/icon.html" -}}
+        <a class="share-icon share-twitter" href="javascript:void(0);" title="{{ T `shareOn` }} X" data-sharer="twitter" data-url="{{ .Permalink }}" data-title="{{ .Title }}"{{ with .Site.Params.Social.Twitter }} data-via="{{ . }}"{{ end }}{{ with .Params.tags }} data-hashtags="{{ delimit . `,` }}"{{ end }}>
+            {{- dict "Src" "svg/icons/x.svg" "Inline" true | partial "plugin/icon.html" -}}
         </a>
     </div>
     {{- end -}}

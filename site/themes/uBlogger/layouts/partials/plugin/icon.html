@@ -6,8 +6,24 @@
         {{- $prefix := $.Prefix | default "lib/simple-icons/icons" | strings.TrimSuffix "/" -}}
         {{- $src = printf "%v/%v.svg" $prefix . -}}
     {{- end -}}
+    {{- $inline := .Inline | default false -}}
     {{- if (urls.Parse $src).Host | not -}}
-        {{- $src = (resources.Get $src | minify).RelPermalink -}}
+        {{- $res := (resources.Get $src | minify) -}}
+        {{- if $inline -}}
+            {{- /* Inline the SVG content: strip existing width/height and add class + explicit size */ -}}
+            {{- $raw := $res.Content -}}
+            {{- $raw = replaceRE `\s(width|height)="[^"]*"` "" $raw -}}
+            {{- $svg := replaceRE "<svg(.*?)>" "<svg class=\"icon\" width=\"20\" height=\"20\"$1>" $raw | safeHTML -}}
+            {{- $svg -}}
+        {{- else -}}
+            <span data-svg-src="{{ $res.RelPermalink }}"></span>
+        {{- end -}}
+    {{- else -}}
+        {{- if $inline -}}
+            {{- /* External URL cannot be inlined; fallback to fetch */ -}}
+            <span data-svg-src="{{ $src }}"></span>
+        {{- else -}}
+            <span data-svg-src="{{ $src }}"></span>
+        {{- end -}}
     {{- end -}}
-    <span data-svg-src="{{ $src }}"></span>
 {{- end -}}

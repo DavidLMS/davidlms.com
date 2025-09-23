@@ -14,13 +14,13 @@ linkedin:
   Icon:
     Class: svg-social-icon-color icon-linkedin
 
-# 003: Twitter
+# 003: X (Twitter)
 twitter:
   Weight: 3
-  Prefix: https://twitter.com/
-  Title: Twitter
+  Prefix: https://x.com/
+  Title: X (Twitter)
   Icon:
-    Class: svg-social-icon-color icon-twitter
+    Src: svg/icons/x.svg
 
 # 004: Instagram
 instagram:

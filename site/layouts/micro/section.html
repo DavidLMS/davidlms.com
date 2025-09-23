@@ -1,0 +1,54 @@
+{{- define "title" -}}
+    {{- .Title }} - {{ .Site.Title -}}
+{{- end -}}
+
+{{- define "content" -}}
+<div class="page archive micro-archive">
+    <h2 class="single-title pulse faster">{{ .Title }}</h2>
+
+    {{- with .Content -}}
+    <div class="content micro-intro">
+        {{ . }}
+    </div>
+    {{- end -}}
+
+    {{- if gt (len .Pages) 0 -}}
+        {{- $paginator := .Paginate (.Pages.ByDate.Reverse) -}}
+        <div class="micro-grid">
+            {{- range $paginator.Pages -}}
+                {{- $link := .Params.external_url | default .RelPermalink -}}
+                {{- $isExternal := ne $link .RelPermalink -}}
+                <article class="summary summary-animation micro-card" itemscope itemtype="http://schema.org/Article">
+                    <div class="article-text">
+                        <h3 class="summary-title" itemprop="name headline">
+                            <a href="{{ $link }}"{{ if $isExternal }} target="_blank" rel="noopener"{{ end }}>{{ .Title }}</a>
+                        </h3>
+                        <div class="post-meta summary-post-meta">
+                            <span class="post-publish">
+                                <i class="svg-icon icon-clock"></i>
+                                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (.Site.Params.dateFormat | default "02-01-2006") }}</time>
+                            </span>
+                            {{- with .Params.platform -}}
+                            <span class="post-category micro-platform">
+                                {{ . }}
+                            </span>
+                            {{- end -}}
+                        </div>
+                        <div class="content summary-content">
+                            {{- dict "Content" (.Summary | default .Content) | partial "function/content.html" | safeHTML -}}
+                        </div>
+                        {{- if and (gt (len .Plain) (len (plainify .Summary))) $isExternal -}}
+                        <div class="micro-readmore">
+                            <a class="micro-readmore-link" href="{{ $link }}" target="_blank" rel="noopener">{{ i18n "microReadMore" | default "Read more" }}</a>
+                        </div>
+                        {{- end -}}
+                    </div>
+                </article>
+            {{- end -}}
+        </div>
+        {{- partial "paginator.html" . -}}
+    {{- else -}}
+        <p>No hay publicaciones cortas todavía. Pronto habrá novedades.</p>
+    {{- end -}}
+</div>
+{{- end -}}

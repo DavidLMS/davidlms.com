@@ -21,6 +21,10 @@ module.exports = merge(common, {
     open: true,
     historyApiFallback: {
       rewrites: [{from: /./, to: "404.html"}]
+    },
+    watchOptions: {
+      poll: 1000,
+      ignored: /node_modules/
     }
   },
 

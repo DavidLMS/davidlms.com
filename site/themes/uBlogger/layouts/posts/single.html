@@ -65,7 +65,7 @@
     {{- $image = .Permalink -}}
     {{- end -}}
 
-    {{- $authorName := $params.author | default .Site.Author.name | default " " -}}
+    {{- $authorName := $params.author | default .Site.Params.author.name | default " " -}}
     {{ $author := "" }}
     {{- $authorPath := print "data/authors/" $authorName ".json" -}}
     {{ if (fileExists $authorPath) -}}
@@ -169,9 +169,9 @@
                             {{- $category := partialCached "function/path.html" . . | printf "/categories/%v" | $.Site.GetPage -}}
                             {{- $categories = $categories | append (printf `<a href="%v"><i class="svg-icon icon-folder"></i>%v</a>` $category.RelPermalink $category.Title) -}}
                             {{- end -}}
-                            {{- with delimit $categories "&nbsp;" -}}
+                           {{- with delimit $categories "&nbsp;" -}}
                             <span class="post-category">
-                                {{ . }}
+                                {{ . | safeHTML }}
                             </span>
                             {{- end -}}
                             {{ if ne $viewCounter nil}}

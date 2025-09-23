@@ -1,3 +1,42 @@
 // ==============================
 // Custom style
 // ==============================
+
+.post-share a.share-icon.share-twitter {
+    background: #000 !important;
+    border: 2px solid #000 !important;
+    border-bottom: none !important;
+    color: #fff !important
+}
+
+.post-share a.share-icon.share-twitter:hover {
+    background: #fff !important;
+    border: 2px solid #000 !important;
+    color: #000 !important
+}
+/* Microblog read more */
+.micro-readmore {
+  margin-top: 0.5rem;
+  text-align: right;
+}
+
+.micro-readmore-link {
+  font-size: 0.875rem;
+  color: var(--accent-color, #2d96bd);
+  border-bottom: 1px dashed transparent;
+  transition: color 0.2s ease, border-bottom-color 0.2s ease;
+}
+
+.micro-readmore-link:hover {
+  color: var(--accent-color-hover, #1b677e);
+  border-bottom-color: currentColor;
+}
+
+/* Ensure media inside micro cards is responsive */
+.micro-card .summary-content img,
+.micro-card .summary-content figure,
+.micro-card .summary-content video,
+.micro-card .summary-content iframe {
+  max-width: 100%;
+  height: auto;
+}

@@ -39,7 +39,7 @@
         {{- if not $params.summaryStyle.hiddenMeta -}}
         {{- /* Meta */ -}}
         <div class="post-meta summary-post-meta">
-            {{- $authorName := $params.name | default .Site.Author.name | default " " -}}
+            {{- $authorName := $params.name | default .Site.Params.author.name | default " " -}}
             {{- if not (eq $authorName " ") -}}
             {{ $author := index .Site.Data.authors $authorName }}
             {{- $authorLink := $author.link | default .Site.Home.RelPermalink -}}
@@ -63,7 +63,7 @@
             {{- end -}}
             {{- with delimit $categories "&nbsp;" -}}
             <span class="post-category">
-                {{ . }}
+                {{ . | safeHTML }}
             </span>
             {{- end -}}
 
@@ -118,4 +118,3 @@
     </div>
 {{- end -}}
 </div>
-

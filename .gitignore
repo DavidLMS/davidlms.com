@@ -1,6 +1,8 @@
 node_modules/
 dist/
 site/data/webpack.json
+site/resources/_gen/
+site/.hugo_build.lock
 site/.DS_Store
 site/layouts/.DS_Store
 src/.DS_Store

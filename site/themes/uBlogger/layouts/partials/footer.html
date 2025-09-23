@@ -31,7 +31,7 @@
                 {{- end -}}
 
 				{{- /* Author */ -}}
-				{{- $authorName := .Site.Author.name | default " " -}}
+				{{- $authorName := .Site.Params.author.name | default " " -}}
 				{{- if ne $authorName " " -}}
 				{{ $author := index .Site.Data.authors $authorName }}
 				{{- $authorLink := $author.link | default .Site.Home.RelPermalink -}}

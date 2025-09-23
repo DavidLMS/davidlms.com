@@ -39,6 +39,14 @@ enableRobotsTXT = true
       title = ""
       weight = 1
     [[languages.en.menu.main]]
+      identifier = "micro"
+      pre = ""
+      post = ""
+      name = "Microblog"
+      url = "/micro/"
+      title = ""
+      weight = 2
+    [[languages.en.menu.main]]
       identifier = "categories"
       pre = ""
       post = ""
@@ -162,6 +170,10 @@ enableRobotsTXT = true
     # license info (HTML format is supported)
     license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>'
 
+  [params.author]
+    name = "davidlms"
+    email = "hola@davidlms.com"
+
   # uBlogger NEW | 0.2.0 Section (all posts) page config
   [params.section]
     # special amount of posts in each section page
@@ -241,7 +253,7 @@ enableRobotsTXT = true
     Twitter = "davidlmsES"
     Instagram = ""
     Facebook = ""
-    Telegram = "https://t.me/davidlmscom"
+    Telegram = "davidlmscom"
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -307,7 +319,7 @@ enableRobotsTXT = true
     Linkedin = "david-romero-santos"
     Instagram = ""
     Facebook = ""
-    Telegram = "https://t.me/davidlmsEN"
+    Telegram = "davidlmsEN"
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -661,6 +673,14 @@ enableRobotsTXT = true
     title = ""
     weight = 1
   [[menu.main]]
+    identifier = "micro"
+    pre = ""
+    post = ""
+    name = "Microblog"
+    url = "/micro/"
+    title = ""
+    weight = 2
+  [[menu.main]]
     identifier = "categories"
     pre = ""
     post = ""
@@ -763,4 +783,4 @@ enableRobotsTXT = true
       page = ["HTML", "MarkDown"]
       section = ["HTML", "RSS"]
       taxonomy = ["HTML", "RSS"]
-      taxonomyTerm = ["HTML"]
+      term = ["HTML"]

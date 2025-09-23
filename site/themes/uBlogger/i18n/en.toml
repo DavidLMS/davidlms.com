@@ -203,3 +203,5 @@ other = "CHANGED"
 [deleted]
 other = "DELETED"
 # === shortcodes/version.html ===
+[microReadMore]
+other = "Read more"

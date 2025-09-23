@@ -1,0 +1,36 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+    {{- $params := .Scratch.Get "params" -}}
+    <div class="page single special micro-single">
+        <h1 class="single-title pulse faster">
+            {{- .Title -}}
+        </h1>
+
+        <div class="post-meta single-post-meta">
+            <span class="post-publish">
+                <i class="svg-icon icon-clock"></i>
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (.Site.Params.dateFormat | default "02-01-2006") }}</time>
+            </span>
+            {{- with .Params.platform -}}
+            <span class="post-category micro-platform">
+                {{ . }}
+            </span>
+            {{- end -}}
+        </div>
+
+        {{- with .Params.external_url -}}
+            {{- $openLabel := "Ver la publicación original" -}}
+            {{- if eq $.Site.Language.Lang "en" -}}
+                {{- $openLabel = "Open original post" -}}
+            {{- end -}}
+            <p class="micro-external">
+                <a href="{{ . }}" target="_blank" rel="noopener">{{ $openLabel }}</a>
+            </p>
+        {{- end -}}
+
+        <div class="content" id="content">
+            {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction | partial "function/content.html" | safeHTML -}}
+        </div>
+    </div>
+{{- end -}}

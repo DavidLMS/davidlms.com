@@ -80,6 +80,9 @@
                             {{- $prefix := ($.Scratch.Get "cdn" | default dict).simpleIconsPrefix -}}
                             {{- $social = dict "Prefix" $prefix | dict "Icon" | merge $social -}}
                         {{- end -}}
+                        {{- if eq (lower $key) "twitter" -}}
+                            {{- $social = dict "Icon" (dict "Src" "svg/icons/x.svg" "Inline" true) | merge $social -}}
+                        {{- end -}}
                         {{- $socialArr = $socialArr | append $social -}}
                     {{- end -}}
                 {{- end -}}

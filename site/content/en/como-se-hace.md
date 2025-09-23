@@ -33,11 +33,13 @@ In August 2021, it was time to change the blog's appearance. I chose the first t
 
 In August 2024, I wanted to try offering an **English version of the blog** automatically, using generative language models. I wasn't satisfied with the general automated translations available because they often contained contextual errors. My intention was for the translations to maintain my style but adapt as much as possible to an English-reading audience, making clarifications with notes if necessary to explain entities or concepts that only apply in my context. So, to meet this need, I developed [🌐💬 Aphra](https://github.com/DavidLMS/aphra), releasing the project so that anyone else could use it too. To integrate it seamlessly, I implemented a [Github Action](https://github.com/DavidLMS/davidlms.com/blob/master/.github/workflows/translate.yml) in the blog repository. This way, if a new article was added or an existing one was modified, 🌐💬 Aphra would automatically translate it. Fortunately, the theme I chose in 2021 was compatible with a multi-language approach, so I had to make only a few changes to the site’s file structure.
 
-Lastly, I want to show you in the following table the investment made in the blog (updated as of July 2024; I've omitted the English translation costs, which are about 20-30 cents per article):
+In September 2025, the blog was in crisis because I still hadn't published any new articles throughout the entire year. Instead of shutting it down and looking for other formats, I decided to give it another chance. To do this, I added a "[Microblog](https://davidlms.com/en/micro/)" section where I could republish content I was already creating on social media, bringing together everything I wanted to share in a single portal and allowing me to experiment with a format that was quicker to create.
+
+Lastly, I want to show you in the following table the investment made in the blog (updated as of July 2025; I've omitted the English translation costs, which are about 20-30 cents per article):
 
 | Concept | Date | Investment |
 |:------:|:------:|:------:|
-|   Domain (five years)   |   May 2020-24   |   $64.70 |
-|   Analytics with Plausible (five years)   |   June 2020-24   |   $240 |
-|   Comments with Hyvor Talk (four years)   |   July 2021-24   |   $290.40 |
-|   TOTAL  | | $595.10 |
+|   Domain (six years)   |   May 2020-25   |   $77.64 |
+|   Analytics with Plausible (six years)   |   June 2020-25   |   $288 |
+|   Comments with Hyvor Talk (five years)   |   July 2021-25   |   $363 |
+|   TOTAL  | | $728.64 |

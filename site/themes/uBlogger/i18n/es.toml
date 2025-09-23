@@ -207,3 +207,5 @@ other = "MODIFICADO"
 [deleted]
 other = "ELIMINADO"
 # === shortcodes/version.html ===
+[microReadMore]
+other = "Ver más"

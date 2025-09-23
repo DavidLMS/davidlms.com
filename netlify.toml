@@ -13,7 +13,6 @@
   from = "/:splat.md"
   to = "/:splat/index.md"
   status = 200
-  force = true
 
 [[redirects]]
   from = "/*"

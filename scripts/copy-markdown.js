@@ -3,6 +3,14 @@ const fs = require('fs/promises');
 const path = require('path');
 
 const languages = ['es', 'en'];
+const txtVariants = [
+  { slug: 'llms', lang: null },
+  { slug: 'llms-full', lang: null },
+  { slug: 'llms', lang: 'es' },
+  { slug: 'llms-full', lang: 'es' },
+  { slug: 'llms', lang: 'en' },
+  { slug: 'llms-full', lang: 'en' },
+];
 
 async function exists(filePath) {
   try {
@@ -34,6 +42,19 @@ async function copyIndexFiles(currentDir, baseDir) {
   }
 }
 
+async function copyTxtFiles(distDir) {
+  for (const { slug, lang } of txtVariants) {
+    const baseDir = lang ? path.join(distDir, lang) : distDir;
+    const source = path.join(baseDir, `${slug}.md`);
+    const target = path.join(baseDir, `${slug}.txt`);
+
+    if (await exists(source)) {
+      await fs.mkdir(path.dirname(target), { recursive: true });
+      await fs.copyFile(source, target);
+    }
+  }
+}
+
 async function main() {
   const distDir = path.resolve(__dirname, '..', 'dist');
   if (!(await exists(distDir))) {
@@ -47,6 +68,8 @@ async function main() {
       await copyIndexFiles(langDir, langDir);
     }
   }
+
+  await copyTxtFiles(distDir);
 }
 
 main().catch((error) => {

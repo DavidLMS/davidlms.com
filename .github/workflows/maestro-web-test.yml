@@ -2,7 +2,7 @@ name: Run Maestro Web Tests
 
 on:
   workflow_dispatch:
-  
+
   push:
     branches: [main]
   pull_request:
@@ -11,11 +11,38 @@ on:
 jobs:
   maestro-web:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - uses: actions/checkout@v3
-      
-      - uses: dniHze/maestro-test-action@v1
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
         with:
-          flow: .maestro
-          version: latest
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v2
+        with:
+          chrome-version: stable
+
+      - name: Install Maestro
+        run: |
+          curl -fsSL "https://get.maestro.mobile.dev" | bash
+          echo "$HOME/.maestro/bin" >> $GITHUB_PATH
+
+      - name: Run Maestro Web Tests
+        run: |
+          export PATH="$HOME/.maestro/bin:$PATH"
+          maestro test .maestro/ --format junit --output report.xml
+
+      - name: Upload Test Report
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: maestro-test-report
+          path: |
+            report.xml
+            ~/.maestro/tests/**/*
+          if-no-files-found: warn

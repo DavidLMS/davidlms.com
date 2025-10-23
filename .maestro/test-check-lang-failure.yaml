@@ -1,15 +1,6 @@
 url: https://davidlms.com
 ---
 - launchApp
-- extendedWaitUntil:
-    visible: "Spanish"
-    timeout: 10000
 - tapOn: "Spanish"
-- extendedWaitUntil:
-    visible: "English"
-    timeout: 5000
 - tapOn: "English"
-- extendedWaitUntil:
-    visible: "davidlms | Un blog personal"
-    timeout: 5000
 - assertVisible: "davidlms | Un blog personal"

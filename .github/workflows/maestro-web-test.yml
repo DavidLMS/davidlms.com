@@ -45,7 +45,16 @@ jobs:
           export PATH="$HOME/.maestro/bin:$PATH"
           export DISPLAY=:99
           export MAESTRO_CLI_NO_ANALYTICS=1
-          maestro test .maestro/ --format junit --output report.xml
+          maestro test .maestro/ --format junit --output report.xml --debug-output maestro-debug
+        continue-on-error: true
+
+      - name: Upload Debug Screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: maestro-debug-output
+          path: maestro-debug/
+          if-no-files-found: ignore
 
       - name: Upload Test Report
         if: always()

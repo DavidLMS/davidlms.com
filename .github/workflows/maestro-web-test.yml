@@ -35,7 +35,11 @@ jobs:
       - name: Run Maestro Web Tests
         run: |
           export PATH="$HOME/.maestro/bin:$PATH"
+          export MAESTRO_DRIVER_STARTUP_TIMEOUT=120000
+          mkdir -p $HOME/.maestro-chrome-data
           maestro test .maestro/ --format junit --output report.xml
+        env:
+          CHROME_USER_DATA_DIR: ${{ runner.temp }}/chrome-user-data
 
       - name: Upload Test Report
         if: always()

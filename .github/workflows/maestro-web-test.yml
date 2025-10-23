@@ -41,20 +41,17 @@ jobs:
           sleep 2
 
       - name: Run Maestro Web Tests
-        run: |
-          export PATH="$HOME/.maestro/bin:$PATH"
-          export DISPLAY=:99
-          export MAESTRO_CLI_NO_ANALYTICS=1
-          maestro test .maestro/ --format junit --output report.xml --debug-output maestro-debug
-        continue-on-error: true
-
-      - name: Upload Debug Screenshots
-        if: always()
-        uses: actions/upload-artifact@v4
+        uses: nick-fields/retry@v3
         with:
-          name: maestro-debug-output
-          path: maestro-debug/
-          if-no-files-found: ignore
+          timeout_minutes: 5
+          max_attempts: 2
+          retry_on: error
+          command: |
+            export PATH="$HOME/.maestro/bin:$PATH"
+            maestro test .maestro/ --format junit --output report.xml
+        env:
+          MAESTRO_CLI_NO_ANALYTICS: "1"
+          DISPLAY: ":99"
 
       - name: Upload Test Report
         if: always()

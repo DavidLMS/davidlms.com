@@ -44,6 +44,7 @@ jobs:
         run: |
           export PATH="$HOME/.maestro/bin:$PATH"
           export DISPLAY=:99
+          export MAESTRO_CLI_NO_ANALYTICS=1
           maestro test .maestro/ --format junit --output report.xml
 
       - name: Upload Test Report

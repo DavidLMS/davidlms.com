@@ -1,0 +1,6 @@
+url: https://davidlms.com
+---
+- launchApp
+- tapOn: "Spanish"
+- tapOn: "English"
+- assertVisible: "davidlms | A personal blog"

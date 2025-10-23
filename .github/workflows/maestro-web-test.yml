@@ -1,0 +1,20 @@
+name: Run Maestro Web Tests
+
+on:
+  worklow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  maestro-web:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - uses: dniHze/maestro-test-action@v1
+        with:
+          flow: .maestro
+          version: latest

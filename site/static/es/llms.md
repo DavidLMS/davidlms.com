@@ -15,9 +15,9 @@ Versiones específicas por idioma disponibles en:
 - [Sobre el blog](https://davidlms.com/es/sobre-el-blog.md): Información sobre el autor y el propósito del blog
 - [Cómo se hace](https://davidlms.com/es/como-se-hace.md): Detalles técnicos sobre cómo está construido el blog, costes de hosting e infraestructura
 - [Suscríbete](https://davidlms.com/es/suscribete.md): Formulario de suscripción al boletín para recibir actualizaciones del blog
-- [Microblog](https://davidlms.com/es/micro/): Publicaciones cortas y republicaciones de redes sociales
-- [Categorías](https://davidlms.com/es/categories/): Todas las categorías de posts incluyendo reflexiones educativas, recursos técnicos y pensamientos personales
-- [Artículos](https://davidlms.com/es/posts/): Archivo completo de artículos del blog
+- Microblog: https://davidlms.com/es/micro/ - Publicaciones cortas y republicaciones de redes sociales
+- Categorías: https://davidlms.com/es/categories/ - Todas las categorías de posts incluyendo reflexiones educativas, recursos técnicos y pensamientos personales
+- Artículos: https://davidlms.com/es/posts/ - Archivo completo de artículos del blog
 
 ## Artículos Recientes
 
@@ -41,14 +41,14 @@ Versiones específicas por idioma disponibles en:
 
 ## Contacto
 
-- [GitHub](https://github.com/DavidLMS): Proyectos de código abierto y repositorio del blog
-- [LinkedIn](https://www.linkedin.com/in/david-romero-santos): Perfil profesional
-- [X/Twitter](https://x.com/davidlmsES): Actualizaciones y reflexiones en español
-- [Telegram](https://t.me/davidlmscom): Actualizaciones en español
+- GitHub: https://github.com/DavidLMS - Proyectos de código abierto y repositorio del blog
+- LinkedIn: https://www.linkedin.com/in/david-romero-santos - Perfil profesional
+- X/Twitter: https://x.com/davidlmsES - Actualizaciones y reflexiones en español
+- Telegram: https://t.me/davidlmscom - Actualizaciones en español
 
 ## Opcional
 
-- [Feed RSS Artículos](https://davidlms.com/es/index.xml): Feed RSS para artículos del blog en español
-- [Feed RSS Microblog](https://davidlms.com/es/micro/index.xml): Feed RSS para entradas del microblog en español
-- [Repositorio GitHub](https://github.com/DavidLMS/davidlms.com): Código fuente del blog
-- [Aphra](https://github.com/DavidLMS/aphra): Sistema de traducción basado en IA usado para el contenido del blog en inglés
+- Feed RSS Artículos: https://davidlms.com/es/index.xml - Feed RSS para artículos del blog en español
+- Feed RSS Microblog: https://davidlms.com/es/micro/index.xml - Feed RSS para entradas del microblog en español
+- Repositorio GitHub: https://github.com/DavidLMS/davidlms.com - Código fuente del blog
+- Aphra: https://github.com/DavidLMS/aphra - Sistema de traducción basado en IA usado para el contenido del blog en inglés

@@ -15,9 +15,9 @@ Language-specific versions are available at:
 - [About the blog](https://davidlms.com/en/sobre-el-blog.md): Information about the author and the blog's purpose
 - [How it's made](https://davidlms.com/en/como-se-hace.md): Technical details about how the blog is built, hosting costs, and infrastructure
 - [Subscribe](https://davidlms.com/en/suscribete.md): Newsletter subscription form for blog updates
-- [Microblog](https://davidlms.com/en/micro/): Short-form posts and social media republications
-- [Categories](https://davidlms.com/en/categories/): All post categories including educational reflections, technical resources, and personal thoughts
-- [Posts](https://davidlms.com/en/posts/): Complete archive of blog articles
+- Microblog: https://davidlms.com/en/micro/ - Short-form posts and social media republications
+- Categories: https://davidlms.com/en/categories/ - All post categories including educational reflections, technical resources, and personal thoughts
+- Posts: https://davidlms.com/en/posts/ - Complete archive of blog articles
 
 ## Recent Posts
 
@@ -37,14 +37,14 @@ Language-specific versions are available at:
 
 ## Contact
 
-- [GitHub](https://github.com/DavidLMS): Open source projects and blog repository
-- [LinkedIn](https://www.linkedin.com/in/david-romero-santos): Professional profile
-- [X/Twitter](https://x.com/davidlmsEN): Updates and thoughts in English
-- [Telegram](https://t.me/davidlmsEN): English updates
+- GitHub: https://github.com/DavidLMS - Open source projects and blog repository
+- LinkedIn: https://www.linkedin.com/in/david-romero-santos - Professional profile
+- X/Twitter: https://x.com/davidlmsEN - Updates and thoughts in English
+- Telegram: https://t.me/davidlmsEN - English updates
 
 ## Optional
 
-- [RSS Feed Posts](https://davidlms.com/en/index.xml): RSS feed for English blog posts
-- [RSS Feed Microblog](https://davidlms.com/en/micro/index.xml): RSS feed for English microblog entries
-- [GitHub Repository](https://github.com/DavidLMS/davidlms.com): Source code for the blog
-- [Aphra](https://github.com/DavidLMS/aphra): AI-powered translation system used for English blog content
+- RSS Feed Posts: https://davidlms.com/en/index.xml - RSS feed for English blog posts
+- RSS Feed Microblog: https://davidlms.com/en/micro/index.xml - RSS feed for English microblog entries
+- GitHub Repository: https://github.com/DavidLMS/davidlms.com - Source code for the blog
+- Aphra: https://github.com/DavidLMS/aphra - AI-powered translation system used for English blog content

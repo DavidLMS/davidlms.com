@@ -18,12 +18,12 @@ Language-specific versions are available at:
 - [How it's made (English)](https://davidlms.com/en/como-se-hace.md): Technical details about how the blog is built, hosting costs, and infrastructure
 - [Suscríbete (Spanish)](https://davidlms.com/es/suscribete.md): Formulario de suscripción al boletín para recibir actualizaciones del blog
 - [Subscribe (English)](https://davidlms.com/en/suscribete.md): Newsletter subscription form for blog updates
-- [Microblog (Spanish)](https://davidlms.com/es/micro/): Publicaciones cortas y republicaciones de redes sociales
-- [Microblog (English)](https://davidlms.com/en/micro/): Short-form posts and social media republications
-- [Categorías (Spanish)](https://davidlms.com/es/categories/): Todas las categorías de posts incluyendo reflexiones educativas, recursos técnicos y pensamientos personales
-- [Categories (English)](https://davidlms.com/en/categories/): All post categories including educational reflections, technical resources, and personal thoughts
-- [Artículos (Spanish)](https://davidlms.com/es/posts/): Archivo completo de artículos del blog
-- [Posts (English)](https://davidlms.com/en/posts/): Complete archive of blog articles
+- Microblog (Spanish): https://davidlms.com/es/micro/ - Publicaciones cortas y republicaciones de redes sociales
+- Microblog (English): https://davidlms.com/en/micro/ - Short-form posts and social media republications
+- Categorías (Spanish): https://davidlms.com/es/categories/ - Todas las categorías de posts incluyendo reflexiones educativas, recursos técnicos y pensamientos personales
+- Categories (English): https://davidlms.com/en/categories/ - All post categories including educational reflections, technical resources, and personal thoughts
+- Artículos (Spanish): https://davidlms.com/es/posts/ - Archivo completo de artículos del blog
+- Posts (English): https://davidlms.com/en/posts/ - Complete archive of blog articles
 
 ## Recent Posts
 
@@ -47,18 +47,18 @@ Language-specific versions are available at:
 
 ## Contact
 
-- [GitHub](https://github.com/DavidLMS): Open source projects and blog repository
-- [LinkedIn](https://www.linkedin.com/in/david-romero-santos): Professional profile
-- [X/Twitter (Spanish)](https://x.com/davidlmsES): Updates and thoughts in Spanish
-- [X/Twitter (English)](https://x.com/davidlmsEN): Updates and thoughts in English
-- [Telegram (Spanish)](https://t.me/davidlmscom): Spanish updates
-- [Telegram (English)](https://t.me/davidlmsEN): English updates
+- GitHub: https://github.com/DavidLMS - Open source projects and blog repository
+- LinkedIn: https://www.linkedin.com/in/david-romero-santos - Professional profile
+- X/Twitter (Spanish): https://x.com/davidlmsES - Updates and thoughts in Spanish
+- X/Twitter (English): https://x.com/davidlmsEN - Updates and thoughts in English
+- Telegram (Spanish): https://t.me/davidlmscom - Spanish updates
+- Telegram (English): https://t.me/davidlmsEN - English updates
 
 ## Optional
 
-- [RSS Feed Posts (Spanish)](https://davidlms.com/es/index.xml): RSS feed for Spanish blog posts
-- [RSS Feed Posts (English)](https://davidlms.com/en/index.xml): RSS feed for English blog posts
-- [RSS Feed Microblog (Spanish)](https://davidlms.com/es/micro/index.xml): RSS feed for Spanish microblog entries
-- [RSS Feed Microblog (English)](https://davidlms.com/en/micro/index.xml): RSS feed for English microblog entries
-- [GitHub Repository](https://github.com/DavidLMS/davidlms.com): Source code for the blog
-- [Aphra Translation Tool](https://github.com/DavidLMS/aphra): AI-powered translation system used for blog content
+- RSS Feed Posts (Spanish): https://davidlms.com/es/index.xml - RSS feed for Spanish blog posts
+- RSS Feed Posts (English): https://davidlms.com/en/index.xml - RSS feed for English blog posts
+- RSS Feed Microblog (Spanish): https://davidlms.com/es/micro/index.xml - RSS feed for Spanish microblog entries
+- RSS Feed Microblog (English): https://davidlms.com/en/micro/index.xml - RSS feed for English microblog entries
+- GitHub Repository: https://github.com/DavidLMS/davidlms.com - Source code for the blog
+- Aphra Translation Tool: https://github.com/DavidLMS/aphra - AI-powered translation system used for blog content

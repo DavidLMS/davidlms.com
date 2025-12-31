@@ -63,7 +63,9 @@ seo:
 
 **Important**: Translated automatically from Spanish by [🌐💬 Aphra 1.0.0](https://github.com/DavidLMS/aphra)
 
-> "If we fear that these advances will end in the machine revolution, it's because we've been locked in a cave for the last few decades. Because that revolution has been underway for a long time. And all people, in some way, are part of it."
+{{< admonition type=quote title="" open=true >}}
+If we fear that these advances will end in the machine revolution, it's because we've been locked in a cave for the last few decades. Because that revolution has been underway for a long time. And all people, in some way, are part of it.
+{{< /admonition >}}
 
 What better way to start (and end) the blog year[^1] than with a self-quote. The moment I wrote that in the previous article, **I knew it deserved an explanation**. I planned to do it in a few days, but look how a whole year has passed. **Tempus fugit**[^2].
 
@@ -113,4 +115,4 @@ P.S.: This text has been generated entirely by a natural human intelligence[^9],
 
 [^9]: The original "inteligencia biológica" (biological intelligence) is contrasted with artificial intelligence, emphasizing the human authorship of the text as opposed to AI generation.
 
-[^10]: The text is set in the future (2025) and refers to a fictional AI image generation technology called "Nano Banana" that apparently revolutionized digital image creation, with "pre-nanobanana" referring to earlier, less advanced technologies.
+[^10]: Refers to an AI image generation technology called "Nano Banana" that revolutionized digital image creation, with "pre-nanobanana" referring to earlier, less advanced technologies.

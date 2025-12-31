@@ -21,40 +21,40 @@ Versiones específicas por idioma disponibles en:
 
 ## Artículos
 
-- 2024-12-31 — [Se subasta inteligencia](https://davidlms.com/es/posts/se-subasta-inteligencia.md): El regreso del señor y la señora Edison
-- 2024-09-01 — [La disrupción de la IA a las puertas de la escuela](https://davidlms.com/es/posts/la-disrupci%C3%B3n-de-la-ia-a-las-puertas-de-la-escuela.md): ¿Recordaremos este curso como un punto de inflexión?
-- 2023-09-17 — [Docentes, enfundad vuestras armas contra la IA](https://davidlms.com/es/posts/docentes-enfundad-vuestras-armas-contra-la-ia.md): Una oportunidad para no volver a cometer los mismos errores
-- 2023-08-26 — [La posible estrategia de Apple respecto a la IA](https://davidlms.com/es/posts/la-posible-estrategia-de-apple-respecto-a-la-ia.md): Los puntos sólo se unen hacia atrás
-- 2023-07-19 — [Postmortem del curso 2022-2023](https://davidlms.com/es/posts/postmortem-del-curso-2022-2023.md): Nunca mejor dicho
-- 2022-02-02 — [De profesión estudiante](https://davidlms.com/es/posts/de-profesi%C3%B3n-estudiante.md): Cuando estiras tanto el tiempo que se acaba rompiendo
-- 2021-10-03 — [La difícil (y polémica) decisión sobre qué tecnología enseñar](https://davidlms.com/es/posts/la-dif%C3%ADcil-y-pol%C3%A9mica-decisi%C3%B3n-sobre-qu%C3%A9-tecnolog%C3%ADa-ense%C3%B1ar.md): Cada septiembre, en FP de informática, la misma duda: ¿Qué tecnologías son las más adecuadas para enseñar en el módulo?
-- 2021-08-01 — [2021 y un giro de 270º](https://davidlms.com/es/posts/2021-y-un-giro-de-270.md): Casi volviendo al punto de partida, pero desde un ángulo distinto
-- 2021-07-11 — [En busca de un formato para las guías prácticas: CodeLab](https://davidlms.com/es/posts/en-busca-de-un-formato-para-las-gu%C3%ADas-pr%C3%A1cticas-codelab.md): Crea guías técnicas atractivas, de fácil navegación y adaptables al futuro
-- 2021-06-09 — [Private Relay: ¿La solución definitiva para el anonimato en internet?](https://davidlms.com/es/posts/private-relay-la-soluci%C3%B3n-definitiva-para-el-anonimato-en-internet.md): Lo que se sabe, lo que intuyo y lo que opino del nuevo servicio de Apple
-- 2021-03-22 — [La transparencia de los nuevos DAW y DAM](https://davidlms.com/es/posts/la-transparencia-de-los-nuevos-daw-y-dam.md): Análisis sobre el nuevo borrador publicado por el Ministerio
-- 2021-02-11 — [Una guía para probar WireGuard con tu alumnado](https://davidlms.com/es/posts/una-gu%C3%ADa-para-probar-wireguard-con-tu-alumnado.md): Aprende a crear y configurar tu propio servidor VPN
-- 2020-12-31 — [El curso en el que me convertí en FAQ](https://davidlms.com/es/posts/el-curso-en-el-que-me-convert%C3%AD-en-faq.md): ¿Cansados de escribir una y otra vez las mismas respuestas?
-- 2020-11-22 — [Transformación Digital Mínima](https://davidlms.com/es/posts/transformaci%C3%B3n-digital-m%C3%ADnima.md): La transformación con sentido
-- 2020-10-16 — [Cloudflare y su servicio gratuito parar mejorar la disponibilidad de tu web](https://davidlms.com/es/posts/cloudflare-y-su-servicio-gratuito-parar-mejorar-la-disponibilidad-de-tu-web.md): ¿Cómo ha mejorado el rendimiento del blog?
-- 2020-10-02 — [Meritocracia y Educación](https://davidlms.com/es/posts/meritocracia-y-educaci%C3%B3n.md): ¿A mismo esfuerzo, mismas oportunidades?
-- 2020-09-25 — [ZoltarScript: Un pequeño programa para la planificación sesiones](https://davidlms.com/es/posts/zoltarscrip-un-peque%C3%B1o-programa-para-la-planificaci%C3%B3n-sesiones.md): ¿Te gustaría saber de un vistazo qué clase tienes a continuación y qué tienes planificado hacer en la misma?
-- 2020-09-19 — [Imagina… Una aplicación ideal para planificar y mejorar las sesiones de clase](https://davidlms.com/es/posts/imagina-una-aplicaci%C3%B3n-ideal-para-planificar-y-mejorar-las-sesiones-de-clase.md): Listado de funciones deseables
-- 2020-09-06 — [Servicios en Red: Una programación didáctica en espiral (y III)](https://davidlms.com/es/posts/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral-y-iii.md): Propuesta desglosada por sesiones de una unidad didáctica
-- 2020-08-22 — [Servicios en Red: Una programación didáctica en espiral (II)](https://davidlms.com/es/posts/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral-ii.md): Ubicando los resultados de aprendizaje en el tiempo
-- 2020-08-04 — [Servicios en Red: Una programación didáctica en espiral](https://davidlms.com/es/posts/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral.md): Todo tiene un comienzo... ¿y un fin?
-- 2020-07-26 — [Imagina… Una plataforma de colaboración docente para la investigación-acción](https://davidlms.com/es/posts/imagina-una-plataforma-de-colaboraci%C3%B3n-docente-para-la-investigaci%C3%B3n-acci%C3%B3n.md): ¿Sumamos para multiplicar?
-- 2020-07-17 — [Ofertas imposibles en el sector informática](https://davidlms.com/es/posts/ofertas-imposibles-en-el-sector-inform%C3%A1tica.md): ¿Por qué no las cambiamos?
-- 2020-07-10 — [¿Dónde está el conocimiento en tu centro educativo?](https://davidlms.com/es/posts/d%C3%B3nde-est%C3%A1-el-conocimiento-en-tu-centro-educativo.md): Un centro que no conoce su historia, está condenado a repetirla
-- 2020-06-30 — [Evaluar por Resultados de Aprendizaje y Criterios de Evaluación sin morir en el intento](https://davidlms.com/es/posts/evaluar-por-resultados-de-aprendizaje-y-criterios-de-evaluaci%C3%B3n-sin-morir-en-el-intento.md): Una introducción para nuevos profesores de FP
-- 2020-06-19 — [La importancia de la investigación educativa](https://davidlms.com/es/posts/la-importancia-de-la-investigaci%C3%B3n-educativa.md): Cómo la investigación-acción grupal y coordinada nos puede llevar a la mejora de la educación
-- 2020-06-15 — [Herramientas para la comunicación horizontal en centros educativos](https://davidlms.com/es/posts/herramientas-para-la-comunicaci%C3%B3n-horizontal-en-centros-educativos.md): Buscando mejoras para la coordinación entre docentes
-- 2020-06-06 — [Cómo se hace un blog a coste 0](https://davidlms.com/es/posts/c%C3%B3mo-se-hace-un-blog-a-coste-0.md): Anímate a crear uno y compartir tu opinión
-- 2020-05-31 — [Es la hora de la transformación digital de los centros](https://davidlms.com/es/posts/es-la-hora-de-la-transformaci%C3%B3n-digital-de-los-centros.md): Comienza la cuenta atrás
-- 2020-05-18 — [En defensa del examen en FP](https://davidlms.com/es/posts/en-defensa-del-examen-en-fp.md): Es necesario promover el debate
-- 2020-05-16 — [Girando alrededor del aprendizaje: una programación didáctica en espiral](https://davidlms.com/es/posts/girando-alrededor-del-aprendizaje-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral.md): Reflexión y propuesta acerca de la mejora del aprendizaje
-- 2020-05-15 — [H5P y las Interactive Wars](https://davidlms.com/es/posts/h5p-y-las-interactive-wars.md): Un repaso atípico a un gran conjunto de herramientas para la creación de contenido interactivo
-- 2020-05-12 — [Érase un congreso virtual](https://davidlms.com/es/posts/%C3%A9rase-un-congreso-virtual.md): Compartir es el camino
-- 2020-05-11 — [Hello World](https://davidlms.com/es/posts/hello-world.md): Hace tiempo que tengo en mente la idea de comenzar un blog personal.
+- 2024-12-31 — [Se subasta inteligencia](https://davidlms.com/es/se-subasta-inteligencia.md): El regreso del señor y la señora Edison
+- 2024-09-01 — [La disrupción de la IA a las puertas de la escuela](https://davidlms.com/es/la-disrupci%C3%B3n-de-la-ia-a-las-puertas-de-la-escuela.md): ¿Recordaremos este curso como un punto de inflexión?
+- 2023-09-17 — [Docentes, enfundad vuestras armas contra la IA](https://davidlms.com/es/docentes-enfundad-vuestras-armas-contra-la-ia.md): Una oportunidad para no volver a cometer los mismos errores
+- 2023-08-26 — [La posible estrategia de Apple respecto a la IA](https://davidlms.com/es/la-posible-estrategia-de-apple-respecto-a-la-ia.md): Los puntos sólo se unen hacia atrás
+- 2023-07-19 — [Postmortem del curso 2022-2023](https://davidlms.com/es/postmortem-del-curso-2022-2023.md): Nunca mejor dicho
+- 2022-02-02 — [De profesión estudiante](https://davidlms.com/es/de-profesi%C3%B3n-estudiante.md): Cuando estiras tanto el tiempo que se acaba rompiendo
+- 2021-10-03 — [La difícil (y polémica) decisión sobre qué tecnología enseñar](https://davidlms.com/es/la-dif%C3%ADcil-y-pol%C3%A9mica-decisi%C3%B3n-sobre-qu%C3%A9-tecnolog%C3%ADa-ense%C3%B1ar.md): Cada septiembre, en FP de informática, la misma duda: ¿Qué tecnologías son las más adecuadas para enseñar en el módulo?
+- 2021-08-01 — [2021 y un giro de 270º](https://davidlms.com/es/2021-y-un-giro-de-270.md): Casi volviendo al punto de partida, pero desde un ángulo distinto
+- 2021-07-11 — [En busca de un formato para las guías prácticas: CodeLab](https://davidlms.com/es/en-busca-de-un-formato-para-las-gu%C3%ADas-pr%C3%A1cticas-codelab.md): Crea guías técnicas atractivas, de fácil navegación y adaptables al futuro
+- 2021-06-09 — [Private Relay: ¿La solución definitiva para el anonimato en internet?](https://davidlms.com/es/private-relay-la-soluci%C3%B3n-definitiva-para-el-anonimato-en-internet.md): Lo que se sabe, lo que intuyo y lo que opino del nuevo servicio de Apple
+- 2021-03-22 — [La transparencia de los nuevos DAW y DAM](https://davidlms.com/es/la-transparencia-de-los-nuevos-daw-y-dam.md): Análisis sobre el nuevo borrador publicado por el Ministerio
+- 2021-02-11 — [Una guía para probar WireGuard con tu alumnado](https://davidlms.com/es/una-gu%C3%ADa-para-probar-wireguard-con-tu-alumnado.md): Aprende a crear y configurar tu propio servidor VPN
+- 2020-12-31 — [El curso en el que me convertí en FAQ](https://davidlms.com/es/el-curso-en-el-que-me-convert%C3%AD-en-faq.md): ¿Cansados de escribir una y otra vez las mismas respuestas?
+- 2020-11-22 — [Transformación Digital Mínima](https://davidlms.com/es/transformaci%C3%B3n-digital-m%C3%ADnima.md): La transformación con sentido
+- 2020-10-16 — [Cloudflare y su servicio gratuito parar mejorar la disponibilidad de tu web](https://davidlms.com/es/cloudflare-y-su-servicio-gratuito-parar-mejorar-la-disponibilidad-de-tu-web.md): ¿Cómo ha mejorado el rendimiento del blog?
+- 2020-10-02 — [Meritocracia y Educación](https://davidlms.com/es/meritocracia-y-educaci%C3%B3n.md): ¿A mismo esfuerzo, mismas oportunidades?
+- 2020-09-25 — [ZoltarScript: Un pequeño programa para la planificación sesiones](https://davidlms.com/es/zoltarscrip-un-peque%C3%B1o-programa-para-la-planificaci%C3%B3n-sesiones.md): ¿Te gustaría saber de un vistazo qué clase tienes a continuación y qué tienes planificado hacer en la misma?
+- 2020-09-19 — [Imagina… Una aplicación ideal para planificar y mejorar las sesiones de clase](https://davidlms.com/es/imagina-una-aplicaci%C3%B3n-ideal-para-planificar-y-mejorar-las-sesiones-de-clase.md): Listado de funciones deseables
+- 2020-09-06 — [Servicios en Red: Una programación didáctica en espiral (y III)](https://davidlms.com/es/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral-y-iii.md): Propuesta desglosada por sesiones de una unidad didáctica
+- 2020-08-22 — [Servicios en Red: Una programación didáctica en espiral (II)](https://davidlms.com/es/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral-ii.md): Ubicando los resultados de aprendizaje en el tiempo
+- 2020-08-04 — [Servicios en Red: Una programación didáctica en espiral](https://davidlms.com/es/servicios-en-red-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral.md): Todo tiene un comienzo... ¿y un fin?
+- 2020-07-26 — [Imagina… Una plataforma de colaboración docente para la investigación-acción](https://davidlms.com/es/imagina-una-plataforma-de-colaboraci%C3%B3n-docente-para-la-investigaci%C3%B3n-acci%C3%B3n.md): ¿Sumamos para multiplicar?
+- 2020-07-17 — [Ofertas imposibles en el sector informática](https://davidlms.com/es/ofertas-imposibles-en-el-sector-inform%C3%A1tica.md): ¿Por qué no las cambiamos?
+- 2020-07-10 — [¿Dónde está el conocimiento en tu centro educativo?](https://davidlms.com/es/d%C3%B3nde-est%C3%A1-el-conocimiento-en-tu-centro-educativo.md): Un centro que no conoce su historia, está condenado a repetirla
+- 2020-06-30 — [Evaluar por Resultados de Aprendizaje y Criterios de Evaluación sin morir en el intento](https://davidlms.com/es/evaluar-por-resultados-de-aprendizaje-y-criterios-de-evaluaci%C3%B3n-sin-morir-en-el-intento.md): Una introducción para nuevos profesores de FP
+- 2020-06-19 — [La importancia de la investigación educativa](https://davidlms.com/es/la-importancia-de-la-investigaci%C3%B3n-educativa.md): Cómo la investigación-acción grupal y coordinada nos puede llevar a la mejora de la educación
+- 2020-06-15 — [Herramientas para la comunicación horizontal en centros educativos](https://davidlms.com/es/herramientas-para-la-comunicaci%C3%B3n-horizontal-en-centros-educativos.md): Buscando mejoras para la coordinación entre docentes
+- 2020-06-06 — [Cómo se hace un blog a coste 0](https://davidlms.com/es/c%C3%B3mo-se-hace-un-blog-a-coste-0.md): Anímate a crear uno y compartir tu opinión
+- 2020-05-31 — [Es la hora de la transformación digital de los centros](https://davidlms.com/es/es-la-hora-de-la-transformaci%C3%B3n-digital-de-los-centros.md): Comienza la cuenta atrás
+- 2020-05-18 — [En defensa del examen en FP](https://davidlms.com/es/en-defensa-del-examen-en-fp.md): Es necesario promover el debate
+- 2020-05-16 — [Girando alrededor del aprendizaje: una programación didáctica en espiral](https://davidlms.com/es/girando-alrededor-del-aprendizaje-una-programaci%C3%B3n-did%C3%A1ctica-en-espiral.md): Reflexión y propuesta acerca de la mejora del aprendizaje
+- 2020-05-15 — [H5P y las Interactive Wars](https://davidlms.com/es/h5p-y-las-interactive-wars.md): Un repaso atípico a un gran conjunto de herramientas para la creación de contenido interactivo
+- 2020-05-12 — [Érase un congreso virtual](https://davidlms.com/es/%C3%A9rase-un-congreso-virtual.md): Compartir es el camino
+- 2020-05-11 — [Hello World](https://davidlms.com/es/hello-world.md): Hace tiempo que tengo en mente la idea de comenzar un blog personal.
 
 
 ## Microblog

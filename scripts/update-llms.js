@@ -146,17 +146,17 @@ async function gatherEntries({ lang, section }) {
     const dateString = dateValue ? dateValue.slice(0, 10) : date.toISOString().slice(0, 10);
     const summary = deriveSummary(frontMatter, body);
 
-    entries.push({ lang, title, date, slug, dateString, summary });
+    entries.push({ lang, section, title, date, slug, dateString, summary });
   }
 
   entries.sort((a, b) => b.date - a.date);
   return entries;
 }
 
-function buildUrl({ lang, type, slug }) {
+function buildUrl({ lang, section, slug }) {
   const langSegment = lang ? `/${lang}` : '';
-  const section = type === 'post' ? 'posts' : 'micro';
-  const url = `${ROOT_URL}${langSegment}/${section}/${slug}.md`;
+  const sectionSegment = section === 'micro' ? '/micro' : '';
+  const url = `${ROOT_URL}${langSegment}${sectionSegment}/${slug}.md`;
   return encodeURI(url);
 }
 
@@ -186,16 +186,16 @@ function mergeTranslations(esEntries, enEntries) {
   return merged;
 }
 
-function formatList(entries, type) {
+function formatList(entries) {
   return entries.slice(0, LIST_SIZE).map((entry) => {
-    const url = buildUrl({ lang: entry.lang, type, slug: entry.slug });
+    const url = buildUrl({ lang: entry.lang, section: entry.section, slug: entry.slug });
     return `- [${entry.title}](${url})`;
   });
 }
 
-function formatFullList(entries, type) {
+function formatFullList(entries) {
   return entries.map((entry) => {
-    const url = buildUrl({ lang: entry.lang, type, slug: entry.slug });
+    const url = buildUrl({ lang: entry.lang, section: entry.section, slug: entry.slug });
     const datePart = entry.dateString || entry.date.toISOString().slice(0, 10);
     const summary = entry.summary || 'Sin resumen disponible.';
     return `- ${datePart} — [${entry.title}](${url}): ${summary}`;
@@ -238,44 +238,44 @@ async function main() {
   const bilingualUpdates = [
     {
       heading: 'Recent Posts',
-      lines: formatList(combinedPosts, 'post'),
+      lines: formatList(combinedPosts),
     },
     {
       heading: 'Recent Microblog',
-      lines: formatList(combinedMicro, 'micro'),
+      lines: formatList(combinedMicro),
     },
   ];
 
   const esUpdates = [
     {
       heading: 'Artículos Recientes',
-      lines: formatList(postsByLang.es, 'post'),
+      lines: formatList(postsByLang.es),
     },
     {
       heading: 'Microblog Reciente',
-      lines: formatList(microByLang.es, 'micro'),
+      lines: formatList(microByLang.es),
     },
   ];
 
   const esFullUpdates = [
     {
       heading: 'Artículos',
-      lines: formatFullList(postsByLang.es, 'post'),
+      lines: formatFullList(postsByLang.es),
     },
     {
       heading: 'Microblog',
-      lines: formatFullList(microByLang.es, 'micro'),
+      lines: formatFullList(microByLang.es),
     },
   ];
 
   const enUpdates = [
     {
       heading: 'Recent Posts',
-      lines: formatList(postsByLang.en, 'post'),
+      lines: formatList(postsByLang.en),
     },
     {
       heading: 'Recent Microblog',
-      lines: formatList(microByLang.en, 'micro'),
+      lines: formatList(microByLang.en),
     },
   ];
 

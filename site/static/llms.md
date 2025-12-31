@@ -27,12 +27,12 @@ Language-specific versions are available at:
 
 ## Recent Posts
 
-- [Intelligence Up for Auction](https://davidlms.com/en/posts/se-subasta-inteligencia.md)
-- [The AI disruption at the school gates](https://davidlms.com/en/posts/la-disrupci%C3%B3n-de-la-ia-a-las-puertas-de-la-escuela.md)
-- [Teachers, it's time to make peace with AI](https://davidlms.com/en/posts/docentes-enfundad-vuestras-armas-contra-la-ia.md)
-- [Apple's Possible AI Strategy](https://davidlms.com/en/posts/la-posible-estrategia-de-apple-respecto-a-la-ia.md)
-- [End-of-Year Review for the 2022-2023 Academic Year](https://davidlms.com/en/posts/postmortem-del-curso-2022-2023.md)
-- [Student by Profession](https://davidlms.com/en/posts/de-profesi%C3%B3n-estudiante.md)
+- [Intelligence Up for Auction](https://davidlms.com/en/se-subasta-inteligencia.md)
+- [The AI disruption at the school gates](https://davidlms.com/en/la-disrupci%C3%B3n-de-la-ia-a-las-puertas-de-la-escuela.md)
+- [Teachers, it's time to make peace with AI](https://davidlms.com/en/docentes-enfundad-vuestras-armas-contra-la-ia.md)
+- [Apple's Possible AI Strategy](https://davidlms.com/en/la-posible-estrategia-de-apple-respecto-a-la-ia.md)
+- [End-of-Year Review for the 2022-2023 Academic Year](https://davidlms.com/en/postmortem-del-curso-2022-2023.md)
+- [Student by Profession](https://davidlms.com/en/de-profesi%C3%B3n-estudiante.md)
 
 
 ## Recent Microblog

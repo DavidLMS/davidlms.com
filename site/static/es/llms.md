@@ -21,12 +21,12 @@ Versiones específicas por idioma disponibles en:
 
 ## Artículos Recientes
 
-- [Se subasta inteligencia](https://davidlms.com/es/posts/se-subasta-inteligencia.md)
-- [La disrupción de la IA a las puertas de la escuela](https://davidlms.com/es/posts/la-disrupci%C3%B3n-de-la-ia-a-las-puertas-de-la-escuela.md)
-- [Docentes, enfundad vuestras armas contra la IA](https://davidlms.com/es/posts/docentes-enfundad-vuestras-armas-contra-la-ia.md)
-- [La posible estrategia de Apple respecto a la IA](https://davidlms.com/es/posts/la-posible-estrategia-de-apple-respecto-a-la-ia.md)
-- [Postmortem del curso 2022-2023](https://davidlms.com/es/posts/postmortem-del-curso-2022-2023.md)
-- [De profesión estudiante](https://davidlms.com/es/posts/de-profesi%C3%B3n-estudiante.md)
+- [Se subasta inteligencia](https://davidlms.com/es/se-subasta-inteligencia.md)
+- [La disrupción de la IA a las puertas de la escuela](https://davidlms.com/es/la-disrupci%C3%B3n-de-la-ia-a-las-puertas-de-la-escuela.md)
+- [Docentes, enfundad vuestras armas contra la IA](https://davidlms.com/es/docentes-enfundad-vuestras-armas-contra-la-ia.md)
+- [La posible estrategia de Apple respecto a la IA](https://davidlms.com/es/la-posible-estrategia-de-apple-respecto-a-la-ia.md)
+- [Postmortem del curso 2022-2023](https://davidlms.com/es/postmortem-del-curso-2022-2023.md)
+- [De profesión estudiante](https://davidlms.com/es/de-profesi%C3%B3n-estudiante.md)
 
 
 ## Microblog Reciente

@@ -31,9 +31,9 @@ jobs:
         echo 'api_key = "${{ secrets.API_KEY_OPENROUTER }}"' >> aphra/config.toml
         echo '' >> aphra/config.toml
         echo '[llms]' >> aphra/config.toml
-        echo 'writer = "anthropic/claude-3.5-sonnet:beta"' >> aphra/config.toml
-        echo 'searcher = "perplexity/llama-3.1-sonar-large-128k-online"' >> aphra/config.toml
-        echo 'critiquer = "anthropic/claude-3.5-sonnet:beta"' >> aphra/config.toml
+        echo 'writer = "anthropic/claude-3.7-sonnet"' >> aphra/config.toml
+        echo 'searcher = "perplexity/sonar:online"' >> aphra/config.toml
+        echo 'critiquer = "anthropic/claude-3.7-sonnet"' >> aphra/config.toml
 
     - name: Identify new or modified posts
       id: changes

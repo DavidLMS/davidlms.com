@@ -26,18 +26,25 @@ function stripQuotes(value) {
 }
 
 function extractFrontMatter(content) {
-  if (!content.startsWith('---')) return {};
-  const end = content.indexOf('\n---', 3);
-  if (end === -1) return {};
-  const frontMatter = content.slice(3, end).trim();
+  const match = content.match(/^---\n([\s\S]*?)\n---\n?/);
+  if (!match) {
+    return { frontMatter: {}, body: content };
+  }
 
-  const titleMatch = frontMatter.match(/^title:\s*(.+)$/m);
-  const dateMatch = frontMatter.match(/^date:\s*(.+)$/m);
-  const draftMatch = frontMatter.match(/^draft:\s*(.+)$/m);
+  const raw = match[1];
+  const body = content.slice(match[0].length);
+
+  const titleMatch = raw.match(/^title:\s*(.+)$/m);
+  const dateMatch = raw.match(/^date:\s*(.+)$/m);
+  const draftMatch = raw.match(/^draft:\s*(.+)$/m);
+  const descriptionMatch = raw.match(/^description:\s*(.+)$/m);
+  const summaryMatch = raw.match(/^summary:\s*(.+)$/m);
 
   const title = titleMatch ? stripQuotes(titleMatch[1]) : undefined;
   const dateValue = dateMatch ? stripQuotes(dateMatch[1]) : undefined;
   const draftValue = draftMatch ? stripQuotes(draftMatch[1]) : undefined;
+  const descriptionValue = descriptionMatch ? stripQuotes(descriptionMatch[1]) : undefined;
+  const summaryValue = summaryMatch ? stripQuotes(summaryMatch[1]) : undefined;
 
   let date;
   if (dateValue) {
@@ -49,7 +56,60 @@ function extractFrontMatter(content) {
 
   const draft = typeof draftValue === 'string' ? draftValue.toLowerCase() === 'true' : false;
 
-  return { title, date, draft };
+  return {
+    frontMatter: {
+      title,
+      dateValue,
+      date,
+      draft,
+      description: descriptionValue,
+      summary: summaryValue,
+    },
+    body,
+  };
+}
+
+function cleanMarkdown(text) {
+  return text
+    .replace(/`([^`]+)`/g, '$1')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/\*([^*]+)\*/g, '$1')
+    .replace(/_([^_]+)_/g, '$1')
+    .replace(/!\[[^\]]*]\([^)]*\)/g, '')
+    .replace(/\[[^\]]*]\(([^)]*)\)/g, '$1')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function getFirstParagraph(body) {
+  if (!body) return '';
+  const paragraphs = body
+    .split(/\n{2,}/)
+    .map((p) => p.replace(/\n/g, ' ').trim())
+    .filter(Boolean);
+
+  const candidate = paragraphs.find((p) => !p.startsWith('![') && !p.startsWith('<figure'));
+  return candidate || paragraphs[0] || '';
+}
+
+function truncate(text, maxLength = 200) {
+  if (text.length <= maxLength) return text;
+  const truncated = text.slice(0, maxLength - 1);
+  const lastSpace = truncated.lastIndexOf(' ');
+  if (lastSpace > maxLength * 0.6) {
+    return `${truncated.slice(0, lastSpace)}…`;
+  }
+  return `${truncated}…`;
+}
+
+function deriveSummary({ description, summary }, body) {
+  const source = description || summary || getFirstParagraph(body);
+  const cleaned = cleanMarkdown(source || '');
+  if (!cleaned) {
+    return 'Sin resumen disponible.';
+  }
+  return truncate(cleaned, 200);
 }
 
 async function readMarkdown(filePath) {
@@ -78,11 +138,15 @@ async function gatherEntries({ lang, section }) {
     const content = await readMarkdown(indexPath);
     if (!content) continue;
 
-    const { title, date, draft } = extractFrontMatter(content);
+    const { frontMatter, body } = extractFrontMatter(content);
+    const { title, date, dateValue, draft } = frontMatter;
     if (!title || !date || draft) continue;
 
     const slug = slugify(entry.name);
-    entries.push({ lang, title, date, slug });
+    const dateString = dateValue ? dateValue.slice(0, 10) : date.toISOString().slice(0, 10);
+    const summary = deriveSummary(frontMatter, body);
+
+    entries.push({ lang, title, date, slug, dateString, summary });
   }
 
   entries.sort((a, b) => b.date - a.date);
@@ -126,6 +190,15 @@ function formatList(entries, type) {
   return entries.slice(0, LIST_SIZE).map((entry) => {
     const url = buildUrl({ lang: entry.lang, type, slug: entry.slug });
     return `- [${entry.title}](${url})`;
+  });
+}
+
+function formatFullList(entries, type) {
+  return entries.map((entry) => {
+    const url = buildUrl({ lang: entry.lang, type, slug: entry.slug });
+    const datePart = entry.dateString || entry.date.toISOString().slice(0, 10);
+    const summary = entry.summary || 'Sin resumen disponible.';
+    return `- ${datePart} — [${entry.title}](${url}): ${summary}`;
   });
 }
 
@@ -184,6 +257,17 @@ async function main() {
     },
   ];
 
+  const esFullUpdates = [
+    {
+      heading: 'Artículos',
+      lines: formatFullList(postsByLang.es, 'post'),
+    },
+    {
+      heading: 'Microblog',
+      lines: formatFullList(microByLang.es, 'micro'),
+    },
+  ];
+
   const enUpdates = [
     {
       heading: 'Recent Posts',
@@ -198,6 +282,7 @@ async function main() {
   await updateFile(path.resolve(__dirname, '..', 'site', 'static', 'llms.md'), bilingualUpdates);
   await updateFile(path.resolve(__dirname, '..', 'site', 'static', 'es', 'llms.md'), esUpdates);
   await updateFile(path.resolve(__dirname, '..', 'site', 'static', 'en', 'llms.md'), enUpdates);
+  await updateFile(path.resolve(__dirname, '..', 'site', 'static', 'es', 'llms-full.md'), esFullUpdates);
 }
 
 main().catch((error) => {

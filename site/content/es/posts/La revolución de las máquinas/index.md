@@ -61,7 +61,9 @@ seo:
   images: []
 ---
 
-> “Si tememos que estos avances acaben en la revolución de las máquinas, es porque hemos estado las últimas décadas encerrados en una cueva. Porque esa revolución hace mucho tiempo que está en marcha. Y todas las personas, de alguna forma, somos parte de ella.”
+{{< admonition type=quote title="" open=true >}}
+Si tememos que estos avances acaben en la revolución de las máquinas, es porque hemos estado las últimas décadas encerrados en una cueva. Porque esa revolución hace mucho tiempo que está en marcha. Y todas las personas, de alguna forma, somos parte de ella.
+{{< /admonition >}}
 
 Qué mejor manera de empezar (y terminar) el año del blog que con una autocita. En el momento en el que escribí eso en el artículo anterior, **supe que merecía una explicación**. Pensaba hacerla en unos días, pero mira por dónde ha pasado todo un año. **Tempus fugit**.
 

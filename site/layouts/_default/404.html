@@ -1,0 +1,40 @@
+{{- define "title" }}
+    {{ if eq .Lang "en" }}
+        404 - {{ .Site.Title }} - Page Not Found
+    {{ else }}
+        404 - {{ .Site.Title }} - Página no encontrada
+    {{ end }}
+{{- end -}}
+
+{{- define "content" -}}
+    <div class="page" id="content-404">
+        <h1 id="error-emoji"></h1>
+        <p id="message"></p>
+    </div>
+    <script>
+        (function() {
+            // Detectar el idioma basado en la URL
+            var lang = 'es'; // Idioma por defecto
+            if (window.location.pathname.startsWith('/en/')) {
+                lang = 'en';
+            }
+
+            // Definir los mensajes y enlaces según el idioma
+            var messages = {
+                'es': {
+                    'message': '<p>¿Te has perdido?</p><p><strong>Esto es un Error 404.</strong> No entres en pánico, simplemente significa que este enlace no está disponible en la página. Por favor, vuelve a la <a href="/">página principal</a>.</p>',
+                },
+                'en': {
+                    'message': '<p>Are you lost?</p><p><strong>This is a 404 Error.</strong> Don\'t panic, it just means this link is not available on the site. Please go back to the <a href="/en">homepage</a>.</p>',
+                }
+            };
+
+            // Aplicar el contenido dinámico según el idioma detectado
+            document.getElementById('message').innerHTML = messages[lang]['message'];
+
+            // Añadir un emoji aleatorio
+            var emojiArray = ['\\(o_o)/', '(˚Δ˚)b', '(^-^*)', '(≥o≤)', '(^_^)b', '(·_·)','(=\'X\'=)', '(>_<)', '(;-;)'];
+            document.getElementById('error-emoji').appendChild(document.createTextNode(emojiArray[Math.floor(Math.random() * emojiArray.length)]));
+        })();
+    </script>
+{{- end -}}
